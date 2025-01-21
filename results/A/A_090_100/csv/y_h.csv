@@ -1,0 +1,13 @@
+case,J,level
+baseline,HR_S-near,0.0
+baseline,HR_S-far,0.0
+baseline,HR_M-near,0.0
+baseline,HR_M-far,0.0
+baseline,HR_L-near,0.0
+baseline,HR_L-far,0.0
+policy,HR_S-near,0.0
+policy,HR_S-far,0.0
+policy,HR_M-near,555.4001554001553
+policy,HR_M-far,152.6744147228687
+policy,HR_L-near,542.6533523537803
+policy,HR_L-far,538.9371309482459

@@ -1,0 +1,5 @@
+case,OperationalSummarySet,J,Case,value
+policy,Capacity,HR_L-near,policy,535.31799729364
+policy,Capacity,HR_L-far,policy,531.6222441592629
+policy,Production,HR_L-near,policy,21361.22202889226
+policy,Production,HR_L-far,policy,17650.98770839271

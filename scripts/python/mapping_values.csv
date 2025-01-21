@@ -1,0 +1,29 @@
+﻿name_internal,fuel_internal,type,fuel category,color,color name
+CHP_biofuel,biofuel,CHP,Other,#DDDDDD,grey
+CHP_coal,coal,CHP,Coal,#332288,coal
+CHP_muniwaste,municipal waste,CHP,Muni. waste,#CC6677,rose
+CHP_natgas,natural gas,CHP,Natural gas,#882255,wine
+CHP_straw,straw,CHP,Biomass,#117733,green
+CHP_w-chip,wood chips,CHP,Biomass,#117733,green
+CHP_w-pellet,wood pellets,CHP,Biomass,#117733,green
+CHP_w-waste,wood waste,CHP,Biomass,#117733,green
+FF_solar,solar,HO,Other,#DDDDDD,grey
+FF_industry,industrial heat,HO,Other,#DDDDDD,grey
+HOB_biofuel,biofuel,HO,Other,#DDDDDD,grey
+HOB_elec,electricity,HO,Electricity (HO),#DDCC77,sand
+HOB_gasoil,gasoil,HO,Other,#DDDDDD,grey
+HOB_muniwaste,municipal waste,HO,Muni. waste,#CC6677,rose
+HOB_natgas,natural gas,HO,Natural gas,#882255,wine
+HOB_straw,straw,HO,Biomass,#117733,green
+HOB_w-chip,wood chips,HO,Biomass,#117733,green
+HOB_w-pellet,wood pellets,HO,Biomass,#117733,green
+HOB_w-waste,wood waste,HO,Biomass,#117733,green
+HP_ambient,electricity,HO,Electricity (HO),#DDCC77,sand
+HP_industry,electricity,HO,Electricity (HO),#DDCC77,sand
+HR_S-near,electricity,HR,Electricity (WHR),#88CCEE,cyan
+HR_S-far,electricity,HR,Electricity (WHR),#88CCEE,cyan
+HR_M-near,electricity,HR,Electricity (WHR),#88CCEE,cyan
+HR_M-far,electricity,HR,Electricity (WHR),#88CCEE,cyan
+HR_L-near,electricity,HR,Electricity (WHR),#88CCEE,cyan
+HR_L-far,electricity,HR,Electricity (WHR),#88CCEE,cyan
+CHP_deficit,electricity,CHP,Electricity (CPH-deficit),#999933,olive

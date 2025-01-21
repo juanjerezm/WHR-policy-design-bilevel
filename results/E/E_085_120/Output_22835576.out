@@ -1,0 +1,2131 @@
+--- Job policy Start 09/29/24 20:37:50 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/policy.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/policy.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225d/
+    SysDir /appl/gams/37.1.0/
+    --project E
+    --scenario E_085_120
+    --timeseries spacing_120
+    --tax_carbon yes
+    --subsidy_capex no
+    --subsidy_opex no
+    --subsidy_carbon no
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- policy.gms(44) 2 Mb
+--- call mkdir -p ./results/E/E_085_120/
+--- policy.gms(51) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=E --scenario=E_085_120 --timeseries=spacing_120 o=results/E/E_085_120//parameters.lst
+--- Job parameters.gms Start 09/29/24 20:37:50 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225k/
+    SysDir /appl/gams/37.1.0/
+    --project E
+    --scenario E_085_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/E/E_085_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.020
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/29/24 20:37:50 elapsed 0:00:00.036
+--- policy.gms(55) 2 Mb
+--- call gams scripts/gams/baseline.gms   --project=E --scenario=E_085_120 --timeseries=spacing_120 o=results/E/E_085_120//baseline.lst
+--- Job baseline.gms Start 09/29/24 20:37:50 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/baseline.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/baseline.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225k/
+    SysDir /appl/gams/37.1.0/
+    --project E
+    --scenario E_085_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- baseline.gms(36) 2 Mb
+--- call mkdir -p ./results/E/E_085_120/
+--- baseline.gms(41) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=E --scenario=E_085_120 --timeseries=spacing_120 o=results/E/E_085_120//parameters.lst
+--- Job parameters.gms Start 09/29/24 20:37:50 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225o/
+    SysDir /appl/gams/37.1.0/
+    --project E
+    --scenario E_085_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/E/E_085_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.020
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/29/24 20:37:50 elapsed 0:00:00.037
+--- baseline.gms(77) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+--- baseline.gms(180) 3 Mb
+--- Starting execution: elapsed 0:00:00.073
+--- baseline.gms(132) 4 Mb
+--- Generating LP model model_baseline
+--- baseline.gms(134) 5 Mb
+---   2,483 rows  1,978 columns  6,796 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.089
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.15 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 1.01 Mb (peak 1.02 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.07 Mb (peak 0.31 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 2035 rows and 282 columns.
+Reduced LP has 447 rows, 1696 columns, and 2438 nonzeros.
+Presolve time = 0.00 sec. (2.05 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -2787736.838177
+Iteration:   117   Dual objective     =       3871891.781294
+
+--- LP status (1): optimal.
+--- Cplex Time: 0.01sec (det. 3.54 ticks)
+
+
+Optimal solution found
+Objective:      4007592.442075
+
+--- Reading solution for model model_baseline
+--- Executing after solve: elapsed 0:00:00.122
+--- baseline.gms(176) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/baseline.gdx
+*** Status: Normal completion
+--- Job baseline.gms Stop 09/29/24 20:37:50 elapsed 0:00:00.127
+--- policy.gms(56) 2 Mb--- policy.gms(113) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/parameters.gdx
+--- policy.gms(123) 3 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/E/E_085_120/baseline.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/baseline.gdx
+--- policy.gms(406) 3 Mb
+--- Starting execution: elapsed 0:00:00.230
+--- policy.gms(255) 4 Mb
+--- Generating MIP model model_policy
+--- policy.gms(256) 8 Mb
+---   13,234 rows  8,850 columns  40,698 non-zeroes
+---   4,386 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.266
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.84 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 4.51 Mb (peak 4.58 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.32 Mb (peak 1.77 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_TimeLimit                               1000000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 2 times.
+MIP Presolve eliminated 3036 rows and 866 columns.
+MIP Presolve modified 7784 coefficients.
+Aggregator did 11 substitutions.
+Reduced MIP has 10186 rows, 7973 columns, and 29704 nonzeros.
+Reduced MIP has 3955 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.03 sec. (21.30 ticks)
+Probing fixed 2227 vars, tightened 5034 bounds.
+Probing time = 0.25 sec. (108.23 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 5183 rows and 3252 columns.
+MIP Presolve modified 2383 coefficients.
+Aggregator did 457 substitutions.
+Reduced MIP has 4546 rows, 4264 columns, and 14750 nonzeros.
+Reduced MIP has 1728 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (18.35 ticks)
+Probing fixed 28 vars, tightened 887 bounds.
+Probing time = 0.12 sec. (56.23 ticks)
+Tried aggregator 2 times.
+Detecting symmetries...
+MIP Presolve eliminated 98 rows and 62 columns.
+MIP Presolve modified 898 coefficients.
+Aggregator did 3 substitutions.
+Reduced MIP has 4445 rows, 4199 columns, and 14474 nonzeros.
+Reduced MIP has 1700 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (14.85 ticks)
+Probing fixed 3 vars, tightened 152 bounds.
+Probing time = 0.12 sec. (54.40 ticks)
+Clique table members: 18044.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 31 threads.
+Parallel mode: deterministic, using up to 4 threads for parallel tasks at root LP.
+Parallel mode: deterministic, using up to 27 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 25 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 7 rows and 9 columns.
+Aggregator did 1689 substitutions.
+Reduced LP has 2749 rows, 2501 columns, and 9785 nonzeros.
+Presolve time = 0.00 sec. (3.35 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -2505823.432733
+Iteration:   123   Dual objective     =      -1556260.295385
+Iteration:   201   Dual objective     =      -1402255.919786
+Iteration:   274   Dual objective     =      -1303002.863255
+Iteration:   345   Dual objective     =      -1303002.863255
+Iteration:   419   Dual objective     =      -1165375.113500
+Iteration:   541   Dual objective     =       -811551.170121
+Iteration:   625   Dual objective     =       -795472.109073
+Iteration:   744   Dual objective     =       -731162.498902
+Iteration:   819   Dual objective     =       -724653.137137
+Iteration:   922   Dual objective     =       -723497.278908
+Iteration:  1025   Dual objective     =       -723251.745027
+Iteration:  1097   Dual objective     =       -723205.844855
+Initializing dual steep norms . . .
+
+Dual simplex solved model.
+
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -723205.844855
+Root relaxation solution time = 0.12 sec. (71.80 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  -723205.8449    46                -723205.8449     1160         
+      0     0  -723073.0548    96                    Cuts: 39     2366         
+      0     0  -722918.3670    30                   Cuts: 749     2499         
+      0     0  -722468.6193   121                    Cuts: 90     2696         
+      0     0  -722245.9496   132                   Cuts: 503     2829         
+      0     0  -722122.5513   147                   Cuts: 139     2910         
+      0     0  -721982.9881   134                   Cuts: 224     2998         
+      0     0  -721907.6172   163                   Cuts: 159     3085         
+      0     0  -721901.4113   164                   Cuts: 206     3154         
+      0     0  -721900.3400   160                   Cuts: 108     3165         
+      0     2  -721900.3400   160                -721407.7381     3165         
+Elapsed time = 6.52 sec. (1959.49 ticks, tree = 0.02 MB)
+      7     7   137507.3219   346                -721407.7381     5144         
+                                                      Cuts: 8                  
+    162    69  2156174.3185   369                -721407.7381    15484         
+                                                    Cuts: 369                  
+    356   148  4410276.6722   260                -721407.7381    68014         
+                                                 Impl Bds: 44                  
+    995   363  1463306.3849   316                -721407.7381   132229         
+                                                Impl Bds: 223                  
+   1186   454  -699384.2622    28                -721407.7381   174656         
+                                                 Impl Bds: 46                  
+   1803   664    infeasible                      -721407.7381   243464         
+                                                Impl Bds: 134                  
+   2203  1043  -613109.8707    10                -721277.3750   314873         
+                                                     Cuts: 35                  
+   2452  1095  1681668.5508   476                -721176.4827   382977         
+                                                     Cuts: 15                  
+   3045  1209  -658903.2878    14                -721176.4827   449458         
+                                                    Cuts: 117                  
+                                                   MIRcuts: 1                  
+   4649  1817    infeasible                      -720632.6953   748254         
+Elapsed time = 25.23 sec. (5079.08 ticks, tree = 4.04 MB)
+   6606  2278  -452139.6616   213                -715654.5264  1011777         
+                                                     Cuts: 93                  
+   8789  3212  -639205.1920   156                -677563.0347  1274836         
+                                                    Cuts: 104                  
+  11056  4306  -599891.2009    22                -677563.0347  1583935         
+                                                     Cuts: 54                  
+  13342  4697  -613755.4021   130                -637345.2511  1801259         
+                                                     Cuts: 75                  
+  15239  5499  -572544.5052   105                -637345.2511  2145403         
+                                                     Cuts: 14                  
+  17111  5994  -562207.2377    21                -637345.2511  2408141         
+                                                     Cuts: 29                  
+  19731  7238    infeasible                      -614464.2883  2704305         
+                                                     Cuts: 24                  
+  22955  8347  -572432.9285     3                -614464.2883  3004823         
+                                                     Cuts: 17                  
+  25098  8808  -584540.4081    25                -593093.7624  3285481         
+                                                     Cuts: 21                  
+  28381 10468    infeasible                      -588792.1346  3511100         
+                                                     Cuts: 22                  
+Elapsed time = 64.04 sec. (14624.70 ticks, tree = 27.45 MB)
+  30718 10724  -561335.8756     6                -588792.1346  3795558         
+                                                  Impl Bds: 4                  
+  33174 12180  -549324.6798     5                -582187.8286  4158639         
+                                                     Cuts: 19                  
+  36400 12740  -544976.6694     6                -578909.7315  4482880         
+                                                     Cuts: 10                  
+  38037 13935  -472638.8391     6                -572432.9285  4808481         
+                                                      Cuts: 5                  
+  41317 14272  -502094.9867   162                -572432.9285  4999195         
+                                                      Cuts: 5                  
+  42679 15476    infeasible                      -570902.1710  5415131         
+                                                  Impl Bds: 4                  
+  45560 15342  -522228.1248     7                -563326.3144  5786529         
+                                                      Cuts: 8                  
+  50345 16871    infeasible                      -560992.8333  6027473         
+                                                     Cuts: 16                  
+  52960 17108  -518906.7749     8                -556145.3698  6286578         
+                                                      Cuts: 2                  
+  59509 18634    infeasible                      -556145.3698  6553706         
+                                                      Cuts: 5                  
+Elapsed time = 101.48 sec. (24164.79 ticks, tree = 49.46 MB)
+  61349 20548  -517880.1145     6                -553163.8138  6838516         
+                                                     Cuts: 11                  
+  62453 19604    infeasible                      -552463.9503  7285482         
+                                                      Cuts: 2                  
+  67003 19914    infeasible                      -545336.3735  7660593         
+                                                      Cuts: 7                  
+  67944 20188    infeasible                      -545312.9127  8118072         
+  68845 19722  -405424.8702    19                -544976.6694  8407185         
+  70317 18841  -439116.9474     5                -544976.6694  8835948         
+                                                    Covers: 1                  
+  78347 19609  -472638.8391     8                -542870.5310  9116233         
+                                                      Cuts: 4                  
+  83691 22244  -460901.2827     8                -538707.5546  9323202         
+                                                     Cuts: 14                  
+  85597 21842  -482761.5296     9                -535474.6611  9626629         
+                                                      Cuts: 4                  
+  91910 21575  -422607.4761    11                -534262.9075  9780895         
+                                                      Cuts: 6                  
+Elapsed time = 138.69 sec. (33705.56 ticks, tree = 55.98 MB)
+  98645 22834  -478420.6045     6                -530986.5269 10014637         
+                                                  Impl Bds: 2                  
+ 100120 24640  -439116.9474     9                -526199.0289 10292475         
+ 102023 23956  -463171.1110    20                -522235.2113 10748493         
+ 106344 23653    infeasible                      -521876.3656 10889891         
+ 108554 26195  -457434.7386    11                -518978.9211 11341407         
+                                                    Covers: 1                  
+ 109963 25334  -457434.7386    11                -517880.1145 11723689         
+                                                      Cuts: 2                  
+ 113517 24363  -511366.8953     6                -517880.1145 12017411         
+ 121318 25457    infeasible                      -517880.1145 12247515         
+                                                     Cuts: 15                  
+ 125450 28109  -394361.2596     7                -517880.1145 12492607         
+                                                     Cuts: 13                  
+ 126805 27755    infeasible                      -517880.1145 12837536         
+Elapsed time = 175.77 sec. (43249.56 ticks, tree = 71.23 MB)
+ 130040 27352    infeasible                      -517880.1145 12973186         
+                                                    Covers: 1                  
+ 139405 27115    infeasible                      -512100.6877 13415898         
+                                                  Impl Bds: 6                  
+ 146964 28372  -493992.2223     8                -510942.7175 13559553         
+                                                  Impl Bds: 4                  
+ 150028 31244    infeasible                      -510917.7904 13926129         
+                                                  Impl Bds: 2                  
+ 153969 30777    infeasible                      -502743.9832 14137948         
+                                                 Impl Bds: 12                  
+ 162190 30721    infeasible                      -502743.9832 14205905         
+                                                      Cuts: 3                  
+ 168436 32901    infeasible                      -498142.7897 14703601         
+                                                      Cuts: 9                  
+ 173132 33090  -478418.0955    10                -494472.9428 14769217         
+                                                     Cuts: 32                  
+ 174533 34120    infeasible                      -493992.2223 15221196         
+                                                     Cuts: 10                  
+ 176424 33552    infeasible                      -493992.2223 15398583         
+                                                  Impl Bds: 1                  
+Elapsed time = 213.54 sec. (52789.74 ticks, tree = 86.31 MB)
+ 183641 32517  -405555.4484     6                -490437.2218 15703703         
+                                                 Impl Bds: 10                  
+ 191808 34367    infeasible                      -484953.4461 16108354         
+                                                      Cuts: 8                  
+ 197225 34886  -465839.5323     7                -481323.2300 16215518         
+                                                     Cuts: 12                  
+ 199971 35612    infeasible                      -480656.4427 16614741         
+                                                  Impl Bds: 1                  
+ 204166 34252  -310875.0403    53                -475039.6703 16835018         
+ 210644 32315    infeasible                      -472717.4789 17209718         
+                                                  Impl Bds: 4                  
+ 216232 32503    infeasible                      -471989.8351 17450198         
+                                                      Cuts: 4                  
+ 219099 33140  -445544.1714     8                -471989.8351 18058691         
+                                                      Cuts: 3                  
+ 221011 31995    infeasible                      -467578.0307 18287258         
+ 224753 30120    infeasible                      -465554.3296 18763236         
+                                                  Impl Bds: 1                  
+Elapsed time = 252.19 sec. (62328.29 ticks, tree = 76.25 MB)
+ 230976 30291  -438055.2058    13                -461685.3601 18962355         
+                                                      Cuts: 5                  
+ 234940 31161    infeasible                      -456962.2138 19274097         
+                                                      Cuts: 8                  
+ 237129 30693    infeasible                      -454574.9821 19723589         
+ 240402 29623  -413153.6799    15                -454574.9821 19976086         
+ 246278 28723  -349181.8124     6                -445347.0889 20212201         
+                                                 Impl Bds: 15                  
+ 250507 29658  -387471.5042     7                -445164.4554 20613762         
+                                                  Impl Bds: 2                  
+ 253279 31033    infeasible                      -443448.3291 21121746         
+                                                  Impl Bds: 1                  
+ 255801 30071    infeasible                      -437769.4134 21278344         
+ 261400 27785    infeasible                      -437769.4134 21761605         
+ 267581 28102  -382653.8738     6                -431349.6820 21842343         
+                                                    Covers: 1                  
+Elapsed time = 289.71 sec. (71870.74 ticks, tree = 70.57 MB)
+ 270895 28453    infeasible                      -430613.4766 22135524         
+                                                      Cuts: 3                  
+ 272810 28501    infeasible                      -423168.2987 22785285         
+                                                  Impl Bds: 2                  
+ 275590 27545    infeasible                      -422211.9662 22984667         
+                                                      Cuts: 6                  
+ 282647 26741  -356272.7538    14                -417738.1581 23152903         
+                                                      Cuts: 5                  
+ 289752 26203    infeasible                      -414102.1775 23575561         
+                                                     Cuts: 10                  
+ 293860 26833    infeasible                      -414102.1775 23914453         
+                                                      Cuts: 2                  
+ 296463 25103  -394361.2596     7                -408959.5782 24293284         
+                                                  Impl Bds: 1                  
+ 300504 23281  -105025.9943    36                -405870.9489 24630451         
+ 306380 22901  -384792.5383    21                -405537.2263 24711636         
+                                                      Cuts: 3                  
+ 310781 23985    infeasible                      -405084.5544 25199623         
+                                                   MIRcuts: 1                  
+Elapsed time = 328.71 sec. (81410.65 ticks, tree = 58.71 MB)
+ 313282 24651    infeasible                      -401899.1800 25388499         
+                                                  Impl Bds: 8                  
+ 315842 23006    infeasible                      -394361.2596 25844240         
+                                                  Impl Bds: 1                  
+ 321668 21652  -382628.8869    43                -391493.4457 26186846         
+                                                      Cuts: 3                  
+ 328321 22041    infeasible                      -387471.5042 26338054         
+                                                     Cuts: 18                  
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 2 times.
+MIP Presolve eliminated 7 rows and 9 columns.
+MIP Presolve modified 286 coefficients.
+Aggregator did 9 substitutions.
+Reduced MIP has 4429 rows, 4181 columns, and 13213 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.97 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 568 columns.
+MIP Presolve modified 26 coefficients.
+Reduced MIP has 4429 rows, 3613 columns, and 13213 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (5.88 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 12 coefficients.
+Reduced MIP has 4429 rows, 3613 columns, and 13213 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.62 ticks)
+Represolve time = 0.35 sec. (159.55 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 51 rows and 0 columns.
+Aggregator did 1000 substitutions.
+Reduced LP has 6282 rows, 2613 columns, and 24630 nonzeros.
+Presolve time = 0.01 sec. (6.11 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     -35903253.651611
+Iteration:   247   Dual objective     =     -28609387.402150
+Iteration:   451   Dual objective     =      -1530816.869305
+Iteration:   689   Dual objective     =       -807925.064368
+Iteration:  1074   Dual objective     =       -786357.900451
+Iteration:  1347   Dual objective     =       -785434.979960
+Iteration:  1607   Dual objective     =       -770879.185234
+Iteration:  1831   Dual objective     =       -724563.646601
+Iteration:  2061   Dual objective     =       -723205.844856
+Iteration:  2257   Dual objective     =       -723205.844682
+Perturbation started.
+Iteration:  2301   Dual objective     =       -723205.844855
+Iteration:  2461   Dual objective     =       -723205.844662
+Iteration:  2624   Dual objective     =       -723205.844297
+Iteration:  2770   Dual objective     =       -723205.843647
+Iteration:  2907   Dual objective     =       -723205.843279
+Iteration:  3073   Dual objective     =       -723205.842393
+Iteration:  3255   Dual objective     =       -723205.840840
+Iteration:  3430   Dual objective     =       -723205.838673
+Markowitz threshold set to 0.1
+Iteration:  3549   Dual objective     =       -723205.835754
+Iteration:  3678   Dual objective     =       -723205.824047
+Iteration:  3685   Dual objective     =       -723205.819379
+Iteration:  3705   Dual objective     =       -723205.780340
+Iteration:  3837   Dual objective     =       -723033.132361
+Iteration:  3968   Dual objective     =       -722894.918475
+Iteration:  4083   Dual objective     =       -722736.952193
+Iteration:  4194   Dual objective     =       -722399.175571
+Iteration:  4322   Dual objective     =       -722144.438913
+Iteration:  4453   Dual objective     =       -721818.185887
+Iteration:  4592   Dual objective     =       -721656.011568
+Iteration:  4702   Dual objective     =       -721557.102916
+Removing perturbation.
+Iteration:  4794   Dual objective     =       -721544.588534
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -721544.588388
+ 331223     0  -721315.5036   289                   Cuts: 755 26951742         
+ 331223     0  -721263.1886   290                   Cuts: 113 26951905         
+ 331223     0  -721250.8223   265                    Cuts: 82 26951983         
+ 331223     0  -721249.5484   248                    Cuts: 49 26952057         
+ 331223     0  -721248.7829   239                    Cuts: 52 26952096         
+ 331223     0  -721248.0067   233                   Cuts: 119 26952127         
+ 331223     0  -721247.8119   230                   Cuts: 104 26952150         
+ 331223     0  -721246.5397   228                    Cuts: 56 26952163         
+ 331223     2  -721246.5298   267                -383441.4625 26952163         
+ 331510   199  -657306.0121     9                -383441.4625 26962659         
+                                                     Cuts: 34                  
+ 332583   666    infeasible                      -383441.4625 27051772         
+                                                     Cuts: 80                  
+ 334685  1687  -596828.2502    14                -383441.4625 27246935         
+                                                     Cuts: 16                  
+ 337800  3816  -500289.8750    11                -383441.4625 27484299         
+                                                  Impl Bds: 3                  
+ 353441 11239  -625494.9287    23                -383441.4625 28269449         
+                                                     Cuts: 58                  
+Elapsed time = 389.27 sec. (97746.04 ticks, tree = 37.68 MB)
+
+Performing restart 2
+
+Repeating presolve.
+Tried aggregator 1 time.
+MIP Presolve eliminated 1 rows and 0 columns.
+MIP Presolve modified 11 coefficients.
+Reduced MIP has 4428 rows, 3613 columns, and 13211 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (5.82 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 4428 rows, 3613 columns, and 13211 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.61 ticks)
+Represolve time = 0.20 sec. (95.34 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 4 rows and 0 columns.
+Aggregator did 1392 substitutions.
+Reduced LP has 3668 rows, 2221 columns, and 15106 nonzeros.
+Presolve time = 0.01 sec. (3.92 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     -35921312.216905
+Iteration:   135   Dual objective     =     -28476758.417586
+Iteration:   323   Dual objective     =     -14085522.121381
+Iteration:   463   Dual objective     =     -11069235.432355
+Iteration:   567   Dual objective     =     -10426993.126999
+Iteration:   697   Dual objective     =      -3920320.909168
+Iteration:   798   Dual objective     =      -2468276.194909
+Iteration:   890   Dual objective     =      -1794814.646961
+Iteration:   988   Dual objective     =      -1234567.452335
+Iteration:  1081   Dual objective     =      -1127561.195605
+Iteration:  1181   Dual objective     =      -1013042.157942
+Iteration:  1290   Dual objective     =       -949487.190288
+Iteration:  1433   Dual objective     =       -817120.493205
+Iteration:  1537   Dual objective     =       -780488.696019
+Iteration:  1634   Dual objective     =       -780463.851453
+Perturbation started.
+Iteration:  1702   Dual objective     =       -780463.851453
+Iteration:  1887   Dual objective     =       -780410.665606
+Iteration:  2026   Dual objective     =       -748151.885277
+Iteration:  2184   Dual objective     =       -736955.665974
+Iteration:  2330   Dual objective     =       -733781.630146
+Iteration:  2459   Dual objective     =       -725464.359984
+Iteration:  2589   Dual objective     =       -722781.092149
+Iteration:  2679   Dual objective     =       -721856.483338
+Iteration:  2770   Dual objective     =       -721362.439120
+Iteration:  2855   Dual objective     =       -721272.866653
+Iteration:  2943   Dual objective     =       -721226.805933
+Removing perturbation.
+Iteration:  2988   Dual objective     =       -721226.399886
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -721226.397134
+ 361746     0  -721222.3636   286                  Cuts: 1087 28961163         
+ 361746     0  -721220.9402   271                   Cuts: 102 28961207         
+ 361746     0  -721220.8299   271                   Cuts: 235 28961213         
+ 361746     0  -721219.7935   271                    Cuts: 33 28961229         
+ 361746     0  -721160.8423   266                    Cuts: 23 28961261         
+ 361746     0  -721118.7649   267                   Cuts: 134 28961318         
+ 361746     0  -721111.2427   274                    Cuts: 97 28961382         
+ 361746     0  -721091.7275   289                   Cuts: 161 28961469         
+ 361746     0  -721086.9088   270                    Cuts: 89 28961512         
+ 361746     0  -720835.7538   179                    Cuts: 16 28961621         
+ 361746     0  -720669.4780   231                   Cuts: 106 28961731         
+
+Repeating presolve.
+Tried aggregator 1 time.
+Reduced MIP has 4428 rows, 3613 columns, and 13211 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (5.74 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 4428 rows, 3613 columns, and 13211 nonzeros.
+Reduced MIP has 1697 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.61 ticks)
+Represolve time = 0.19 sec. (102.95 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 0 columns.
+Aggregator did 1558 substitutions.
+Reduced LP has 3271 rows, 2055 columns, and 11925 nonzeros.
+Presolve time = 0.00 sec. (3.52 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     -35921312.216905
+Iteration:   139   Dual objective     =     -27988637.807943
+Iteration:   278   Dual objective     =     -14342993.868319
+Iteration:   423   Dual objective     =     -11089705.473089
+Iteration:   522   Dual objective     =      -4425336.892573
+Iteration:   643   Dual objective     =      -1933681.542003
+Iteration:   729   Dual objective     =      -1605831.478974
+Iteration:   836   Dual objective     =      -1405080.602099
+Iteration:   951   Dual objective     =      -1237223.601625
+Iteration:  1050   Dual objective     =      -1230429.915302
+Iteration:  1214   Dual objective     =      -1120235.136733
+Iteration:  1362   Dual objective     =       -842925.804109
+Iteration:  1463   Dual objective     =       -842838.432580
+Iteration:  1551   Dual objective     =       -841611.932227
+Iteration:  1635   Dual objective     =       -841611.932227
+Perturbation started.
+Iteration:  1702   Dual objective     =       -841611.932227
+Iteration:  1880   Dual objective     =       -751238.952888
+Iteration:  2027   Dual objective     =       -724234.974336
+Iteration:  2172   Dual objective     =       -723986.591551
+Iteration:  2303   Dual objective     =       -722720.619728
+Iteration:  2390   Dual objective     =       -721409.342071
+Iteration:  2470   Dual objective     =       -720955.241032
+Iteration:  2548   Dual objective     =       -720669.692255
+Removing perturbation.
+Markowitz threshold set to 0.1
+Iteration:  2575   Dual objective     =       -720669.490095
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -720669.489961
+ 361746     0  -720655.8427   192                   Cuts: 282 28964365         
+ 361746     0  -720634.9627   162                    Cuts: 77 28964391         
+ 361746     0  -720613.8375   154                   Cuts: 119 28964445         
+ 361746     0  -720610.9979   209                    Cuts: 86 28964478         
+ 361746     0  -720555.3835   158                    Cuts: 69 28964503         
+ 361746     0  -720541.0333   263                   Cuts: 149 28964576         
+ 361746     0  -720485.0799   200                   Cuts: 150 28964696         
+ 361746     0  -720472.0256   231                   Cuts: 122 28964773         
+ 361746     0  -720461.9986   298                   Cuts: 165 28964817         
+ 361746     0  -720456.9993   277                    Cuts: 32 28964838         
+ 361746     0  -720446.2834   306                    Cuts: 37 28964873         
+ 361746     0  -720444.5752   317                   Cuts: 130 28964891         
+ 361746     2  -720444.5728   369                -383441.4625 28964891         
+ 365182  1160  -588835.3527    18                -383441.4625 29347336         
+                                                    Cuts: 162                  
+ 376799  6581  -598760.0440     7                -383441.4625 30382741         
+                                                     Cuts: 68                  
+ 389985 12344  -536565.8378    10                -383441.4625 31519711         
+                                                     Cuts: 49                  
+ 399483 13105  -551611.4369     7                -383441.4625 32636274         
+ 411641 16727  -532320.3014     5                -383441.4625 34007851         
+                                                  Impl Bds: 2                  
+ 421500 18125    infeasible                      -383441.4625 35160933         
+                                                  Impl Bds: 1                  
+ 428401 16923    infeasible                      -383441.4625 36514259         
+ 440523 14942  -401698.2480    13                -383441.4625 37575534         
+                                                     Cuts: 21                  
+ 453158 11395    infeasible                      -383441.4625 38483521         
+                                                     Cuts: 16                  
+Elapsed time = 556.66 sec. (142352.07 ticks, tree = 31.21 MB)
+ 460129 12346    infeasible                      -383441.4625 39411261         
+                                                  Impl Bds: 7                  
+ 470751 16351  -481958.4202    13                -383441.4625 40707988         
+ 482899 19627    infeasible                      -383441.4625 41516149         
+                                                     Cuts: 13                  
+ 495866 27907  -378955.2320    24                -383441.4625 42782393         
+                                                      Cuts: 7                  
+ 505371 32183  -448953.4967    21                -383441.4625 43616144         
+                                                     Cuts: 13                  
+ 516510 37595    infeasible                      -383441.4625 44801101         
+                                                    Covers: 6                  
+ 529960 38766  -372877.9463     9                -383441.4625 45588161         
+                                                 Impl Bds: 11                  
+ 540260 43254  -264508.4827    13                -383441.4625 46652515         
+                                                  Impl Bds: 2                  
+ 552060 50409  -426065.7830    20                -383441.4625 47597373         
+                                                     Cuts: 21                  
+ 564975 57305  -406887.1924    36                -383441.4625 48709372         
+                                                     Cuts: 10                  
+Elapsed time = 718.40 sec. (180500.76 ticks, tree = 180.12 MB)
+ 574744 60336  -382557.9219    28                -383441.4625 49459527         
+ 581570 64388  -407454.6694    14                -383441.4625 50754958         
+ 589785 67619  -422297.1872    14                -383441.4625 51858257         
+ 603906 71879  -337488.1569    14                -383441.4625 52776825         
+                                                  Impl Bds: 6                  
+ 615801 78561  -377579.7877    14                -383441.4625 53800827         
+ 630027 90612  -301367.7658    17                -383441.4625 55000487         
+ 636896 90724  -319859.8204    14                -383441.4625 55883856         
+                                                      Cuts: 7                  
+ 646220 92610  -373232.5607    12                -383441.4625 56679420         
+ 658043 100892    infeasible                      -383441.4625 58049583         
+ 663615 100416  -290066.8600    10                -383441.4625 59202811         
+Elapsed time = 879.30 sec. (218655.96 ticks, tree = 315.71 MB)
+ 670544 97680    infeasible                      -383441.4625 60701277         
+                                                    Covers: 4                  
+ 678440 97703  -352415.3554    12                -383441.4625 61350161         
+                                                     Cuts: 15                  
+ 687083 99151  -340607.7800    28                -383441.4625 62132411         
+ 700209 104850  -276546.9327    16                -383441.4625 63001772         
+ 713384 111834  -347466.6062    21                -383441.4625 64204635         
+                                                     Cuts: 25                  
+ 720314 116055  -348467.6868    33                -383441.4625 65296977         
+                                                     Cuts: 15                  
+ 730958 117251    infeasible                      -383441.4625 66449135         
+                                                      Cuts: 7                  
+ 738115 119067    infeasible                      -383441.4625 67493785         
+                                                    Covers: 3                  
+ 749142 121734  -382174.6727    25                -383441.4625 69029498         
+                                                     Cuts: 30                  
+ 755009 121597  -377094.0916    26                -383441.4625 69972910         
+Elapsed time = 1041.60 sec. (256809.69 ticks, tree = 377.33 MB)
+ 765752 125175    infeasible                      -383441.4625 71054351         
+ 771934 125889    infeasible                      -382269.5437 72051829         
+ 788953 115205    infeasible                      -380528.9268 73802879         
+ 803990 103655    infeasible                      -377579.7877 74538633         
+ 814581 97468    infeasible                      -377579.7877 75624391         
+ 823982 93295    infeasible                      -375032.0870 76443864         
+                                                    Covers: 3                  
+ 838344 89194    infeasible                      -372877.9463 77450908         
+                                                     Cuts: 16                  
+ 847960 86891    infeasible                      -367655.8824 78559242         
+ 858912 83950  -130750.9228    34                -361348.0032 79578430         
+ 868961 82794  -264435.5393    27                -356727.2307 80804399         
+Elapsed time = 1208.93 sec. (294960.10 ticks, tree = 252.61 MB)
+ 876941 76840  -319602.6951    23                -352415.3554 82011924         
+ 884703 74129    infeasible                      -349467.6997 83172613         
+ 896040 67805    infeasible                      -345130.5235 84323218         
+ 907882 56886    infeasible                      -342541.4380 85824867         
+ 915462 54200  -181532.2318    22                -340080.4906 86534141         
+ 922203 51757    infeasible                      -335233.7818 87927410         
+ 929496 49158  -162777.0511    57                -325758.9277 89009005         
+ 938051 46839  -300562.6960    47                -321870.8912 90076287         
+ 952075 40716  -302056.6333   107                -318736.8242 91047013         
+ 961576 38053    infeasible                      -314122.9696 92011252         
+Elapsed time = 1377.76 sec. (333110.60 ticks, tree = 109.16 MB)
+ 973435 37637    infeasible                      -306284.8698 93324550         
+ 982764 36876    infeasible                      -296895.7744 94332297         
+ 992056 34004    infeasible                      -290731.8651 95157614         
+ 1000111 32233    infeasible                      -280150.5747 96790193         
+ 1010133 31930  -228023.2590    42                -269747.6497 97347030         
+ 1016712 31545    infeasible                      -262044.5582 98993584         
+ 1025288 32086  -201637.6051    21                -256730.2312 99842912         
+ 1031611 31480    infeasible                      -246463.5123 1.01e+08         
+ 1038217 29725  -226282.2473    29                -241660.9187 1.02e+08         
+ 1045067 28703  -155457.5903    32                -236055.4273 1.04e+08         
+Elapsed time = 1543.33 sec. (371268.08 ticks, tree = 82.68 MB)
+ 1049851 27716  -184789.9563   143                -235101.7877 1.05e+08         
+ 1056477 27585  -164453.6984    61                -218619.5374 1.06e+08         
+ 1061616 26774    infeasible                      -213253.6039 1.07e+08         
+ 1068999 26233   -63798.3995    23                -205854.1131 1.08e+08         
+ 1073782 25681    infeasible                      -200042.1467 1.09e+08         
+ 1080986 25571    -5668.4151    49                -190388.7396 1.10e+08         
+ 1085770 25727  -149551.8345    72                -182694.6953 1.11e+08         
+ 1090441 24603    infeasible                      -171993.2231 1.13e+08         
+ 1095329 23130    infeasible                      -160742.3821 1.14e+08         
+ 1099713 22241   -22489.7051    38                -153380.0852 1.15e+08         
+Elapsed time = 1711.65 sec. (409421.26 ticks, tree = 62.73 MB)
+ 1105696 21866    infeasible                      -145860.2289 1.16e+08         
+ 1111618 23169    94049.3788    51                -124173.0203 1.17e+08         
+ 1116914 21973   107202.9053    78                -110774.8951 1.18e+08         
+ 1123936 20713    infeasible                       -96259.4475 1.19e+08         
+ 1128692 19011   -11328.1008    43                 -82284.8962 1.21e+08         
+ 1133769 17915   367146.4578   114                 -54026.7337 1.22e+08         
+ 1138789 15612    infeasible                       -40058.0568 1.23e+08         
+ 1145532 14634    infeasible                       -20163.0353 1.23e+08         
+ 1152005 14146    infeasible                          468.2999 1.25e+08         
+ 1158068 12487    infeasible                        36824.9191 1.26e+08         
+Elapsed time = 1884.03 sec. (447573.66 ticks, tree = 29.39 MB)
+ 1165233 11893    infeasible                        54544.2604 1.27e+08         
+ 1170895 10576   174592.7181   221                  70976.2506 1.28e+08         
+ 1178046  9523    infeasible                        93591.9592 1.29e+08         
+ 1183603  7535   312431.3058   123                 125320.1546 1.31e+08         
+ 1189302  6416   466754.9473   120                 169399.2687 1.31e+08         
+ 1194547  6065   499555.8152    75                 215285.3171 1.33e+08         
+ 1198955  6028    infeasible                       266825.1553 1.34e+08         
+ 1202407  6437   750793.8017   201                 289373.6094 1.34e+08         
+ 1205790  6731    infeasible                       327697.1408 1.35e+08         
+ 1208941  7934  5497263.0526   265                 351527.2507 1.36e+08         
+Elapsed time = 2065.01 sec. (485729.19 ticks, tree = 16.55 MB)
+ 1212022  9304    infeasible                       383802.0791 1.36e+08         
+ 1215209 10188    infeasible                       385151.9011 1.37e+08         
+ 1218227 11663  7188692.6984   220                 467779.6467 1.38e+08         
+ 1221201 12849  1066861.5910   317                 523607.1007 1.38e+08         
+ 1224187 14611   587660.8651   212                 535450.8254 1.39e+08         
+ 1227341 16202   830616.1577   300                 563355.3883 1.40e+08         
+ 1230310 17328    infeasible                       581830.5659 1.41e+08         
+ 1233152 17950  1453342.7381   381                 597013.2436 1.41e+08         
+ 1236024 19296  2042209.5839   301                 602175.3279 1.42e+08         
+ 1239059 20114  1185254.3320   248                 618693.6108 1.42e+08         
+Elapsed time = 2255.81 sec. (523891.10 ticks, tree = 42.38 MB)
+ 1242054 21702  5660932.5243   149                 620267.5805 1.43e+08         
+ 1245036 23163  2015389.4175   317                 652671.3987 1.44e+08         
+ 1247821 23986  2822597.1953   317                 661204.8895 1.45e+08         
+ 1250583 25033  1033390.4163   394                 674804.8946 1.45e+08         
+ 1253461 26382  4890316.4505   251                 697600.3089 1.46e+08         
+ 1256198 27833  1506758.6057   293                 712076.9652 1.47e+08         
+ 1259021 28958  1907715.1316   292                 719804.7891 1.48e+08         
+                                                    Cuts: 158                  
+ 1261968 29829  3697249.2988   241                 723879.1835 1.48e+08         
+                                                    Cuts: 230                  
+ 1264771 31069  5205683.3902   226                 740306.4158 1.50e+08         
+                                                     Cuts: 74                  
+ 1267664 31507  1331932.8656   210                 755051.5679 1.50e+08         
+                                                   MIRcuts: 1                  
+Elapsed time = 2444.21 sec. (562053.12 ticks, tree = 69.11 MB)
+ 1270429 33031  7051922.5832   176                 768351.5771 1.51e+08         
+                                                     Cuts: 46                  
+ 1273198 33741  6719050.0918   187                 785823.9765 1.52e+08         
+                                                     Cuts: 24                  
+ 1275983 34898    infeasible                       798419.0233 1.53e+08         
+                                                  Impl Bds: 6                  
+ 1278699 36352    infeasible                       811318.5374 1.54e+08         
+                                                     Cuts: 22                  
+ 1281243 36775  3801544.5671   328                 822058.8961 1.55e+08         
+                                                 Impl Bds: 59                  
+ 1283867 37660  5167280.1282   247                 832835.7787 1.55e+08         
+                                                     Cuts: 47                  
+ 1286522 38841  1833837.6747   406                 837546.9388 1.56e+08         
+                                                 Impl Bds: 10                  
+ 1289070 40018    infeasible                       854607.4255 1.57e+08         
+                                                 Impl Bds: 64                  
+ 1291450 41147  5221015.2475   270                 865631.3014 1.58e+08         
+                                                     Cuts: 52                  
+ 1293908 41933  6436212.5422   290                 874645.1414 1.59e+08         
+                                                     Cuts: 60                  
+Elapsed time = 2626.02 sec. (600210.80 ticks, tree = 94.87 MB)
+ 1296221 42407  3917448.9628   275                 883889.5700 1.60e+08         
+                                                    Cuts: 101                  
+ 1298456 43090  1258823.2433   280                 894197.0485 1.60e+08         
+                                                  Impl Bds: 4                  
+ 1300653 43935  5269047.3143   283                 904654.7858 1.61e+08         
+                                                     Cuts: 45                  
+ 1302738 45029  6494153.2682   151                 912471.8042 1.62e+08         
+                                                  Impl Bds: 2                  
+ 1305065 45845  1092671.3890   259                 916813.4874 1.63e+08         
+                                                      Cuts: 6                  
+ 1307224 46334  6728014.1658   203                 920339.4945 1.63e+08         
+                                                     Cuts: 13                  
+ 1309387 46972  1675707.6168   338                 932143.8700 1.64e+08         
+                                                     Cuts: 12                  
+ 1311473 47904  5768274.7359   284                 942532.9857 1.65e+08         
+                                                      Cuts: 9                  
+ 1313715 48705  7006176.5304   196                 950858.7649 1.66e+08         
+ 1315896 49302  6721346.8677   224                 957855.2887 1.66e+08         
+Elapsed time = 2809.82 sec. (638377.15 ticks, tree = 113.47 MB)
+ 1318164 50121   981855.5533   460                 963623.4786 1.67e+08         
+                                                 Impl Bds: 10                  
+ 1320250 50889  3726336.1312   302                 969974.4203 1.68e+08         
+                                                 Impl Bds: 30                  
+ 1322350 51389    infeasible                       977713.2108 1.69e+08         
+                                                 Impl Bds: 48                  
+ 1324431 51812  1049888.4439   184                 985920.8361 1.69e+08         
+                                                 Impl Bds: 84                  
+ 1326588 52490  1137328.3439   429                 995433.3754 1.70e+08         
+                                                      Cuts: 3                  
+ 1328684 53241  1124067.0358   357                1002523.7810 1.71e+08         
+                                                  Impl Bds: 5                  
+ 1330895 53947  1290479.2242   277                1011710.4843 1.72e+08         
+                                                 Impl Bds: 36                  
+ 1332970 54614  3472116.7250   286                1019561.5454 1.73e+08         
+                                                 Impl Bds: 24                  
+ 1334993 55096    infeasible                      1023171.9390 1.73e+08         
+                                                  Impl Bds: 9                  
+ 1337115 55954    infeasible                      1028794.2862 1.74e+08         
+                                                 Impl Bds: 31                  
+Elapsed time = 2993.31 sec. (676538.84 ticks, tree = 130.70 MB)
+ 1339247 56308    infeasible                      1041552.7685 1.75e+08         
+                                                 Impl Bds: 31                  
+ 1341208 56841    infeasible                      1047021.1792 1.75e+08         
+                                                     Cuts: 26                  
+ 1343354 57683  1637458.5092   183                1047125.6158 1.77e+08         
+                                                     Cuts: 22                  
+ 1345496 58164  1358070.8887   316                1050072.8602 1.77e+08         
+                                                     Cuts: 23                  
+ 1347646 58485  6516260.1514   172                1071136.8460 1.78e+08         
+                                                  Impl Bds: 4                  
+ 1349678 59004  1114412.6355   405                1081233.4577 1.79e+08         
+                                                      Cuts: 9                  
+ 1351702 59573  1214537.5869   271                1090971.4603 1.80e+08         
+                                                      Cuts: 9                  
+ 1353939 60200  5680893.6209   277                1096962.1387 1.81e+08         
+ 1355941 60475  2054535.9557   402                1100139.3602 1.81e+08         
+                                                    Covers: 5                  
+ 1358033 60923  3190415.2939   283                1100310.0701 1.82e+08         
+                                                      Cuts: 9                  
+Elapsed time = 3175.25 sec. (714696.50 ticks, tree = 143.63 MB)
+ 1360185 61326    infeasible                      1121392.0990 1.83e+08         
+                                                     Cuts: 24                  
+ 1362303 61753  1676669.6308   384                1130587.4420 1.84e+08         
+                                                     Cuts: 15                  
+ 1364224 62276  2577318.4566   334                1137171.4885 1.84e+08         
+                                                  Impl Bds: 8                  
+ 1366221 62629  5563494.8173   223                1143253.5307 1.85e+08         
+                                                     Cuts: 19                  
+ 1368322 63154  1231814.9871   270                1151935.8044 1.86e+08         
+                                                     Cuts: 18                  
+ 1370237 63463    infeasible                      1160445.3045 1.87e+08         
+                                                     Cuts: 40                  
+ 1372337 63559  2358132.0874   271                1168302.7317 1.88e+08         
+                                                     Cuts: 15                  
+ 1374496 64150    infeasible                      1176265.3874 1.89e+08         
+                                                     Cuts: 46                  
+ 1376598 64653  4707110.5238   295                1177680.3179 1.90e+08         
+                                                     Cuts: 47                  
+ 1378571 65054    infeasible                      1184724.8092 1.90e+08         
+                                                     Cuts: 17                  
+Elapsed time = 3356.54 sec. (752857.98 ticks, tree = 154.50 MB)
+ 1380610 65530    infeasible                      1195936.8609 1.91e+08         
+                                                      Cuts: 6                  
+ 1382663 66007  1260040.4814   241                1202691.0415 1.92e+08         
+                                                      Cuts: 9                  
+ 1384792 66517    infeasible                      1210143.2471 1.93e+08         
+                                                      Cuts: 6                  
+ 1386787 66947  1447779.5335   301                1218711.7214 1.94e+08         
+                                                 Impl Bds: 30                  
+ 1388891 67099    infeasible                      1225290.8490 1.94e+08         
+                                                  Impl Bds: 5                  
+ 1390937 67489  5119196.7779   182                1232405.8987 1.95e+08         
+ 1392825 67924  5780723.7703   254                1241140.6084 1.96e+08         
+                                                  Impl Bds: 7                  
+ 1394813 68348  6155500.0671   215                1247587.6782 1.97e+08         
+ 1396869 68851  1287146.3220   265                1254657.1294 1.98e+08         
+                                                 Impl Bds: 11                  
+ 1398929 69164  5387062.6598   300                1261259.1503 1.98e+08         
+                                                  Impl Bds: 2                  
+Elapsed time = 3537.84 sec. (791040.54 ticks, tree = 165.42 MB)
+ 1400971 69598  5517210.7605   226                1267495.8928 2.00e+08         
+ 1402923 69645  1864797.9570   253                1276086.4817 2.00e+08         
+                                                  Impl Bds: 1                  
+ 1404977 69970  1488975.9831   435                1284019.2339 2.01e+08         
+ 1406952 70416  1541494.5482   382                1291437.8612 2.02e+08         
+ 1408966 70737    infeasible                      1301671.3846 2.03e+08         
+ 1410998 71022  1973286.2959   457                1309896.9853 2.03e+08         
+ 1413041 71543  5347630.2815   279                1317922.5266 2.04e+08         
+                                                  Impl Bds: 2                  
+ 1415066 72061    infeasible                      1327442.0598 2.05e+08         
+                                                    Covers: 2                  
+ 1417076 72429  1456932.9470   385                1334784.6576 2.05e+08         
+                                                     Cuts: 29                  
+ 1419105 72633  1570169.4926   451                1342653.2543 2.06e+08         
+                                                      Cuts: 6                  
+Elapsed time = 3720.88 sec. (829207.78 ticks, tree = 174.57 MB)
+ 1421077 73071    infeasible                      1349924.0679 2.07e+08         
+                                                     Cuts: 17                  
+ 1422967 73335    infeasible                      1358051.9254 2.08e+08         
+ 1424913 73452  6480055.0460   226                1366268.8427 2.08e+08         
+                                                      Cuts: 4                  
+ 1426904 73712  1439709.6752   472                1374024.7763 2.09e+08         
+                                                     Cuts: 11                  
+ 1428759 74056    infeasible                      1383342.8422 2.10e+08         
+                                                     Cuts: 21                  
+ 1430516 74291  1905683.2791   339                1391490.8885 2.11e+08         
+                                                      Cuts: 5                  
+ 1432407 74361  1501186.3674   494                1400336.8342 2.11e+08         
+                                                      Cuts: 8                  
+ 1434302 74650  1593277.1512   495                1407802.2044 2.12e+08         
+                                                      Cuts: 8                  
+ 1436283 74972  2709223.2485   327                1416117.9887 2.13e+08         
+                                                      Cuts: 7                  
+ 1438222 75352  1774286.3894   444                1423326.2161 2.14e+08         
+                                                     Cuts: 32                  
+Elapsed time = 3904.52 sec. (867373.62 ticks, tree = 183.24 MB)
+ 1440168 75549  1602453.5044   431                1430832.1397 2.14e+08         
+                                                 Impl Bds: 14                  
+ 1441999 75829  1599167.2217   449                1436436.3922 2.15e+08         
+ 1443799 75936  1474829.3547   493                1436623.5403 2.16e+08         
+                                                   MIRcuts: 1                  
+ 1445671 76186  2658607.6285   378                1447832.9979 2.17e+08         
+ 1447487 76224    infeasible                      1457445.9932 2.17e+08         
+                                                      Cuts: 2                  
+ 1449344 76579  3281756.9337   314                1460759.5237 2.18e+08         
+                                                      Cuts: 4                  
+ 1451178 76818    infeasible                      1468448.3119 2.19e+08         
+ 1453114 76928  1774355.7080   357                1479785.4078 2.19e+08         
+                                                    Covers: 1                  
+ 1454888 77112    infeasible                      1486848.6637 2.20e+08         
+ 1456664 77291  6357888.9501   185                1495654.9820 2.21e+08         
+                                                    Covers: 4                  
+Elapsed time = 4088.45 sec. (905546.13 ticks, tree = 188.05 MB)
+ 1458563 77474  2271416.5899   338                1504256.4889 2.21e+08         
+                                                   MIRcuts: 1                  
+ 1460390 77943    infeasible                      1512439.1298 2.22e+08         
+                                                     Cuts: 17                  
+ 1462182 78206  1727349.0309   465                1519593.1489 2.23e+08         
+                                                      Cuts: 6                  
+ 1463942 78497  1560089.7740   428                1527421.9652 2.24e+08         
+                                                  Impl Bds: 3                  
+ 1465630 78568  1576407.1151   507                1535258.0822 2.24e+08         
+                                                  Impl Bds: 1                  
+ 1467341 78879  6171262.7035   228                1542343.7582 2.25e+08         
+                                                      Cuts: 5                  
+ 1469111 79051    infeasible                      1550512.3688 2.26e+08         
+                                                  Impl Bds: 5                  
+ 1470893 79339  5206701.9471   270                1558100.8656 2.27e+08         
+                                                      Cuts: 6                  
+ 1472936 79861    infeasible                      1559451.9836 2.27e+08         
+                                                  Impl Bds: 6                  
+ 1474780 79961  1646476.2531   510                1563941.4536 2.28e+08         
+                                                  Impl Bds: 9                  
+Elapsed time = 4271.55 sec. (943718.11 ticks, tree = 194.82 MB)
+ 1476645 80544    infeasible                      1570995.1707 2.29e+08         
+                                                      Cuts: 9                  
+ 1478446 80718  3781986.7645   336                1578126.8668 2.30e+08         
+                                                     Cuts: 12                  
+ 1480356 80811  1688966.6747   322                1582522.3356 2.30e+08         
+                                                     Cuts: 36                  
+ 1482268 81105  1621342.8338   454                1591672.6050 2.31e+08         
+                                                     Cuts: 21                  
+ 1484129 81205    infeasible                      1600574.2984 2.32e+08         
+                                                      Cuts: 8                  
+ 1486025 81501  1674681.6239   405                1607668.8961 2.33e+08         
+                                                     Cuts: 12                  
+ 1487738 81641    infeasible                      1615377.7326 2.33e+08         
+ 1489536 81679  6599024.4595   179                1622923.9900 2.34e+08         
+                                                    Covers: 1                  
+ 1491314 81774  1668871.4342   473                1630256.0793 2.35e+08         
+                                                      Cuts: 7                  
+ 1493028 81730  1745652.5144   243                1636362.2726 2.35e+08         
+                                                     Cuts: 15                  
+Elapsed time = 4455.37 sec. (981892.90 ticks, tree = 199.44 MB)
+ 1494980 81894  1679578.7462   475                1641629.2554 2.36e+08         
+                                                  Impl Bds: 3                  
+ 1496942 82256    infeasible                      1647357.5016 2.37e+08         
+ 1498848 82208    infeasible                      1654664.5330 2.37e+08         
+ 1500703 82482    infeasible                      1663199.4761 2.38e+08         
+ 1502578 82566  2193923.0600   300                1667761.5043 2.39e+08         
+ 1504507 82717    infeasible                      1676579.4339 2.39e+08         
+ 1506349 82828  1777762.9911   452                1684557.1967 2.40e+08         
+ 1508182 82967    infeasible                      1691421.0134 2.41e+08         
+ 1510072 83113  4830083.9757   255                1699717.0419 2.42e+08         
+ 1511899 83199    infeasible                      1709099.0013 2.43e+08         
+Elapsed time = 4638.04 sec. (1020058.27 ticks, tree = 203.32 MB)
+ 1513814 83221  2276410.1245   426                1716821.0806 2.43e+08         
+ 1515704 83285  1819313.8571   450                1722754.1590 2.44e+08         
+                                                  Impl Bds: 1                  
+ 1517605 83320    infeasible                      1732327.5754 2.45e+08         
+                                                 Impl Bds: 33                  
+ 1519598 83339    infeasible                      1741069.0371 2.45e+08         
+                                                  Impl Bds: 3                  
+ 1521628 83400  2395176.4903   378                1750327.9761 2.46e+08         
+                                                 Impl Bds: 22                  
+ 1523588 83443  1952096.3292   477                1759919.0585 2.48e+08         
+                                                     Cuts: 13                  
+ 1525520 83428  1827963.8775   303                1767641.1356 2.48e+08         
+                                                     Cuts: 11                  
+ 1527440 83324    infeasible                      1775021.3328 2.49e+08         
+                                                     Cuts: 16                  
+ 1529387 83258  2231923.6356   404                1782461.2872 2.50e+08         
+                                                     Cuts: 40                  
+ 1531213 83250    infeasible                      1790331.1246 2.50e+08         
+Elapsed time = 4820.46 sec. (1058224.24 ticks, tree = 203.66 MB)
+ 1533132 83156  1963060.0377   430                1801298.3569 2.52e+08         
+                                                      Cuts: 6                  
+ 1535025 83087    infeasible                      1811961.4828 2.52e+08         
+ 1536984 83057  2492161.7469   412                1823554.2830 2.53e+08         
+ 1538963 83108    infeasible                      1834944.3532 2.54e+08         
+                                                    Covers: 2                  
+ 1540815 83191  2747608.3765   365                1845313.9506 2.54e+08         
+ 1542781 83153  4453227.5990   364                1854623.8058 2.55e+08         
+                                                     Cuts: 10                  
+ 1544644 83243  1903420.7142   454                1865132.3249 2.56e+08         
+                                                      Cuts: 7                  
+ 1546541 83271  5383598.2520   245                1876075.2474 2.57e+08         
+                                                     Cuts: 10                  
+ 1548557 83305    infeasible                      1886997.4926 2.57e+08         
+                                                      Cuts: 9                  
+ 1550576 83282  1977242.7799   468                1897760.9329 2.58e+08         
+                                                     Cuts: 12                  
+Elapsed time = 5002.83 sec. (1096388.73 ticks, tree = 204.20 MB)
+ 1552574 83340    infeasible                      1908413.6986 2.59e+08         
+                                                     Cuts: 35                  
+ 1554548 83291  2762048.7410   464                1917519.2027 2.60e+08         
+                                                      Cuts: 3                  
+ 1556517 83276  1980742.6710   442                1929147.2042 2.61e+08         
+                                                     Cuts: 12                  
+ 1558455 83241    infeasible                      1940328.1945 2.61e+08         
+                                                    Covers: 5                  
+ 1560454 83079    infeasible                      1951938.8178 2.62e+08         
+                                                     Cuts: 24                  
+ 1562386 83095    infeasible                      1964027.7435 2.63e+08         
+                                                   MIRcuts: 1                  
+ 1564446 83114    infeasible                      1974959.1489 2.64e+08         
+ 1566418 82853  2232355.3373   352                1986866.8742 2.65e+08         
+                                                    Covers: 5                  
+ 1568375 82767  6069302.8306   229                1997080.8674 2.66e+08         
+                                                    Covers: 2                  
+ 1570405 82591  4650288.5274   225                2008117.7997 2.66e+08         
+                                                    Covers: 5                  
+Elapsed time = 5185.95 sec. (1134563.66 ticks, tree = 202.80 MB)
+ 1572431 82463  6875587.9929   223                2023625.0556 2.68e+08         
+ 1574472 82458    infeasible                      2035980.8313 2.68e+08         
+                                                     Cuts: 27                  
+ 1576500 82344  2437418.0276   362                2054112.8188 2.69e+08         
+                                                     Cuts: 10                  
+ 1578561 82257    infeasible                      2071132.7168 2.70e+08         
+                                                      Cuts: 9                  
+ 1580652 82232  3108760.1931   400                2088183.8767 2.71e+08         
+                                                    Covers: 3                  
+ 1582749 82282  2227243.6897   515                2097689.5676 2.71e+08         
+                                                      Cuts: 5                  
+ 1584838 82194    infeasible                      2111981.0810 2.72e+08         
+                                                      Cuts: 2                  
+ 1586899 82029    infeasible                      2129140.8872 2.73e+08         
+                                                    Covers: 1                  
+ 1588970 81779  2530580.9801   353                2144613.6844 2.74e+08         
+                                                     Cuts: 12                  
+ 1591096 81570  2308669.2957   414                2162572.4047 2.75e+08         
+                                                    Covers: 3                  
+Elapsed time = 5366.40 sec. (1172724.34 ticks, tree = 201.14 MB)
+ 1593256 81382  5152103.3316   226                2177095.3511 2.76e+08         
+ 1595475 81014  2447021.1094   422                2194861.1486 2.77e+08         
+                                                  Impl Bds: 4                  
+ 1597636 80841  3331456.3699   355                2209112.9312 2.77e+08         
+ 1599943 80505  4894576.7391   259                2226692.8631 2.79e+08         
+                                                      Cuts: 6                  
+ 1602246 80438  4999181.4865   275                2244584.6539 2.78e+08         
+                                                     Cuts: 33                  
+ 1604406 80315    infeasible                      2267185.9398 2.80e+08         
+                                                     Cuts: 20                  
+ 1606626 79943    infeasible                      2292512.8566 2.81e+08         
+                                                      Cuts: 3                  
+ 1608962 79605    infeasible                      2316657.1388 2.82e+08         
+ 1611275 79570  6003690.5564   244                2341601.3752 2.82e+08         
+ 1613586 79262  3092293.2563   303                2371996.5820 2.84e+08         
+Elapsed time = 5542.27 sec. (1210892.72 ticks, tree = 195.69 MB)
+ 1615936 78924  6065921.6483   217                2392157.8665 2.85e+08         
+ 1618353 78933    infeasible                      2417102.4031 2.85e+08         
+                                                 Impl Bds: 18                  
+ 1620933 78649  2829252.3383   339                2444218.5082 2.86e+08         
+                                                 Impl Bds: 16                  
+ 1623470 78578  5080137.0346   251                2475929.0197 2.86e+08         
+                                                      Cuts: 8                  
+ 1625837 78219    infeasible                      2512529.3802 2.88e+08         
+                                                      Cuts: 8                  
+ 1628382 78173  5886661.5164   241                2544912.5755 2.89e+08         
+                                                      Cuts: 9                  
+ 1630865 78129    infeasible                      2576721.7517 2.89e+08         
+                                                     Cuts: 10                  
+ 1633369 78117  7139235.5473   221                2613360.7163 2.91e+08         
+                                                 Impl Bds: 18                  
+ 1635709 77969    infeasible                      2657578.3790 2.92e+08         
+                                                     Cuts: 17                  
+ 1638173 77967    infeasible                      2703355.3898 2.92e+08         
+                                                      Cuts: 4                  
+Elapsed time = 5717.65 sec. (1249057.97 ticks, tree = 192.82 MB)
+ 1640767 77844  4229351.7195   329                2747129.8048 2.93e+08         
+                                                     Cuts: 26                  
+ 1643249 77694    infeasible                      2792480.1817 2.94e+08         
+                                                     Cuts: 17                  
+ 1645910 77519  7244135.9292   204                2843158.0395 2.95e+08         
+                                                     Cuts: 26                  
+ 1648541 77418    infeasible                      2884559.1937 2.96e+08         
+ 1651201 77411  3729115.7764   326                2929720.0402 2.96e+08         
+                                                  Impl Bds: 8                  
+ 1653768 77529    infeasible                      2976447.7957 2.98e+08         
+ 1656319 77540    infeasible                      3048756.2009 2.98e+08         
+                                                     Cuts: 15                  
+ 1658974 77630  4937462.8181   231                3110838.5566 2.99e+08         
+                                                     Cuts: 16                  
+ 1661698 77805    infeasible                      3173523.3496 3.00e+08         
+                                                     Cuts: 20                  
+ 1664264 78038    infeasible                      3240666.5971 3.01e+08         
+                                                      Cuts: 5                  
+Elapsed time = 5888.52 sec. (1287217.17 ticks, tree = 193.97 MB)
+ 1666980 78208    infeasible                      3323973.4428 3.02e+08         
+                                                     Cuts: 12                  
+ 1669735 78463  3994758.9587   322                3398903.6278 3.03e+08         
+                                                     Cuts: 17                  
+ 1672475 78837  5350392.9335   210                3471327.6431 3.03e+08         
+                                                     Cuts: 12                  
+ 1675376 79135  4563103.5866   281                3548213.4546 3.05e+08         
+                                                     Cuts: 12                  
+ 1678244 79621    infeasible                      3604088.9529 3.06e+08         
+                                                     Cuts: 17                  
+ 1681110 79747  4699988.1945   217                3660678.5793 3.06e+08         
+                                                     Cuts: 22                  
+ 1683955 80727    infeasible                      3712105.1693 3.08e+08         
+                                                      Cuts: 2                  
+ 1686747 81542  5417383.1543   185                3771186.2373 3.09e+08         
+                                                     Cuts: 14                  
+ 1689710 81967  4234386.5372   273                3827195.8088 3.09e+08         
+                                                     Cuts: 39                  
+ 1692687 82488    infeasible                      3879711.6636 3.10e+08         
+                                                     Cuts: 15                  
+Elapsed time = 6058.83 sec. (1325383.13 ticks, tree = 206.47 MB)
+ 1695847 82921  5310649.3836   219                3944210.6983 3.10e+08         
+                                                     Cuts: 27                  
+ 1699030 83396  5255644.5820   195                3984183.4209 3.11e+08         
+                                                      Cuts: 8                  
+ 1702310 84947  6826262.4706   230                4042878.5214 3.12e+08         
+                                                      Cuts: 5                  
+ 1705500 85742  5084932.0468   187                4091470.2334 3.13e+08         
+                                                     Cuts: 34                  
+ 1708643 87136    infeasible                      4131078.1166 3.14e+08         
+                                                     Cuts: 16                  
+ 1711673 87744  4281918.1643   216                4165294.1218 3.15e+08         
+                                                     Cuts: 11                  
+ 1714716 88822    infeasible                      4200225.7708 3.16e+08         
+                                                     Cuts: 10                  
+ 1718023 89965    infeasible                      4233871.2241 3.17e+08         
+                                                      Cuts: 9                  
+ 1721281 90247    infeasible                      4243715.4874 3.17e+08         
+                                                  Impl Bds: 8                  
+ 1724428 90639  4500912.6850   290                4269578.7794 3.17e+08         
+                                                     Cuts: 14                  
+Elapsed time = 6228.92 sec. (1363539.08 ticks, tree = 228.80 MB)
+ 1727537 92169  5643645.8147   264                4304097.6795 3.19e+08         
+                                                     Cuts: 15                  
+ 1730595 92670    infeasible                      4331795.3728 3.19e+08         
+                                                      Cuts: 9                  
+ 1733854 94150  5729345.3043   221                4359475.9303 3.21e+08         
+                                                     Cuts: 12                  
+ 1736990 94062  5831600.5443   273                4376121.7552 3.21e+08         
+                                                     Cuts: 10                  
+ 1740305 94947    infeasible                      4392795.5897 3.22e+08         
+                                                    Covers: 1                  
+ 1743450 95568  4574271.1818   252                4413414.7425 3.22e+08         
+                                                     Cuts: 12                  
+ 1746595 96645  6436835.5163   279                4439429.4596 3.23e+08         
+                                                      Cuts: 7                  
+ 1749717 96861  5992004.7151   231                4464737.2362 3.24e+08         
+                                                     Cuts: 19                  
+ 1752783 98093  5462251.3273   290                4482733.3073 3.25e+08         
+                                                      Cuts: 6                  
+ 1755990 99099    infeasible                      4503070.4058 3.26e+08         
+                                                      Cuts: 5                  
+Elapsed time = 6400.60 sec. (1401700.06 ticks, tree = 252.08 MB)
+ 1759084 98996    infeasible                      4521413.4546 3.26e+08         
+                                                     Cuts: 12                  
+ 1762118 100625  4611825.4823   269                4544638.4605 3.28e+08         
+                                                     Cuts: 24                  
+ 1765150 100611  5239351.4633   283                4561493.3730 3.28e+08         
+                                                      Cuts: 4                  
+ 1768168 101800  5809681.4264   210                4578218.1065 3.29e+08         
+                                                     Cuts: 10                  
+ 1771164 102067  5701261.5775   231                4600949.4934 3.30e+08         
+                                                     Cuts: 13                  
+ 1774191 102792    infeasible                      4612479.9426 3.31e+08         
+                                                     Cuts: 13                  
+ 1777223 103556    infeasible                      4631381.2013 3.32e+08         
+                                                      Cuts: 7                  
+ 1780314 103826  5147218.5580   287                4651330.9709 3.32e+08         
+                                                      Cuts: 9                  
+ 1783226 104224  6241460.0118   215                4668048.4161 3.33e+08         
+                                                     Cuts: 13                  
+ 1786247 105412  5184369.4834   227                4689804.0753 3.34e+08         
+                                                     Cuts: 13                  
+Elapsed time = 6570.32 sec. (1439861.06 ticks, tree = 269.43 MB)
+ 1789274 105731    infeasible                      4711489.1411 3.35e+08         
+                                                     Cuts: 12                  
+ 1792191 105747  5626560.8389   305                4729226.9818 3.35e+08         
+                                                      Cuts: 5                  
+ 1795221 106587  5173362.6452   239                4744929.3428 3.36e+08         
+                                                      Cuts: 5                  
+ 1798252 106992  5725753.7196   244                4767118.1174 3.37e+08         
+                                                     Cuts: 11                  
+ 1801298 107517  5056381.3972   222                4781309.7732 3.38e+08         
+                                                      Cuts: 3                  
+ 1804397 107742  5460941.6665   266                4796251.1366 3.39e+08         
+                                                     Cuts: 19                  
+ 1807477 108052    infeasible                      4816425.0111 3.39e+08         
+                                                      Cuts: 6                  
+ 1810460 108510  5052052.6167   262                4828827.3988 3.40e+08         
+                                                      Cuts: 7                  
+ 1813528 108975    infeasible                      4841618.7283 3.41e+08         
+                                                      Cuts: 8                  
+ 1816574 109339    infeasible                      4855535.3437 3.42e+08         
+                                                      Cuts: 7                  
+Elapsed time = 6739.96 sec. (1478018.20 ticks, tree = 280.46 MB)
+ 1819699 109395  5253549.6854   256                4868423.0973 3.43e+08         
+                                                     Cuts: 11                  
+ 1822707 109880  6071755.1051   202                4882119.2575 3.44e+08         
+                                                    Covers: 3                  
+ 1825934 110315  4958507.6115   200                4898194.7195 3.45e+08         
+                                                      Cuts: 7                  
+ 1829008 110813    infeasible                      4910588.1418 3.46e+08         
+                                                      Cuts: 5                  
+ 1832182 111054  5432868.4730   337                4923161.8283 3.46e+08         
+                                                     Cuts: 14                  
+ 1835319 111097  5108516.3258   217                4936363.1910 3.46e+08         
+                                                      Cuts: 8                  
+ 1838634 111810  5900673.0801   226                4950161.7036 3.48e+08         
+                                                      Cuts: 9                  
+ 1841773 112093  5069416.0678   287                4959107.3983 3.49e+08         
+                                                    Covers: 3                  
+ 1845054 112363  5411719.1362   289                4971434.6401 3.50e+08         
+                                                     Cuts: 29                  
+ 1848286 112650  5020812.3726   233                4980762.6533 3.50e+08         
+                                                     Cuts: 14                  
+Elapsed time = 6909.55 sec. (1516176.83 ticks, tree = 289.97 MB)
+ 1851439 112904    infeasible                      4990495.2929 3.51e+08         
+                                                     Cuts: 13                  
+ 1854625 113040    infeasible                      4999305.3023 3.52e+08         
+                                                      Cuts: 6                  
+ 1857858 113175  5495658.7209   262                5009193.5769 3.52e+08         
+                                                      Cuts: 7                  
+ 1861096 113678    infeasible                      5019083.7732 3.53e+08         
+                                                      Cuts: 2                  
+ 1864320 114087    infeasible                      5028707.8587 3.53e+08         
+                                                     Cuts: 13                  
+ 1867596 115062  5968781.2338   235                5038020.3114 3.55e+08         
+                                                     Cuts: 18                  
+ 1870807 115271    infeasible                      5047113.1245 3.55e+08         
+                                                      Cuts: 8                  
+ 1874033 115661    infeasible                      5056234.2857 3.56e+08         
+                                                  Impl Bds: 1                  
+ 1877310 115898  5740597.7988   248                5063597.6028 3.57e+08         
+                                                      Cuts: 9                  
+ 1880577 116732  8290258.4759   262                5072111.3449 3.58e+08         
+                                                      Cuts: 7                  
+Elapsed time = 7082.01 sec. (1554342.61 ticks, tree = 301.72 MB)
+ 1883957 117203  5099155.4509   193                5081074.0000 3.59e+08         
+                                                      Cuts: 9                  
+ 1887352 117170  5220915.8912   246                5089533.2249 3.59e+08         
+                                                    Covers: 2                  
+ 1890618 118334    infeasible                      5098615.2567 3.61e+08         
+                                                    Covers: 6                  
+ 1893904 118350    infeasible                      5104421.9449 3.61e+08         
+                                                      Cuts: 9                  
+ 1897204 118404    infeasible                      5112908.9481 3.61e+08         
+ 1900538 118908  5283817.3434   258                5121640.7108 3.62e+08         
+                                                     Cuts: 16                  
+ 1903821 119167  6316632.9920   274                5130356.4012 3.63e+08         
+                                                      Cuts: 5                  
+ 1906990 119314    infeasible                      5137761.5500 3.64e+08         
+                                                     Cuts: 11                  
+ 1910278 119839  6708352.6326   211                5142989.0064 3.65e+08         
+                                                    Covers: 8                  
+ 1913610 120146  5835010.4612   224                5148914.1537 3.65e+08         
+                                                    Covers: 3                  
+Elapsed time = 7251.44 sec. (1592505.71 ticks, tree = 311.58 MB)
+ 1916808 121004  5208696.9954   353                5157002.0454 3.67e+08         
+                                                      Cuts: 8                  
+ 1920026 121259  6028617.2277   277                5164183.6543 3.68e+08         
+ 1923325 121598    infeasible                      5171320.0665 3.68e+08         
+                                                   MIRcuts: 1                  
+ 1926476 121876    infeasible                      5178057.4985 3.69e+08         
+ 1929713 121819  5928030.1588   251                5185086.3368 3.69e+08         
+                                                    Covers: 1                  
+ 1932944 122508    infeasible                      5194046.4504 3.71e+08         
+ 1936146 122386    infeasible                      5201005.8476 3.71e+08         
+                                                     Cuts: 12                  
+ 1939373 122917  5514650.4726   242                5207950.4269 3.72e+08         
+                                                      Cuts: 7                  
+ 1942543 123168  5421207.2788   265                5215132.9603 3.73e+08         
+                                                     Cuts: 17                  
+ 1945840 123351  6410237.8348   314                5222834.4858 3.73e+08         
+                                                      Cuts: 3                  
+Elapsed time = 7422.01 sec. (1630662.73 ticks, tree = 321.00 MB)
+ 1949217 123731  5282608.8612   214                5231138.8991 3.74e+08         
+                                                     Cuts: 15                  
+ 1952447 124001  5371056.1083   203                5239404.4050 3.75e+08         
+ 1955695 124432  5789661.7548   203                5245382.3928 3.76e+08         
+                                                      Cuts: 7                  
+ 1958849 124650  6459269.7103   222                5253343.2291 3.77e+08         
+                                                      Cuts: 6                  
+ 1962072 125142  5276398.1427   296                5260335.0200 3.78e+08         
+                                                      Cuts: 7                  
+ 1965295 125095    infeasible                      5267843.0812 3.78e+08         
+                                                      Cuts: 8                  
+ 1968611 125539  6136661.8134   226                5276496.6957 3.79e+08         
+ 1971826 125758    infeasible                      5283955.7077 3.79e+08         
+                                                     Cuts: 10                  
+ 1975063 126413    infeasible                      5291306.2798 3.80e+08         
+                                                     Cuts: 14                  
+ 1978200 126974    infeasible                      5299932.9236 3.81e+08         
+                                                     Cuts: 17                  
+Elapsed time = 7592.42 sec. (1668820.02 ticks, tree = 331.70 MB)
+ 1981487 126943    infeasible                      5307547.4832 3.81e+08         
+                                                      Cuts: 3                  
+ 1984512 127379    infeasible                      5313403.3103 3.82e+08         
+                                                      Cuts: 2                  
+ 1987762 127994  6478912.4158   224                5321888.7647 3.83e+08         
+                                                      Cuts: 3                  
+ 1990999 128798  5580617.3552   276                5329547.1758 3.85e+08         
+                                                     Cuts: 13                  
+ 1994262 129005  5596233.7263   224                5333914.8467 3.85e+08         
+                                                     Cuts: 10                  
+ 1997483 129720    infeasible                      5340483.9983 3.86e+08         
+                                                     Cuts: 20                  
+ 2000793 129530  6263670.5957   223                5346695.1606 3.86e+08         
+                                                     Cuts: 15                  
+ 2004063 130455    infeasible                      5353083.9769 3.88e+08         
+                                                     Cuts: 14                  
+ 2007341 130482  5924160.1611   232                5358726.2735 3.88e+08         
+                                                      Cuts: 9                  
+ 2010550 131516  5696139.1028   207                5363248.6093 3.89e+08         
+                                                      Cuts: 2                  
+Elapsed time = 7763.45 sec. (1706977.37 ticks, tree = 344.90 MB)
+ 2013847 131953    infeasible                      5368655.9034 3.90e+08         
+                                                      Cuts: 6                  
+ 2017083 132001  5450234.6602   199                5371136.1219 3.90e+08         
+                                                      Cuts: 2                  
+ 2020250 132597  6192708.3428   276                5377701.0863 3.91e+08         
+ 2023360 133596    infeasible                      5384582.9793 3.92e+08         
+                                                      Cuts: 8                  
+ 2026571 133473  6500518.4294   213                5388819.9543 3.92e+08         
+                                                      Cuts: 9                  
+ 2029721 134253  5514049.2828   213                5394759.8232 3.94e+08         
+                                                     Cuts: 12                  
+ 2032909 134307  5930127.1591   226                5399308.2435 3.94e+08         
+                                                     Cuts: 17                  
+ 2036194 134561  5946610.9500   251                5404621.2568 3.95e+08         
+                                                      Cuts: 7                  
+ 2039374 134761  5742792.4768   203                5409231.7689 3.96e+08         
+                                                    Covers: 2                  
+ 2042556 134762    infeasible                      5410956.4081 3.96e+08         
+                                                     Cuts: 11                  
+Elapsed time = 7933.25 sec. (1745139.01 ticks, tree = 354.57 MB)
+ 2045731 135057  7347644.5347   291                5417559.4852 3.97e+08         
+                                                      Cuts: 4                  
+ 2048826 135715    infeasible                      5423193.0321 3.98e+08         
+                                                      Cuts: 7                  
+ 2052061 135987  6152201.5180   203                5429179.4438 3.99e+08         
+                                                      Cuts: 9                  
+ 2055159 136048  7003234.2914   189                5435670.6010 4.00e+08         
+                                                      Cuts: 6                  
+ 2058262 136035    infeasible                      5442965.7914 4.00e+08         
+                                                      Cuts: 8                  
+ 2061536 136901  6183642.2290   272                5448869.3038 4.01e+08         
+                                                     Cuts: 15                  
+ 2064734 137210  5649467.6334   219                5455548.7844 4.02e+08         
+                                                      Cuts: 6                  
+ 2067948 137205  6818388.0692   297                5460107.9186 4.02e+08         
+                                                    Covers: 3                  
+ 2071119 137797    infeasible                      5464149.9911 4.03e+08         
+                                                      Cuts: 7                  
+ 2074358 138123  6865669.8069   206                5469175.7614 4.04e+08         
+                                                      Cuts: 5                  
+Elapsed time = 8103.43 sec. (1783297.08 ticks, tree = 367.57 MB)
+ 2077525 138351  5965993.2211   202                5474320.6150 4.05e+08         
+                                                     Cuts: 21                  
+ 2080744 138491    infeasible                      5477661.5972 4.06e+08         
+                                                      Cuts: 4                  
+ 2083957 138680  5602016.3869   300                5482987.9928 4.06e+08         
+                                                     Cuts: 19                  
+ 2087162 138962    infeasible                      5488258.1226 4.07e+08         
+                                                      Cuts: 5                  
+ 2090311 138970  5965302.6173   256                5493955.8902 4.07e+08         
+                                                     Cuts: 11                  
+ 2093484 139301  6993118.3924   245                5499684.3043 4.08e+08         
+                                                    Covers: 1                  
+ 2096680 139499  6248832.1478   271                5505223.8782 4.09e+08         
+                                                     Cuts: 18                  
+ 2099778 139782  5789366.6323   288                5511094.6882 4.10e+08         
+                                                      Cuts: 3                  
+ 2102867 140410    infeasible                      5516024.0252 4.11e+08         
+                                                     Cuts: 17                  
+ 2105969 140583  6227995.1387   296                5522125.3792 4.12e+08         
+                                                      Cuts: 6                  
+Elapsed time = 8273.12 sec. (1821451.80 ticks, tree = 375.20 MB)
+ 2109070 140629  6185968.6343   243                5526350.0670 4.12e+08         
+                                                   MIRcuts: 1                  
+ 2112234 140797  5798738.2283   254                5529861.3924 4.14e+08         
+                                                     Cuts: 15                  
+ 2115272 141012    infeasible                      5535291.1920 4.14e+08         
+                                                    Covers: 1                  
+ 2118334 141285  6014864.2600   222                5541297.2576 4.15e+08         
+                                                     Cuts: 14                  
+ 2121467 141257    infeasible                      5546881.2063 4.15e+08         
+                                                     Cuts: 14                  
+ 2124501 141554  6045707.4378   193                5551521.8596 4.17e+08         
+                                                     Cuts: 20                  
+ 2127599 141499  5645598.7605   231                5556859.5038 4.17e+08         
+                                                      Cuts: 7                  
+ 2130594 141593    infeasible                      5561664.9732 4.17e+08         
+                                                    Covers: 7                  
+ 2133642 141684    infeasible                      5568037.5298 4.18e+08         
+                                                      Cuts: 2                  
+ 2136752 141657    infeasible                      5573449.7692 4.20e+08         
+                                                    Covers: 4                  
+Elapsed time = 8445.38 sec. (1859609.42 ticks, tree = 378.99 MB)
+ 2139960 141585    infeasible                      5578852.6021 4.20e+08         
+                                                      Cuts: 2                  
+ 2143111 141524    infeasible                      5584892.5538 4.20e+08         
+                                                     Cuts: 10                  
+ 2146296 141783    infeasible                      5589449.3146 4.22e+08         
+                                                     Cuts: 10                  
+ 2149361 141687  6305328.3577   362                5594692.3369 4.22e+08         
+                                                      Cuts: 7                  
+ 2152353 141723    infeasible                      5599808.8684 4.23e+08         
+                                                     Cuts: 13                  
+ 2155653 141615    infeasible                      5604914.7202 4.24e+08         
+                                                      Cuts: 7                  
+ 2158821 141467    infeasible                      5610141.9499 4.25e+08         
+                                                      Cuts: 5                  
+ 2161983 141485  6096042.4669   258                5615510.0627 4.26e+08         
+                                                      Cuts: 7                  
+ 2165138 141424  5650594.4975   225                5622312.9683 4.27e+08         
+                                                      Cuts: 4                  
+ 2168339 141481  5980913.7693   260                5626806.6018 4.27e+08         
+                                                      Cuts: 4                  
+Elapsed time = 8615.74 sec. (1897771.91 ticks, tree = 379.30 MB)
+ 2171496 141512    infeasible                      5631796.6624 4.28e+08         
+                                                      Cuts: 2                  
+ 2174624 141495    infeasible                      5638080.8767 4.29e+08         
+                                                     Cuts: 11                  
+ 2177867 141407  6771488.9306   252                5642612.2937 4.29e+08         
+                                                      Cuts: 3                  
+ 2181110 141448    infeasible                      5648855.1937 4.30e+08         
+                                                      Cuts: 9                  
+ 2184334 141550    infeasible                      5655138.3394 4.32e+08         
+                                                      Cuts: 9                  
+ 2187609 141453  5943143.4458   329                5661511.0579 4.32e+08         
+                                                    Covers: 6                  
+ 2190847 141442    infeasible                      5667148.3849 4.32e+08         
+                                                      Cuts: 5                  
+ 2193978 141305    infeasible                      5673032.7187 4.33e+08         
+                                                    Covers: 1                  
+ 2197194 140939  5823709.0427   219                5677885.7261 4.35e+08         
+                                                      Cuts: 4                  
+ 2200415 140909    infeasible                      5683968.5123 4.35e+08         
+                                                      Cuts: 8                  
+Elapsed time = 8786.12 sec. (1935934.73 ticks, tree = 378.66 MB)
+ 2203572 140944  5892102.0128   200                5689194.8839 4.36e+08         
+                                                      Cuts: 2                  
+ 2206767 141006  6262615.0489   274                5694541.0380 4.36e+08         
+                                                     Cuts: 17                  
+ 2210123 141112  6577543.8316   208                5699652.0433 4.38e+08         
+                                                      Cuts: 7                  
+ 2213307 141226  6078884.9551   243                5704905.5152 4.38e+08         
+                                                      Cuts: 9                  
+ 2216451 141328  6901178.9590   215                5710767.3967 4.39e+08         
+                                                  Impl Bds: 1                  
+ 2219612 141268    infeasible                      5716277.1097 4.39e+08         
+                                                      Cuts: 7                  
+ 2222763 141437    infeasible                      5722827.6100 4.40e+08         
+                                                     Cuts: 10                  
+ 2225880 141423    infeasible                      5728522.6823 4.40e+08         
+                                                      Cuts: 7                  
+ 2228980 141460  7376110.6456   177                5734728.1317 4.42e+08         
+                                                     Cuts: 12                  
+ 2232159 141255    infeasible                      5740336.8848 4.43e+08         
+                                                      Cuts: 5                  
+Elapsed time = 8956.87 sec. (1974094.64 ticks, tree = 380.53 MB)
+ 2235405 141249  6386774.1051   247                5744652.0238 4.43e+08         
+                                                    Covers: 4                  
+ 2238549 141342    infeasible                      5749397.3733 4.43e+08         
+                                                      Cuts: 5                  
+ 2241747 141089    infeasible                      5753973.9179 4.44e+08         
+                                                    Covers: 4                  
+ 2244937 141078    infeasible                      5759032.5034 4.45e+08         
+                                                      Cuts: 7                  
+ 2248134 141080  5824677.0042   272                5764201.9202 4.46e+08         
+                                                      Cuts: 3                  
+ 2251377 140914    infeasible                      5770021.6173 4.47e+08         
+                                                  Impl Bds: 1                  
+ 2254568 140493  5998666.8967   289                5775669.0244 4.48e+08         
+                                                    Covers: 1                  
+ 2257704 140584    infeasible                      5781080.5586 4.48e+08         
+ 2261006 140041    infeasible                      5785814.0770 4.50e+08         
+                                                      Cuts: 2                  
+ 2264070 140029  6570776.9359   172                5792709.8580 4.50e+08         
+                                                    Covers: 3                  
+Elapsed time = 9127.51 sec. (2012253.28 ticks, tree = 378.17 MB)
+ 2267233 139908  7112894.8762   235                5797374.0087 4.51e+08         
+                                                    Covers: 1                  
+ 2270403 139752    infeasible                      5803033.0998 4.51e+08         
+                                                      Cuts: 7                  
+ 2273620 139792  5982862.1403   319                5808707.4819 4.52e+08         
+                                                     Cuts: 14                  
+ 2276796 139383  6641614.2957   251                5813514.6238 4.53e+08         
+                                                      Cuts: 7                  
+ 2279898 139164    infeasible                      5819796.3845 4.54e+08         
+                                                     Cuts: 21                  
+ 2283042 139023  6814152.7932   205                5826926.0857 4.55e+08         
+                                                     Cuts: 10                  
+ 2286184 138857  6113188.8922   254                5832862.8672 4.56e+08         
+                                                     Cuts: 11                  
+ 2289224 138604    infeasible                      5838538.9160 4.56e+08         
+                                                      Cuts: 2                  
+ 2292351 138560  6610024.5297   232                5843622.9320 4.56e+08         
+                                                     Cuts: 12                  
+ 2295403 138579  6208451.3978   239                5849332.6904 4.57e+08         
+                                                      Cuts: 6                  
+Elapsed time = 9297.87 sec. (2050411.64 ticks, tree = 374.95 MB)
+ 2298577 138317    infeasible                      5855362.1557 4.58e+08         
+                                                      Cuts: 3                  
+ 2301806 138344    infeasible                      5860464.8248 4.59e+08         
+                                                      Cuts: 5                  
+ 2304960 138317  6161281.7495   240                5866108.2483 4.60e+08         
+                                                      Cuts: 4                  
+ 2308206 138381    infeasible                      5871459.7123 4.60e+08         
+                                                    Covers: 2                  
+ 2311419 138237  6171366.1497   229                5877361.7262 4.61e+08         
+                                                      Cuts: 5                  
+ 2314631 138037    infeasible                      5882336.3298 4.62e+08         
+                                                    Covers: 4                  
+ 2317828 137923  5944307.5351   189                5888095.9048 4.63e+08         
+                                                      Cuts: 5                  
+ 2321176 137914    infeasible                      5892710.0846 4.63e+08         
+                                                      Cuts: 8                  
+ 2324277 137995    infeasible                      5897097.0640 4.64e+08         
+                                                      Cuts: 3                  
+ 2327414 137849    infeasible                      5902300.8615 4.65e+08         
+                                                      Cuts: 6                  
+Elapsed time = 9469.20 sec. (2088568.87 ticks, tree = 373.97 MB)
+ 2330458 137789    infeasible                      5906568.9734 4.66e+08         
+                                                      Cuts: 6                  
+ 2333546 137749    infeasible                      5911985.7878 4.67e+08         
+ 2336627 137711  6120891.3808   196                5916369.2299 4.68e+08         
+                                                     Cuts: 11                  
+ 2339836 137665    infeasible                      5921082.8810 4.68e+08         
+                                                      Cuts: 7                  
+ 2342994 137668  6833897.6567   209                5925115.9047 4.68e+08         
+                                                      Cuts: 5                  
+ 2346062 137848  6163006.9885   249                5930211.6902 4.70e+08         
+                                                   MIRcuts: 2                  
+ 2349128 138049  6022153.4845   203                5934110.1601 4.70e+08         
+                                                      Cuts: 8                  
+ 2352226 137957  5974406.8613   306                5939192.8665 4.71e+08         
+                                                    Covers: 2                  
+ 2355321 137944    infeasible                      5944348.4528 4.72e+08         
+                                                      Cuts: 7                  
+ 2358376 138091  6433322.0264   216                5948800.7914 4.72e+08         
+                                                      Cuts: 5                  
+Elapsed time = 9637.87 sec. (2126732.13 ticks, tree = 375.76 MB)
+ 2361571 137965    infeasible                      5953648.6759 4.73e+08         
+                                                     Cuts: 14                  
+ 2364677 137991  6407820.0825   212                5958021.6932 4.74e+08         
+                                                      Cuts: 8                  
+ 2367864 137815    infeasible                      5961654.1206 4.74e+08         
+                                                      Cuts: 9                  
+ 2371063 137621    infeasible                      5966551.9173 4.76e+08         
+                                                      Cuts: 8                  
+ 2374148 137582  6025425.1579   256                5969764.4368 4.76e+08         
+                                                      Cuts: 5                  
+ 2377164 137423  6353530.3478   242                5974003.9550 4.77e+08         
+                                                   MIRcuts: 1                  
+ 2380276 137362  6625145.6040   236                5977483.3369 4.78e+08         
+                                                      Cuts: 5                  
+ 2383346 137121  6269023.1694   243                5982649.1237 4.79e+08         
+                                                    Covers: 8                  
+ 2386437 137128    infeasible                      5985889.7472 4.79e+08         
+                                                      Cuts: 6                  
+ 2389572 137212  6032613.1633   285                5991586.3605 4.80e+08         
+                                                    Covers: 5                  
+Elapsed time = 9808.24 sec. (2164893.73 ticks, tree = 374.47 MB)
+ 2392776 137173    infeasible                      5995017.6245 4.80e+08         
+                                                      Cuts: 3                  
+ 2395922 137259    infeasible                      6000412.7015 4.82e+08         
+ 2398996 137294    infeasible                      6003166.0224 4.82e+08         
+                                                     Cuts: 13                  
+ 2402118 137241  6231857.6976   241                6003624.3529 4.83e+08         
+ 2405355 137186  6378030.2528   282                6008871.4266 4.84e+08         
+                                                      Cuts: 9                  
+ 2408568 137147  6319745.5571   284                6016117.3009 4.84e+08         
+                                                    Covers: 2                  
+ 2411817 136976  6305542.1601   240                6021308.3788 4.85e+08         
+                                                      Cuts: 6                  
+ 2414913 136775  6079088.6572   227                6025406.1694 4.85e+08         
+ 2418050 136748    infeasible                      6029335.7283 4.86e+08         
+ 2421129 136768  6078076.1509   222                6033627.6748 4.87e+08         
+Elapsed time = 9978.51 sec. (2203052.92 ticks, tree = 374.39 MB)
+ 2424179 136709  6973695.4288   237                6037574.8417 4.88e+08         
+ 2427317 136738  6078291.4079   207                6042644.1834 4.88e+08         
+ 2430340 136471    infeasible                      6047519.8165 4.89e+08         
+ 2433417 136426  6993260.1856   224                6051715.1843 4.90e+08         
+ 2436263 136541    infeasible                      6055588.3442 4.91e+08         
+ 2439202 136805    infeasible                      6060260.5276 4.92e+08         
+                                                   MIRcuts: 2                  
+ 2442266 136775  6343529.4713   303                6064833.7264 4.93e+08         
+                                                  Impl Bds: 1                  
+ 2445473 136800  6503325.4905   260                6069243.8061 4.93e+08         
+                                                      Cuts: 3                  
+ 2448631 136365  6594074.8726   206                6074044.2687 4.94e+08         
+ 2451723 136050    infeasible                      6078409.2882 4.95e+08         
+Elapsed time = 10148.01 sec. (2241216.50 ticks, tree = 373.56 MB)
+ 2454986 135865    infeasible                      6082521.7813 4.96e+08         
+ 2458222 135918    infeasible                      6086218.7979 4.97e+08         
+ 2461174 135911  6537611.2839   198                6090293.6544 4.97e+08         
+ 2464346 136020    infeasible                      6093979.4667 4.98e+08         
+ 2467317 135991    infeasible                      6097472.2613 4.98e+08         
+ 2470414 136161    infeasible                      6101826.1779 5.00e+08         
+ 2473471 136320  7281831.0461   294                6105827.5592 5.00e+08         
+ 2476474 136314    infeasible                      6110981.9311 5.01e+08         
+ 2479505 136333  6559037.7975   223                6115267.3913 5.01e+08         
+                                                  Impl Bds: 3                  
+ 2482643 136335    infeasible                      6119564.3098 5.02e+08         
+                                                      Cuts: 2                  
+Elapsed time = 10318.60 sec. (2279371.56 ticks, tree = 375.58 MB)
+ 2485662 136329    infeasible                      6123969.8842 5.03e+08         
+ 2488644 136329  6587495.8363   221                6128205.7708 5.03e+08         
+                                                      Cuts: 4                  
+ 2491713 136327  7052450.2912   206                6132099.8452 5.04e+08         
+ 2494892 136722    infeasible                      6135755.9827 5.05e+08         
+                                                   MIRcuts: 2                  
+ 2498093 136698  6480515.3165   212                6139158.6064 5.06e+08         
+                                                    Covers: 1                  
+ 2501286 136825    infeasible                      6143109.1198 5.06e+08         
+                                                      Cuts: 4                  
+ 2504449 136988  6213195.6422   247                6146765.2119 5.07e+08         
+                                                      Cuts: 6                  
+ 2507604 137550  6480145.7686   213                6150853.1762 5.08e+08         
+                                                     Cuts: 10                  
+ 2510769 137582  6222500.9977   202                6154598.2349 5.08e+08         
+                                                      Cuts: 4                  
+ 2513818 137597  6231014.4481   280                6159610.3604 5.10e+08         
+                                                     Cuts: 12                  
+Elapsed time = 10489.86 sec. (2317534.26 ticks, tree = 382.09 MB)
+ 2516977 137602  6209974.1529   202                6162517.7671 5.10e+08         
+                                                      Cuts: 9                  
+ 2519925 137597    infeasible                      6166100.8085 5.11e+08         
+                                                      Cuts: 7                  
+ 2522804 137662    infeasible                      6168954.9821 5.11e+08         
+                                                    Covers: 2                  
+ 2525744 137873    infeasible                      6173348.1201 5.13e+08         
+                                                      Cuts: 7                  
+ 2528710 137941  6201514.2311   296                6175874.3253 5.14e+08         
+                                                    Covers: 4                  
+ 2531686 137900  6770005.9655   361                6179784.0158 5.14e+08         
+                                                      Cuts: 4                  
+ 2534633 137975    infeasible                      6182738.8647 5.14e+08         
+                                                      Cuts: 5                  
+ 2537619 137725    infeasible                      6187119.2213 5.15e+08         
+                                                     Cuts: 10                  
+ 2540630 137681  6591065.8629   233                6190705.5521 5.15e+08         
+                                                      Cuts: 4                  
+ 2543529 137710    infeasible                      6194813.9081 5.16e+08         
+                                                      Cuts: 4                  
+Elapsed time = 10660.32 sec. (2355695.07 ticks, tree = 383.66 MB)
+ 2546668 137437  6883143.3361   274                6197881.3679 5.18e+08         
+                                                  Impl Bds: 2                  
+ 2549685 137349    infeasible                      6201549.4045 5.19e+08         
+                                                    Covers: 2                  
+ 2552702 137427    infeasible                      6204947.7450 5.18e+08         
+                                                  Impl Bds: 1                  
+ 2555657 137215    infeasible                      6207891.5373 5.20e+08         
+                                                    Covers: 1                  
+ 2558598 136865    infeasible                      6212072.0151 5.21e+08         
+                                                    Covers: 2                  
+ 2561626 137059  6398168.6471   209                6215542.2734 5.21e+08         
+ 2564743 136548    infeasible                      6219739.9604 5.22e+08         
+                                                      Cuts: 3                  
+ 2567715 136465  6691121.6089   256                6223373.8936 5.23e+08         
+                                                    Covers: 1                  
+ 2570566 136088  6750761.7108   327                6227343.6955 5.24e+08         
+ 2573513 136230    infeasible                      6231223.5617 5.24e+08         
+Elapsed time = 10830.42 sec. (2393856.40 ticks, tree = 380.64 MB)
+ 2576414 136104  6491207.6268   324                6234943.7087 5.25e+08         
+ 2579351 135712    infeasible                      6238910.7812 5.26e+08         
+ 2582318 135777  6631031.5918   254                6242102.3268 5.26e+08         
+ 2585207 135501  6389395.7581   266                6246706.4149 5.27e+08         
+ 2588095 135547  6705507.9694   209                6250242.8803 5.28e+08         
+ 2591062 135486    infeasible                      6253857.7464 5.28e+08         
+ 2593942 135267    infeasible                      6257659.8740 5.30e+08         
+ 2596979 134922  6413662.9722   293                6261527.9905 5.31e+08         
+ 2600096 134687    infeasible                      6266069.0643 5.32e+08         
+ 2603106 134656    infeasible                      6268978.5742 5.32e+08         
+Elapsed time = 10999.49 sec. (2432015.89 ticks, tree = 377.50 MB)
+ 2606112 134535    infeasible                      6273548.0856 5.33e+08         
+ 2609137 134485  6535560.7556   255                6276961.6299 5.33e+08         
+ 2612246 134294    infeasible                      6281203.6756 5.34e+08         
+ 2615291 133798    infeasible                      6285167.4592 5.35e+08         
+ 2618364 133809  7051809.4899   276                6288691.4439 5.36e+08         
+ 2621436 133837    infeasible                      6291927.3970 5.36e+08         
+ 2624523 133540    infeasible                      6295515.2311 5.38e+08         
+ 2627653 133332    infeasible                      6299688.4788 5.38e+08         
+ 2630561 133234  6700032.1404   379                6303543.8008 5.39e+08         
+ 2633382 133317  6688039.6011   250                6308786.4384 5.39e+08         
+Elapsed time = 11169.78 sec. (2470174.10 ticks, tree = 374.40 MB)
+ 2636077 132976  6427973.9773   242                6313381.7249 5.41e+08         
+ 2638743 132971  6363257.3416   272                6316540.7701 5.40e+08         
+ 2641579 132454    infeasible                      6320210.8751 5.41e+08         
+ 2644499 132349    infeasible                      6323910.1980 5.42e+08         
+ 2647496 131991    infeasible                      6327571.2899 5.42e+08         
+ 2650383 131587  7307221.9451   268                6331931.0326 5.44e+08         
+ 2653437 131635  7198340.2228   174                6335376.6372 5.44e+08         
+ 2656397 131599    infeasible                      6339564.4761 5.44e+08         
+ 2659379 131644    infeasible                      6343577.0342 5.45e+08         
+ 2662455 131503    infeasible                      6347345.7558 5.46e+08         
+Elapsed time = 11344.64 sec. (2508328.81 ticks, tree = 370.39 MB)
+ 2665280 131461    infeasible                      6351055.1275 5.47e+08         
+ 2667871 131362    infeasible                      6354554.9312 5.47e+08         
+ 2670483 130951    infeasible                      6359324.5033 5.49e+08         
+ 2673260 130782  6816959.3818   197                6363698.6539 5.49e+08         
+ 2676279 130543    infeasible                      6367636.5627 5.50e+08         
+ 2679300 130660  6879269.8274   229                6371865.1416 5.50e+08         
+ 2682439 130548    infeasible                      6375932.0171 5.51e+08         
+ 2685514 130590  7379373.2361   253                6379362.1683 5.52e+08         
+ 2688467 130520  6685179.3430   239                6383674.5704 5.52e+08         
+ 2691615 130418  6454967.4692   200                6387173.8233 5.52e+08         
+Elapsed time = 11517.09 sec. (2546493.27 ticks, tree = 368.55 MB)
+ 2694690 130324    infeasible                      6392020.8571 5.54e+08         
+ 2697860 130271    infeasible                      6396404.9596 5.55e+08         
+ 2700634 130185    infeasible                      6400090.3807 5.56e+08         
+ 2703390 130235  6629880.1667   263                6403191.0701 5.55e+08         
+ 2706035 130163    infeasible                      6406765.7200 5.56e+08         
+ 2708839 129972    infeasible                      6410113.3718 5.57e+08         
+ 2711936 129851  6581502.6670   235                6414212.0724 5.58e+08         
+ 2715097 129823  6667644.4118   226                6416791.6528 5.58e+08         
+ 2718174 129528    infeasible                      6419946.0814 5.59e+08         
+ 2721374 129494  6602465.0300   252                6424862.7201 5.59e+08         
+Elapsed time = 11688.61 sec. (2584656.08 ticks, tree = 367.10 MB)
+ 2724470 129413  6956939.0965   210                6428060.4230 5.60e+08         
+ 2727521 128698  6541096.7536   238                6432060.5536 5.62e+08         
+ 2730407 128623    infeasible                      6435406.8561 5.62e+08         
+ 2733161 128399    infeasible                      6439337.3707 5.63e+08         
+ 2735939 128375    infeasible                      6442815.6597 5.64e+08         
+ 2739028 128228    infeasible                      6446230.0157 5.64e+08         
+ 2742138 127750    infeasible                      6449411.4020 5.65e+08         
+ 2745406 127628  7035835.7448   218                6453064.6905 5.65e+08         
+ 2748587 127080  6784527.1014   220                6456276.9256 5.67e+08         
+ 2751786 126937  6493774.1851   249                6460170.9248 5.67e+08         
+Elapsed time = 11860.77 sec. (2622830.07 ticks, tree = 360.69 MB)
+ 2754903 126785  6625645.5329   224                6465074.1347 5.68e+08         
+ 2757699 126842    infeasible                      6468741.9119 5.69e+08         
+ 2760452 126504    infeasible                      6473819.4260 5.69e+08         
+ 2763442 126457    infeasible                      6477135.6083 5.69e+08         
+ 2766445 126488  6532210.5829   250                6480485.9829 5.69e+08         
+ 2769667 126336  6721413.3199   371                6484885.8488 5.71e+08         
+ 2773030 126257    infeasible                      6489482.1528 5.72e+08         
+ 2776243 126200  6858105.6700   195                6493426.2791 5.72e+08         
+ 2779351 125943  7367988.9577   361                6497148.6994 5.73e+08         
+ 2782465 126024  6560035.0927   253                6501873.1967 5.73e+08         
+Elapsed time = 12033.28 sec. (2660993.86 ticks, tree = 359.02 MB)
+ 2785749 125575    infeasible                      6504562.1554 5.74e+08         
+ 2788850 125480    infeasible                      6509659.9637 5.76e+08         
+ 2791838 125189  6653051.3122   239                6513301.6571 5.76e+08         
+ 2794709 125345    infeasible                      6516646.7044 5.76e+08         
+ 2797575 124919  6561788.8249   250                6520674.8852 5.77e+08         
+ 2800321 124592    infeasible                      6523819.0623 5.77e+08         
+ 2803458 124098    infeasible                      6527358.9755 5.78e+08         
+ 2806706 123780    infeasible                      6531113.2582 5.79e+08         
+ 2809826 123652  6661516.5490   216                6535377.9841 5.79e+08         
+ 2813039 123447    infeasible                      6538363.0394 5.81e+08         
+Elapsed time = 12207.75 sec. (2699151.71 ticks, tree = 352.37 MB)
+ 2816272 123166    infeasible                      6542285.5171 5.82e+08         
+ 2819605 123251    infeasible                      6545386.8862 5.82e+08         
+ 2822912 123023  7239708.0391   293                6548516.7194 5.83e+08         
+ 2826054 122929    infeasible                      6553198.4914 5.83e+08         
+ 2828914 122462  6727815.6045   237                6557375.5289 5.85e+08         
+ 2831741 122331  6801276.0525   274                6560721.9693 5.85e+08         
+ 2834425 121998  6759610.9735   228                6564122.9828 5.86e+08         
+ 2837450 121803  6923069.3266   199                6568619.2398 5.86e+08         
+ 2840484 121958  6817790.9103   243                6572200.9872 5.86e+08         
+ 2843766 121500  6616381.1412   286                6575375.4334 5.87e+08         
+Elapsed time = 12379.31 sec. (2737312.66 ticks, tree = 347.26 MB)
+ 2846905 120956    infeasible                      6580530.2699 5.87e+08         
+ 2850208 120861  6671407.9383   229                6584022.4176 5.88e+08         
+ 2853362 120831    infeasible                      6587456.4341 5.89e+08         
+ 2856540 120481    infeasible                      6591429.5571 5.89e+08         
+ 2859486 119939  7309530.0097   207                6596192.5070 5.91e+08         
+ 2862292 119567  6891941.4664   233                6599727.9781 5.92e+08         
+ 2865068 119603    infeasible                      6603525.1911 5.92e+08         
+ 2867984 118393    infeasible                      6607438.8350 5.93e+08         
+ 2871044 117984  6726730.7124   219                6611292.5614 5.93e+08         
+ 2874413 117881    infeasible                      6614382.1591 5.94e+08         
+Elapsed time = 12552.38 sec. (2775475.15 ticks, tree = 337.48 MB)
+ 2877719 117786  6751996.0353   272                6618037.0349 5.94e+08         
+ 2880835 117738  6992894.5353   271                6622516.3397 5.95e+08         
+ 2884007 117753    infeasible                      6625445.0630 5.95e+08         
+ 2887231 117262    infeasible                      6630650.2032 5.97e+08         
+ 2890441 117296  6905094.6648   278                6634428.4991 5.97e+08         
+ 2893450 117224  6722909.3962   241                6638527.7400 5.97e+08         
+ 2896395 116699  7423030.0190   220                6642835.7629 5.99e+08         
+ 2899182 116334    infeasible                      6646351.5096 5.99e+08         
+ 2901886 115803  7219044.0424   356                6651044.4881 6.00e+08         
+ 2905022 115639    infeasible                      6654570.1811 6.01e+08         
+Elapsed time = 12726.58 sec. (2813636.51 ticks, tree = 331.74 MB)
+ 2908252 115068  6901575.5905   219                6658959.6675 6.02e+08         
+ 2911393 115167    infeasible                      6662471.1816 6.01e+08         
+ 2914486 114200    infeasible                      6666120.2658 6.03e+08         
+ 2917500 114196    infeasible                      6669410.7851 6.04e+08         
+ 2920683 114288    infeasible                      6672977.1167 6.03e+08         
+ 2923843 114062  6846126.0749   257                6677771.3141 6.04e+08         
+ 2926778 113807    infeasible                      6681188.8830 6.06e+08         
+ 2929622 113783  6838593.8439   254                6685555.5080 6.06e+08         
+ 2932424 113474    infeasible                      6690113.2807 6.07e+08         
+ 2935410 113357    infeasible                      6694241.7887 6.07e+08         
+Elapsed time = 12900.34 sec. (2851790.90 ticks, tree = 325.57 MB)
+ 2938641 112828  6943333.9549   283                6697618.9733 6.08e+08         
+ 2941909 112922  6778757.4107   218                6700855.4239 6.08e+08         
+ 2945058 111532  6833944.6577   296                6705187.5740 6.10e+08         
+ 2948321 111296  6900800.9571   210                6709093.9624 6.10e+08         
+ 2951663 110963  7202961.7323   179                6712726.5891 6.11e+08         
+ 2954724 111037    infeasible                      6717448.7056 6.11e+08         
+ 2957852 109737  7385261.5337   214                6721034.5779 6.13e+08         
+ 2960832 108994    infeasible                      6724568.5724 6.13e+08         
+ 2963614 108363  6809850.3082   224                6728096.0608 6.14e+08         
+ 2966752 108596  6942052.3578   233                6731248.4911 6.14e+08         
+Elapsed time = 13071.43 sec. (2889949.21 ticks, tree = 311.60 MB)
+ 2970100 108329    infeasible                      6735029.3729 6.14e+08         
+ 2973337 107258  6914988.7031   253                6739104.2088 6.16e+08         
+ 2976535 107334    infeasible                      6742787.0026 6.15e+08         
+ 2979676 107012  7466123.7487   309                6746327.4724 6.16e+08         
+ 2982772 106260  7253916.7011   311                6751442.8453 6.17e+08         
+ 2985522 105879  6833506.5215   201                6755299.3333 6.18e+08         
+ 2988395 104955  7138581.5572   274                6759627.9619 6.19e+08         
+ 2991209 104274    infeasible                      6764383.6188 6.19e+08         
+ 2994111 103804  6980217.9283   261                6769556.3518 6.20e+08         
+ 2997289 102734    infeasible                      6773473.6358 6.21e+08         
+Elapsed time = 13245.94 sec. (2928113.47 ticks, tree = 294.68 MB)
+ 3000638 102968    infeasible                      6777780.6275 6.21e+08         
+ 3003959 102094  7031345.2472   243                6782196.4902 6.21e+08         
+ 3007229 100929    infeasible                      6786482.1557 6.22e+08         
+ 3010376 99539  6887916.4704   234                6790664.5296 6.24e+08         
+ 3013497 99712    infeasible                      6795478.5978 6.24e+08         
+ 3016387 98324    infeasible                      6799767.2377 6.25e+08         
+ 3019359 97268    infeasible                      6803968.8870 6.26e+08         
+ 3022438 97085    infeasible                      6807559.9092 6.26e+08         
+ 3025281 96446  7264658.4762   223                6812195.6120 6.27e+08         
+ 3028263 95211    infeasible                      6817112.3396 6.28e+08         
+Elapsed time = 13421.45 sec. (2966280.62 ticks, tree = 272.84 MB)
+ 3031183 93857    infeasible                      6821592.4149 6.29e+08         
+ 3034457 93920    infeasible                      6826706.8619 6.29e+08         
+ 3037715 93901  6976590.9473   263                6830585.6678 6.29e+08         
+ 3041204 92141    infeasible                      6836205.8238 6.31e+08         
+ 3044442 92658  7123894.4054   243                6840675.2926 6.30e+08         
+ 3047586 90623    infeasible                      6845230.5687 6.32e+08         
+ 3050335 91259    infeasible                      6850044.9631 6.31e+08         
+ 3053202 88508  6948109.5854   247                6854590.8662 6.34e+08         
+ 3056025 87776    infeasible                      6860156.1282 6.34e+08         
+ 3058773 87797    infeasible                      6865068.0620 6.34e+08         
+Elapsed time = 13595.76 sec. (3004442.03 ticks, tree = 251.44 MB)
+ 3061550 85999  6943843.9504   284                6869792.9292 6.35e+08         
+ 3064357 85966  7154126.9835   282                6873901.8877 6.35e+08         
+ 3066985 86175  6987900.4786   266                6878994.3936 6.35e+08         
+ 3070059 85279    infeasible                      6883959.5939 6.36e+08         
+ 3072824 83016    infeasible                      6889690.4979 6.38e+08         
+ 3075624 83188  7394856.6988   262                6893570.0374 6.37e+08         
+ 3078424 82161    infeasible                      6899124.6320 6.38e+08         
+ 3081287 81404  7195417.3532   198                6903968.0072 6.39e+08         
+ 3084274 80807  7113200.1664   213                6910339.3509 6.40e+08         
+ 3087304 80571  7974593.8263   287                6914879.8696 6.40e+08         
+Elapsed time = 13767.69 sec. (3042596.97 ticks, tree = 230.98 MB)
+ 3090366 79400    infeasible                      6918859.4472 6.41e+08         
+ 3093353 78082  7165938.3541   183                6924930.8052 6.42e+08         
+ 3096250 78035    infeasible                      6928045.1271 6.42e+08         
+ 3099020 75693    infeasible                      6933870.0539 6.44e+08         
+ 3101980 74625    infeasible                      6938790.8326 6.44e+08         
+ 3104820 75789  7542706.2978   299                6944324.3624 6.43e+08         
+ 3107801 72164    infeasible                      6950133.8342 6.46e+08         
+ 3110872 72052    infeasible                      6954540.0033 6.46e+08         
+ 3113801 72065    infeasible                      6960166.2946 6.46e+08         
+ 3116884 70704    infeasible                      6964407.7967 6.47e+08         
+Elapsed time = 13942.25 sec. (3080756.62 ticks, tree = 202.91 MB)
+ 3119781 69964    infeasible                      6970480.3092 6.47e+08         
+ 3122805 68067    infeasible                      6976579.9317 6.48e+08         
+ 3125696 65385    infeasible                      6980960.2297 6.49e+08         
+ 3128588 65218  7331959.8974   264                6986809.2812 6.49e+08         
+ 3131443 62476    infeasible                      6992147.9005 6.51e+08         
+ 3134119 62017  7511421.4354   261                6997156.6457 6.51e+08         
+ 3136887 61344  7178760.0208   300                7005059.5827 6.52e+08         
+ 3139587 61158    infeasible                      7008684.0408 6.52e+08         
+ 3142380 59352    infeasible                      7017576.2939 6.53e+08         
+ 3145265 57651    infeasible                      7024479.3691 6.54e+08         
+Elapsed time = 14113.77 sec. (3118913.53 ticks, tree = 163.51 MB)
+ 3148039 56587    infeasible                      7031212.9291 6.54e+08         
+ 3150716 55485    infeasible                      7038627.4397 6.55e+08         
+ 3153505 55064    infeasible                      7043726.6146 6.55e+08         
+ 3156452 52843  7755573.9759   235                7053507.4029 6.57e+08         
+ 3159246 51514    infeasible                      7061609.9591 6.57e+08         
+ 3162138 52546    infeasible                      7068990.6214 6.57e+08         
+ 3164931 50424  7442142.6429   326                7075573.9968 6.58e+08         
+ 3167802 50823  7528949.9045   224                7082560.3659 6.58e+08         
+ 3170739 49081    infeasible                      7091208.3671 6.59e+08         
+ 3173777 47008    infeasible                      7099716.6407 6.60e+08         
+Elapsed time = 14286.14 sec. (3157078.01 ticks, tree = 131.35 MB)
+ 3176678 47451    infeasible                      7105920.7868 6.60e+08         
+ 3179499 44067  7268667.5603   293                7112301.3697 6.61e+08         
+ 3182363 44548    infeasible                      7119355.0731 6.61e+08         
+ 3185130 43016  7866822.2250   273                7128764.4790 6.62e+08         
+ 3188025 43054    infeasible                      7137873.2182 6.62e+08         
+ 3190896 42074  7729183.6090   271                7144980.4207 6.63e+08         
+ 3193740 39968    infeasible                      7154243.5023 6.64e+08         
+ 3196644 38441    infeasible                      7162000.3600 6.65e+08         
+ 3199623 37657  7712928.5101   255                7173375.1970 6.65e+08         
+ 3202648 37730  7342159.5750   230                7181490.5140 6.65e+08         
+Elapsed time = 14458.26 sec. (3195242.68 ticks, tree = 102.58 MB)
+ 3205623 36458    infeasible                      7188722.3095 6.66e+08         
+ 3208454 34450    infeasible                      7198608.3148 6.67e+08         
+ 3211316 34630    infeasible                      7206866.8262 6.67e+08         
+ 3214465 34112    infeasible                      7218693.4314 6.68e+08         
+ 3217306 31767  7702942.6018   269                7232207.2375 6.69e+08         
+ 3220194 32608  8101859.8943   252                7238918.4469 6.69e+08         
+ 3223157 30252    infeasible                      7251842.2599 6.70e+08         
+ 3226227 29531  7745980.4318   266                7264992.1795 6.71e+08         
+ 3229137 30225    infeasible                      7274512.7993 6.70e+08         
+ 3232098 27330    infeasible                      7287094.3699 6.72e+08         
+Elapsed time = 14629.04 sec. (3233400.68 ticks, tree = 69.51 MB)
+ 3234994 27416  7916997.7467   276                7298767.8928 6.72e+08         
+ 3237833 24592  7729971.6984   283                7311608.4776 6.73e+08         
+ 3240894 24079    infeasible                      7326490.1010 6.74e+08         
+ 3243868 23590  7795434.0891   272                7339032.9171 6.74e+08         
+ 3246844 22976    infeasible                      7356278.6501 6.74e+08         
+ 3249912 22152    infeasible                      7367780.5868 6.75e+08         
+ 3253000 22192  7692377.5517   253                7383491.2670 6.75e+08         
+ 3256177 18301    infeasible                      7401527.9042 6.77e+08         
+ 3259460 19592    infeasible                      7411212.2837 6.76e+08         
+ 3262869 15862  7714987.7931   220                7428957.7245 6.78e+08         
+Elapsed time = 14799.73 sec. (3271574.06 ticks, tree = 33.60 MB)
+ 3266156 17399    infeasible                      7447724.8329 6.78e+08         
+ 3269515 16218    infeasible                      7464112.0753 6.78e+08         
+ 3273089 11688    infeasible                      7487110.3733 6.80e+08         
+ 3276734 11374    infeasible                      7507777.7033 6.80e+08         
+ 3280555  5241    infeasible                      7533801.4629 6.82e+08         
+ 3284658   713    infeasible                      7605031.9052 6.83e+08         
+
+Clique cuts applied:  22
+Cover cuts applied:  1824
+Implied bound cuts applied:  2560
+Flow cuts applied:  465
+Mixed integer rounding cuts applied:  924
+Zero-half cuts applied:  1
+Lift and project cuts applied:  1
+Gomory fractional cuts applied:  12
+
+Root node processing (before b&c):
+  Real time             =    2.45 sec. (1940.53 ticks)
+Parallel b&c, 31 threads:
+  Real time             = 14899.22 sec. (3293340.90 ticks)
+  Sync time (average)   = 3983.77 sec.
+  Wait time (average)   =    3.27 sec.
+                          ------------
+Total (root+branch&cut) = 14901.67 sec. (3295281.42 ticks)
+
+--- MIP status (119): integer infeasible or unbounded.
+--- Cplex Time: 14901.69sec (det. 3295281.45 ticks)
+
+CPLEX Error  1217: No solution exists.
+--- Problem is integer infeasible
+--- Reading solution for model model_policy
+--- Executing after solve: elapsed 4:08:22.012
+--- policy.gms(273) 8 Mb--- policy.gms(360) 8 Mb
+*** Error at line 360: division by zero (0)
+--- policy.gms(403) 8 Mb 1 Error
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/E/E_085_120/policy.gdx
+--- policy.gms(403) 8 Mb 1 Error
+*** Status: Execution error(s)
+--- Job policy.gms Stop 09/30/24 00:46:12 elapsed 4:08:22.021

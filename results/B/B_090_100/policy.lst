@@ -1,0 +1,220 @@
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:07:38 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  * ======================================================================
+   2  * DESCRIPTION:
+   3  * ======================================================================
+   4  * Written by Juan Jerez, jujmo@dtu.dk, 2024.
+   5   
+   6  * ----- NOTES / TODO -----
+   7   
+   8   
+   9  * ======================================================================
+  10  *  SETUP:
+  11  * ======================================================================
+  12  * ----- Options -----
+
+
+COMPILATION TIME     =        0.249 SECONDS      3 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:07:38 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE model_policy Using MIP From line 256
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS          21     SINGLE EQUATIONS       13,234
+BLOCKS OF VARIABLES          16     SINGLE VARIABLES        8,850
+NON ZERO ELEMENTS        40,698     DISCRETE VARIABLES      4,386
+
+
+GENERATION TIME      =        0.036 SECONDS      8 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:07:38 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE model_policy Using MIP From line 256
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   model_policy        OBJECTIVE  obj
+     TYPE    MIP                 DIRECTION  MINIMIZE
+     SOLVER  CPLEX               FROM LINE  256
+
+**** SOLVER STATUS     1 Normal Completion
+**** MODEL STATUS      10 Integer Infeasible
+**** OBJECTIVE VALUE               NA
+
+ RESOURCE USAGE, LIMIT          0.182   1000000.000
+ ITERATION COUNT, LIMIT         0    2147483647
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.84 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 4.51 Mb (peak 4.58 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.32 Mb (peak 1.77 Mb)
+--- Starting Cplex
+
+
+--- MIP status (103): integer infeasible.
+--- Cplex Time: 0.16sec (det. 85.94 ticks)
+
+--- Problem is integer infeasible
+
+No solution returned
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:07:38 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+**** Exec Error at line 360: division by zero (0)
+
+----    373 >> Project, scenario and timeseries:
+
+----    374 B, B_090_100, spacing_120
+
+----    376 >> Subsidies and taxes:
+
+----    377 VARIABLE k_p.L                 =        0.000  Subsidy per production unit (EUR/MWh)
+            VARIABLE k_c.L                 =        0.000  Subsidy per capacity unit (EUR/MW)
+            VARIABLE v.L                   =        0.000  Carbon-based subsidy factor (EUR/MWh-ton)
+            VARIABLE u_p.L                 =        0.000  Tax per production unit - DH generators (EUR/ton)
+            PARAMETER v_adj_CO2            =          EPS  Carbon-adjusted carbon-subsidy (EUR/ton)
+            PARAMETER v_adj_MWh            =          EPS  Energy-adjusted carbon-subsidy (EUR/MWh)
+
+----    379 >> HR Summary:
+
+----    380 PARAMETER SummaryHR  Summary parameter holding total HR results
+
+              baseline      policy
+
+Capacity           EPS         EPS
+Production         EPS         EPS
+
+
+----    382 >> Detailed HR Summary:
+
+----    383 PARAMETER SummaryOperations  Summary parameter holding operational results
+
+                        baseline      policy
+
+Capacity  .HR_S-near         EPS         EPS
+Capacity  .HR_S-far          EPS         EPS
+Capacity  .HR_M-near         EPS         EPS
+Capacity  .HR_M-far          EPS         EPS
+Capacity  .HR_L-near         EPS         EPS
+Capacity  .HR_L-far          EPS         EPS
+Production.HR_S-near         EPS         EPS
+Production.HR_S-far          EPS         EPS
+Production.HR_M-near         EPS         EPS
+Production.HR_M-far          EPS         EPS
+Production.HR_L-near         EPS         EPS
+Production.HR_L-far          EPS         EPS
+
+
+----    385 >> Policy Ratio:
+
+----    386 PARAMETER SummaryRatio  Summary parameter holding policy ratios
+
+                         limit      actual
+
+carbon emissions         0.900         EPS
+heating cost - net       1.000         EPS
+
+
+----    388 >> Policy Summary:
+
+----    389 PARAMETER SummaryPolicy  Summary parameter holding policy results
+
+                        baseline      policy
+
+carbon emissions       43927.065         EPS
+subsidy cost                 EPS         EPS
+tax revenue                  EPS         EPS
+net policy cost              EPS         EPS
+heating cost - gross 4007592.442         EPS
+heating cost - net   4007592.442         EPS
+
+
+----    391 >> DH Expense Summary:
+
+----    392 PARAMETER SummaryExpenses  Summary parameter holding heat supply expenses
+
+              baseline      policy
+
+OPEX - DH  4007592.442         EPS
+OPEX - HR          EPS         EPS
+CAPEX - HR         EPS         EPS
+
+
+----    394 >> Heat Production Summary:
+
+----    395 PARAMETER SummaryProduction  Summary parameter holding production results
+
+                 baseline      policy
+
+CHP_biofuel           EPS        UNDF
+CHP_coal            8.953        UNDF
+CHP_muniwaste      19.931        UNDF
+CHP_natgas          2.104        UNDF
+CHP_straw           4.409        UNDF
+CHP_w-chip         13.417        UNDF
+CHP_w-pellet       11.695        UNDF
+CHP_w-waste         2.334        UNDF
+FF_solar            2.779        UNDF
+FF_industry         5.786        UNDF
+HOB_biofuel           EPS        UNDF
+HOB_elec              EPS        UNDF
+HOB_gasoil            EPS        UNDF
+HOB_muniwaste       1.694        UNDF
+HOB_natgas          0.021        UNDF
+HOB_straw          18.260        UNDF
+HOB_w-chip          5.329        UNDF
+HOB_w-pellet        0.683        UNDF
+HOB_w-waste         1.345        UNDF
+HP_ambient          0.691        UNDF
+HP_industry         0.571        UNDF
+HR_S-near             EPS        UNDF
+HR_S-far              EPS        UNDF
+HR_M-near             EPS        UNDF
+HR_M-far              EPS        UNDF
+HR_L-near             EPS        UNDF
+HR_L-far              EPS        UNDF
+
+
+----    397 >> Complementarity checks, maximum:
+
+----    398 PARAMETER cmpl_max  
+
+                      ( ALL       0.000 )
+
+
+----    400 >> Complementarity checks, sum:
+
+----    401 PARAMETER cmpl_sum  
+
+                      ( ALL       0.000 )
+
+
+
+EXECUTION TIME       =        0.250 SECONDS      8 MB  37.1.0 r07954d5 LEX-LEG
+
+
+USER: Large MUD - 20 User License                    G221124|0002AP-GEN
+      Technical University of Denmark, Management Engineering    DC8611
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /zhome/f0/5/124363/J3-HPC/scripts/gams/policy.gms
+Output     /zhome/f0/5/124363/J3-HPC/results/B/B_090_100/policy.lst
+
+**** USER ERROR(S) ENCOUNTERED

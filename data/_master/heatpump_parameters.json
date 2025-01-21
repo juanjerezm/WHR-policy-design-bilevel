@@ -1,0 +1,18 @@
+[
+    {"source":"air","size":1,"year":2020,"lorentz efficiency":0.47,"auxiliary consumption":0.01},
+    {"source":"air","size":3,"year":2020,"lorentz efficiency":0.53,"auxiliary consumption":0.01},
+    {"source":"air","size":10,"year":2020,"lorentz efficiency":0.6,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":1,"year":2020,"lorentz efficiency":0.4,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":3,"year":2020,"lorentz efficiency":0.45,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":10,"year":2020,"lorentz efficiency":0.5,"auxiliary consumption":0.01},
+    {"source":"seawater","size":20,"year":2020,"lorentz efficiency":0.63,"auxiliary consumption":0.01},
+    {"source":"seawater","size":65,"year":2020,"lorentz efficiency":0.47,"auxiliary consumption":0.01},
+    {"source":"air","size":1,"year":2050,"lorentz efficiency":0.51,"auxiliary consumption":0.01},
+    {"source":"air","size":3,"year":2050,"lorentz efficiency":0.58,"auxiliary consumption":0.01},
+    {"source":"air","size":10,"year":2050,"lorentz efficiency":0.62,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":1,"year":2050,"lorentz efficiency":0.44,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":3,"year":2050,"lorentz efficiency":0.49,"auxiliary consumption":0.01},
+    {"source":"excess heat","size":10,"year":2050,"lorentz efficiency":0.54,"auxiliary consumption":0.01},
+    {"source":"seawater","size":20,"year":2050,"lorentz efficiency":0.65,"auxiliary consumption":0.01},
+    {"source":"seawater","size":65,"year":2050,"lorentz efficiency":0.47,"auxiliary consumption":0.03}
+]

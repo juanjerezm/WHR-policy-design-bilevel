@@ -1,0 +1,17 @@
+case,J,value
+baseline,CHP_biofuel,0.86
+baseline,CHP_coal,0.84
+baseline,CHP_muniwaste,0.3
+baseline,CHP_natgas,1.3
+baseline,CHP_straw,0.43
+baseline,CHP_w-chip,0.35
+baseline,CHP_w-pellet,0.49
+baseline,CHP_w-waste,0.35
+policy,CHP_biofuel,0.86
+policy,CHP_coal,0.84
+policy,CHP_muniwaste,0.3
+policy,CHP_natgas,1.3
+policy,CHP_straw,0.43
+policy,CHP_w-chip,0.35
+policy,CHP_w-pellet,0.49
+policy,CHP_w-waste,0.35

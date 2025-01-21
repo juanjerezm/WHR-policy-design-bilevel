@@ -1,0 +1,10 @@
+case,PolicySummarySet,Case,value
+policy,carbon emissions,baseline,43927.064875460346
+policy,carbon emissions,policy,39534.35838791434
+policy,subsidy cost,policy,140633.1350961881
+policy,tax revenue,policy,407803.0483718755
+policy,net policy cost,policy,-267169.9132756874
+policy,heating cost - gross,baseline,4007592.4420750774
+policy,heating cost - gross,policy,4141181.773006894
+policy,heating cost - net,baseline,4007592.4420750774
+policy,heating cost - net,policy,4408351.686282582

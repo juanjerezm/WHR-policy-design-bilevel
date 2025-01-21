@@ -1,0 +1,932 @@
+--- Job policy Start 09/29/24 20:39:00 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/policy.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/policy.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225ae/
+    SysDir /appl/gams/37.1.0/
+    --project C
+    --scenario C_080_120
+    --timeseries spacing_120
+    --tax_carbon yes
+    --subsidy_capex no
+    --subsidy_opex yes
+    --subsidy_carbon no
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- policy.gms(44) 2 Mb
+--- call mkdir -p ./results/C/C_080_120/
+--- policy.gms(51) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=C --scenario=C_080_120 --timeseries=spacing_120 o=results/C/C_080_120//parameters.lst
+--- Job parameters.gms Start 09/29/24 20:39:00 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225ac/
+    SysDir /appl/gams/37.1.0/
+    --project C
+    --scenario C_080_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/C/C_080_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.031
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/29/24 20:39:01 elapsed 0:00:00.049
+--- policy.gms(55) 2 Mb
+--- call gams scripts/gams/baseline.gms   --project=C --scenario=C_080_120 --timeseries=spacing_120 o=results/C/C_080_120//baseline.lst
+--- Job baseline.gms Start 09/29/24 20:39:01 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/baseline.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/baseline.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225ab/
+    SysDir /appl/gams/37.1.0/
+    --project C
+    --scenario C_080_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- baseline.gms(36) 2 Mb
+--- call mkdir -p ./results/C/C_080_120/
+--- baseline.gms(41) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=C --scenario=C_080_120 --timeseries=spacing_120 o=results/C/C_080_120//parameters.lst
+--- Job parameters.gms Start 09/29/24 20:39:01 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225aj/
+    SysDir /appl/gams/37.1.0/
+    --project C
+    --scenario C_080_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/C/C_080_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.020
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/29/24 20:39:01 elapsed 0:00:00.038
+--- baseline.gms(77) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+--- baseline.gms(180) 3 Mb
+--- Starting execution: elapsed 0:00:00.079
+--- baseline.gms(132) 4 Mb
+--- Generating LP model model_baseline
+--- baseline.gms(134) 5 Mb
+---   2,483 rows  1,978 columns  6,796 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.097
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.15 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 1.01 Mb (peak 1.02 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.07 Mb (peak 0.31 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 2035 rows and 282 columns.
+Reduced LP has 447 rows, 1696 columns, and 2438 nonzeros.
+Presolve time = 0.00 sec. (2.05 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -2787736.838177
+Iteration:   117   Dual objective     =       3871891.781294
+
+--- LP status (1): optimal.
+--- Cplex Time: 0.01sec (det. 3.54 ticks)
+
+
+Optimal solution found
+Objective:      4007592.442075
+
+--- Reading solution for model model_baseline
+--- Executing after solve: elapsed 0:00:00.167
+--- baseline.gms(176) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/baseline.gdx
+*** Status: Normal completion
+--- Job baseline.gms Stop 09/29/24 20:39:01 elapsed 0:00:00.172
+--- policy.gms(56) 2 Mb--- policy.gms(113) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/parameters.gdx
+--- policy.gms(123) 3 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/C/C_080_120/baseline.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/baseline.gdx
+--- policy.gms(406) 3 Mb
+--- Starting execution: elapsed 0:00:00.305
+--- policy.gms(255) 4 Mb
+--- Generating MIP model model_policy
+--- policy.gms(256) 8 Mb
+---   13,234 rows  8,850 columns  40,698 non-zeroes
+---   4,386 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.340
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.84 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 4.51 Mb (peak 4.58 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.32 Mb (peak 1.77 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_TimeLimit                               1000000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 2669 rows and 609 columns.
+MIP Presolve modified 5978 coefficients.
+Reduced MIP has 10564 rows, 8241 columns, and 31698 nonzeros.
+Reduced MIP has 4083 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (16.64 ticks)
+Probing fixed 1497 vars, tightened 3676 bounds.
+Probing time = 0.28 sec. (154.30 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 3432 rows and 2259 columns.
+MIP Presolve modified 2717 coefficients.
+Aggregator did 243 substitutions.
+Reduced MIP has 6889 rows, 5739 columns, and 21887 nonzeros.
+Reduced MIP has 2586 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (18.42 ticks)
+Probing fixed 4 vars, tightened 888 bounds.
+Probing time = 0.16 sec. (100.14 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve eliminated 9 rows and 8 columns.
+MIP Presolve modified 815 coefficients.
+Reduced MIP has 6880 rows, 5731 columns, and 21860 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (13.17 ticks)
+Probing fixed 0 vars, tightened 10 bounds.
+Probing time = 0.04 sec. (21.69 ticks)
+Clique table members: 21764.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 31 threads.
+Parallel mode: deterministic, using up to 4 threads for parallel tasks at root LP.
+Parallel mode: deterministic, using up to 27 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 25 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+Aggregator did 2582 substitutions.
+Reduced LP has 4298 rows, 3149 columns, and 15942 nonzeros.
+Presolve time = 0.01 sec. (5.05 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -6097919.917888
+Iteration:   116   Dual objective     =      -1289761.708226
+Iteration:   201   Dual objective     =      -1205019.283524
+Iteration:   289   Dual objective     =      -1063807.367741
+Iteration:   448   Dual objective     =      -1015384.912055
+Iteration:   534   Dual objective     =      -1015384.912055
+Iteration:   613   Dual objective     =      -1014689.631944
+Iteration:   727   Dual objective     =       -705461.730996
+Iteration:   826   Dual objective     =       -675686.032419
+Iteration:   930   Dual objective     =       -632127.730160
+Iteration:  1031   Dual objective     =       -630721.108462
+Iteration:  1149   Dual objective     =       -630721.108462
+Iteration:  1251   Dual objective     =       -623243.820936
+Iteration:  1367   Dual objective     =       -622573.882206
+Iteration:  1474   Dual objective     =       -622572.845127
+Iteration:  1559   Dual objective     =       -621989.833950
+Initializing dual steep norms . . .
+
+Dual simplex solved model.
+
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -621951.526589
+Root relaxation solution time = 0.22 sec. (195.14 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0  -621951.5266    98                -621951.5266     1650         
+      0     0  -621951.5266    62                   Cuts: 267     2836         
+      0     0  -621951.5266    76                   Cuts: 581     3600         
+      0     0  -621951.5266    56                   Cuts: 504     4859         
+      0     0  -621951.5266    72                   Cuts: 263     6894         
+Detecting symmetries...
+      0     2  -621951.5266    72                -620959.5171     6894         
+Elapsed time = 8.99 sec. (5012.41 ticks, tree = 0.02 MB)
+     15    14  -620708.0899   107                -620959.5171     8440         
+                                                 Impl Bds: 14                  
+    150    80    infeasible                      -620959.5171    28833         
+                                                     Cuts: 94                  
+    204   132    infeasible                      -620959.5171    64384         
+                                                  Impl Bds: 6                  
+    242   122   -56924.1163   270                -620959.5171    55796         
+    313   138  -617499.3557   190                -620959.5171    73729         
+                                                 Impl Bds: 13                  
+    511   226  -615775.4873   137                -620959.5171   188591         
+                                                     Cuts: 31                  
+    847   348    infeasible                      -620959.5171   239306         
+                                                 Impl Bds: 20                  
+   1057   536  -615160.9582   137                -620959.5171   311287         
+                                                     Cuts: 42                  
+   1274   573  -621134.5916   100                -620959.5171   325467         
+                                                    Covers: 1                  
+   1785   845  -566022.6652   160                -620959.5171   504612         
+                                                    Cuts: 116                  
+Elapsed time = 23.95 sec. (8169.26 ticks, tree = 2.03 MB)
+   2814  1358  -569347.3860   142                -620959.5171   679711         
+                                                     Cuts: 62                  
+   3140  1733  -604766.5656   191                -620959.5171   911470         
+                                                      Cuts: 2                  
+   4374  1903  1547990.5155   323                -620598.3843  1029382         
+                                                     Cuts: 40                  
+   5587  2699  -581738.4461   262                -620170.2468  1220826         
+                                                     Cuts: 28                  
+   5978  3288  -535743.7911    79                -619687.4305  1416112         
+                                                      Cuts: 7                  
+   7171  3505  -613222.3580   203                -619482.3400  1606240         
+                                                     Cuts: 21                  
+   7662  4000  -585876.4141    65                -619482.3400  1771067         
+                                                     Cuts: 23                  
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 2 times.
+MIP Presolve modified 19 coefficients.
+Aggregator did 12 substitutions.
+Reduced MIP has 6868 rows, 5719 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (11.82 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 413 columns.
+MIP Presolve modified 33 coefficients.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.76 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (12.69 ticks)
+Represolve time = 0.42 sec. (234.27 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Aggregator did 2353 substitutions.
+Reduced LP has 5839 rows, 2953 columns, and 25551 nonzeros.
+Presolve time = 0.01 sec. (6.15 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     -60883715.115743
+Iteration:   221   Dual objective     =      -1218274.651526
+Iteration:   371   Dual objective     =       -947918.887376
+Perturbation started.
+Iteration:   606   Dual objective     =       -909988.359788
+Iteration:   787   Dual objective     =       -852567.187795
+Iteration:   928   Dual objective     =       -808740.888744
+Iteration:  1062   Dual objective     =       -808740.887624
+Iteration:  1221   Dual objective     =       -785324.735372
+Iteration:  1357   Dual objective     =       -649879.539022
+Iteration:  1521   Dual objective     =       -637528.318024
+Iteration:  1658   Dual objective     =       -634252.539886
+Iteration:  1827   Dual objective     =       -631041.895455
+Iteration:  1974   Dual objective     =       -630351.041974
+Iteration:  2130   Dual objective     =       -630071.352830
+Iteration:  2330   Dual objective     =       -621951.495075
+Iteration:  2442   Dual objective     =       -621951.494536
+Iteration:  2561   Dual objective     =       -621951.493841
+Iteration:  2681   Dual objective     =       -621951.492767
+Iteration:  2819   Dual objective     =       -621951.489050
+Iteration:  2938   Dual objective     =       -621951.478480
+Markowitz threshold set to 0.1
+Iteration:  2969   Dual objective     =       -621951.347952
+Iteration:  3090   Dual objective     =       -621701.056490
+Iteration:  3206   Dual objective     =       -621571.383525
+Iteration:  3330   Dual objective     =       -621494.710521
+Iteration:  3467   Dual objective     =       -621412.264040
+Iteration:  3574   Dual objective     =       -621380.789914
+Removing perturbation.
+Iteration:  3628   Dual objective     =       -621373.339321
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -621373.339321
+   7673     0  -621073.8291   321                  Cuts: 1590  1962973         
+   7673     0  -620983.8963   320                   Cuts: 608  1963108         
+   7673     0  -620905.9401   363                   Cuts: 453  1963354         
+   7673     0  -620869.2614   379                   Cuts: 573  1963529         
+   7673     0  -620812.9014   327                   Cuts: 331  1963720         
+   7673     0  -620777.3078   336                   Cuts: 341  1963866         
+   7673     2  -620777.3078   341                -619482.3400  1963866         
+   7675     4  -620609.3661   233                -619482.3400  1964361         
+   7754    45  -596265.7087    52                -619482.3400  1969999         
+                                                     Cuts: 19                  
+Elapsed time = 70.66 sec. (25510.20 ticks, tree = 0.38 MB)
+   8045    28  -117638.5808   118                -619482.3400  1971238         
+   8150   307  -480642.3394    68                -619482.3400  2033701         
+                                                  Impl Bds: 2                  
+   8387   422  -586853.6378    57                -619482.3400  2107138         
+   9260   916    infeasible                      -619482.3400  2199325         
+                                                  Impl Bds: 8                  
+   9861  1323    infeasible                      -619482.3400  2317008         
+                                                     Cuts: 32                  
+  10201  1380  -437580.6484    28                -619482.3400  2446422         
+  10607  1484  -613289.5521   195                -619482.3400  2509968         
+  11018  1731  -506338.2827   266                -619482.3400  2682215         
+                                                     Cuts: 25                  
+  11656  1952    infeasible                      -618692.5289  2842681         
+  13014  2229    infeasible                      -617735.2132  2939700         
+Elapsed time = 108.30 sec. (35082.67 ticks, tree = 8.15 MB)
+  13992  3590  -157401.3564    99                -617220.3401  3126047         
+  14354  3730  -404508.2803   125                -617220.3401  3254601         
+                                                     Cuts: 14                  
+  14741  3926  -296365.2032    81                -616392.2761  3349508         
+  15368  4218  -609753.8541   184                -616377.9399  3514674         
+  17092  4339  -532716.7037    89                -615841.3575  3533614         
+  18185  5992  -460177.3598    77                -615770.3860  3780129         
+                                                     Cuts: 20                  
+  18565  6761    infeasible                      -613869.7147  3937376         
+                                                     Cuts: 11                  
+  18928  6981  -450224.9182    90                -613869.7147  4146908         
+  19276  7004  -194638.4772    50                -612362.6331  4191236         
+                                                     Cuts: 13                  
+  19739  7307  -416649.4998    72                -611421.7370  4399571         
+Elapsed time = 146.96 sec. (44629.29 ticks, tree = 33.14 MB)
+  21271  7388  -501071.6379    57                -610740.5462  4449522         
+                                                     Cuts: 41                  
+  22408  7843  -571824.7547    69                -610540.0915  4588410         
+                                                     Cuts: 50                  
+  22801  9389  -415704.3512   105                -610540.0915  4858305         
+  23191  9467   205764.8230   115                -610540.0915  4978736         
+                                                      Cuts: 9                  
+  23573  9711    infeasible                      -610540.0915  5125520         
+                                                  Flowcuts: 3                  
+  24167  9951  -573529.2146   113                -610540.0915  5294917         
+  24807 10012  -371488.6646    61                -610540.0915  5298857         
+
+Performing restart 2
+
+Repeating presolve.
+Tried aggregator 1 time.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.66 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (12.69 ticks)
+Represolve time = 0.24 sec. (132.18 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 15 rows and 0 columns.
+Aggregator did 2193 substitutions.
+Reduced LP has 5462 rows, 3113 columns, and 23368 nonzeros.
+Presolve time = 0.01 sec. (5.81 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =     -60883715.115743
+Iteration:   135   Dual objective     =     -50407298.016107
+Iteration:   362   Dual objective     =     -18405788.278732
+Iteration:   543   Dual objective     =     -11763293.581484
+Iteration:   689   Dual objective     =      -7449980.789188
+Iteration:   808   Dual objective     =      -3488112.710043
+Iteration:   924   Dual objective     =      -1679894.766429
+Iteration:  1053   Dual objective     =      -1345713.039030
+Iteration:  1163   Dual objective     =      -1108098.967825
+Iteration:  1284   Dual objective     =       -950681.540866
+Iteration:  1393   Dual objective     =       -882191.775117
+Iteration:  1514   Dual objective     =       -834922.793981
+Iteration:  1643   Dual objective     =       -813160.849563
+Iteration:  1775   Dual objective     =       -677613.057236
+Iteration:  1953   Dual objective     =       -631812.307369
+Iteration:  2069   Dual objective     =       -631812.307369
+Iteration:  2180   Dual objective     =       -626212.670314
+Iteration:  2285   Dual objective     =       -626194.632493
+Iteration:  2394   Dual objective     =       -626194.632493
+Perturbation started.
+Iteration:  2402   Dual objective     =       -626194.632493
+Iteration:  2506   Dual objective     =       -626194.631981
+Iteration:  2650   Dual objective     =       -622160.843314
+Iteration:  2769   Dual objective     =       -622068.568554
+Iteration:  2879   Dual objective     =       -622068.568386
+Iteration:  2987   Dual objective     =       -621951.525202
+Iteration:  3096   Dual objective     =       -621951.524971
+Iteration:  3206   Dual objective     =       -621951.524531
+Iteration:  3342   Dual objective     =       -621951.523365
+Iteration:  3452   Dual objective     =       -621951.522431
+Iteration:  3571   Dual objective     =       -621951.516306
+Iteration:  3684   Dual objective     =       -621740.874528
+Iteration:  3797   Dual objective     =       -621475.148613
+Iteration:  3895   Dual objective     =       -621078.333668
+Iteration:  3998   Dual objective     =       -620946.431609
+Iteration:  4096   Dual objective     =       -620818.897142
+Iteration:  4201   Dual objective     =       -620756.633642
+Removing perturbation.
+Markowitz threshold set to 0.1
+Iteration:  4247   Dual objective     =       -620754.397533
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -620754.397509
+  24809     0  -620680.5303   434                   Cuts: 890  5522426         
+  24809     0  -620642.6719   391                   Cuts: 518  5522623         
+  24809     0  -620599.7407   342                   Cuts: 159  5522762         
+  24809     0  -620553.2266   400                   Cuts: 272  5522924         
+  24809     0  -620531.5502   407                   Cuts: 290  5523070         
+  24809     0  -620510.6466   412                   Cuts: 525  5523170         
+  24809     0  -620495.9287   403                   Cuts: 157  5523259         
+  24809     0  -620481.1714   439                   Cuts: 127  5523376         
+  24809     0  -620457.6119   417                   Cuts: 527  5523490         
+  24809     0  -620442.1467   434                   Cuts: 309  5523588         
+
+Repeating presolve.
+Tried aggregator 1 time.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (8.66 ticks)
+Tried aggregator 1 time.
+MIP Presolve modified 2 coefficients.
+Reduced MIP has 6868 rows, 5306 columns, and 21206 nonzeros.
+Reduced MIP has 2582 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (12.70 ticks)
+Represolve time = 0.25 sec. (143.41 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 1 rows and 0 columns.
+Aggregator did 2276 substitutions.
+Reduced LP has 5215 rows, 3030 columns, and 22335 nonzeros.
+Presolve time = 0.01 sec. (5.64 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -5520904.464274
+Iteration:   137   Dual objective     =      -1339326.861379
+Iteration:   319   Dual objective     =      -1045689.818875
+Iteration:   543   Dual objective     =      -1006525.043421
+Perturbation started.
+Iteration:   606   Dual objective     =      -1006525.043421
+Iteration:   738   Dual objective     =       -978756.793735
+Iteration:   884   Dual objective     =       -761467.908279
+Iteration:  1029   Dual objective     =       -662760.714431
+Iteration:  1336   Dual objective     =       -626273.836626
+Iteration:  1498   Dual objective     =       -622068.554652
+Iteration:  1605   Dual objective     =       -621951.511578
+Iteration:  1717   Dual objective     =       -621951.511438
+Iteration:  1825   Dual objective     =       -621951.511169
+Iteration:  1928   Dual objective     =       -621951.511041
+Iteration:  2041   Dual objective     =       -621951.510918
+Iteration:  2151   Dual objective     =       -621951.510671
+Iteration:  2265   Dual objective     =       -621951.510321
+Iteration:  2385   Dual objective     =       -621951.509571
+Iteration:  2502   Dual objective     =       -621951.508417
+Iteration:  2603   Dual objective     =       -621951.504907
+Markowitz threshold set to 0.1
+Iteration:  2684   Dual objective     =       -621949.944223
+Iteration:  2686   Dual objective     =       -621949.720425
+Iteration:  2814   Dual objective     =       -621771.887878
+Iteration:  2931   Dual objective     =       -621548.454397
+Iteration:  3039   Dual objective     =       -621351.122062
+Iteration:  3154   Dual objective     =       -621003.543675
+Iteration:  3275   Dual objective     =       -620844.544525
+Iteration:  3387   Dual objective     =       -620747.001608
+Iteration:  3510   Dual objective     =       -620637.323239
+Iteration:  3622   Dual objective     =       -620503.758915
+Iteration:  3723   Dual objective     =       -620470.575070
+Iteration:  3821   Dual objective     =       -620442.241776
+Removing perturbation.
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =       -620442.146720
+  24809     0  -620362.1691   232                   Cuts: 970  5527770         
+  24809     0  -620317.3836   365                   Cuts: 208  5527971         
+  24809     0  -620302.1683   345                   Cuts: 319  5528095         
+  24809     0  -620293.3720   338                   Cuts: 228  5528198         
+  24809     0  -620273.4455   343                   Cuts: 697  5528293         
+  24809     0  -620253.0690   345                    Cuts: 73  5528383         
+  24809     0  -620246.4744   391                    Cuts: 72  5528462         
+  24809     0  -620231.1569   437                   Cuts: 104  5528574         
+  24809     0  -620213.6164   429                   Cuts: 146  5528681         
+  24809     2  -620213.6163   448                -601066.3959  5528681         
+  24812     5  -620070.2591   263                -601066.3959  5529195         
+  24844    35  -511841.6862    80                -601066.3959  5539524         
+                                                     Cuts: 79                  
+Elapsed time = 204.98 sec. (71853.51 ticks, tree = 0.08 MB)
+  24917    59    infeasible                      -601066.3959  5556608         
+                                                     Cuts: 40                  
+  25092   109  -265477.6514   134                -601066.3959  5603050         
+                                                     Cuts: 12                  
+  25368   397  -595248.1387    76                -601066.3959  5690890         
+                                                     Cuts: 13                  
+  25749   576  -538185.9291    81                -601066.3959  5752396         
+                                                     Cuts: 37                  
+  26311  1048    infeasible                      -601066.3959  5935372         
+  26609  1315  -131631.7997    89                -601066.3959  6066804         
+  27113  1477  -481351.0678    61                -601066.3959  6167201         
+                                                     Cuts: 13                  
+  27756  1858  -526759.3690    74                -601066.3959  6326515         
+                                                     Cuts: 11                  
+  28319  2248  -301937.5106    49                -601066.3959  6516078         
+                                                     Cuts: 17                  
+  28677  2553  -426069.3118    69                -601066.3959  6650594         
+                                                      Cuts: 3                  
+Elapsed time = 243.66 sec. (81423.93 ticks, tree = 10.48 MB)
+  29005  2865   357281.4730    69                -601066.3959  6851077         
+                                                      Cuts: 2                  
+  29409  2934    infeasible                      -601066.3959  6903416         
+                                                  Impl Bds: 3                  
+  29868  3220  -499593.0891    42                -601066.3959  7105175         
+                                                     Cuts: 11                  
+  30446  3372  -338397.3664    78                -601066.3959  7187144         
+                                                     Cuts: 12                  
+  30868  3683    infeasible                      -601066.3959  7373983         
+                                                     Cuts: 21                  
+  31223  3999    -9120.7602   133                -601066.3959  7589703         
+                                                     Cuts: 32                  
+  31617  4372  -575467.4377   187                -601066.3959  7750046         
+                                                      Cuts: 6                  
+  32166  4427  -164641.9913   125                -601066.3959  7776921         
+  32750  5064  -616165.2059   105                -601066.3959  8078566         
+                                                     Cuts: 13                  
+  33190  5433   -53748.4397    53                -601066.3959  8269012         
+                                                     Cuts: 10                  
+Elapsed time = 283.10 sec. (90986.75 ticks, tree = 24.61 MB)
+  33480  5596    infeasible                      -601066.3959  8396713         
+  33801  5617  -508924.2956    46                -601066.3959  8463663         
+  34196  5924  -588356.6013    94                -601066.3959  8741742         
+                                                      Cuts: 7                  
+  34654  5979  -404574.0925   106                -601066.3959  8794426         
+  35078  6152  -123788.5904    66                -601066.3959  8932276         
+  35392  6330  -476816.6160    82                -601066.3959  9125400         
+                                                     Cuts: 23                  
+  35760  6463   -72809.1673    75                -601066.3959  9365146         
+                                                     Cuts: 36                  
+  36073  6534  -405691.8964    89                -601066.3959  9447425         
+                                                     Cuts: 17                  
+  36390  6648    infeasible                      -601066.3959  9591219         
+                                                      Cuts: 6                  
+  36658  6731  -199692.8486    81                -600152.9033  9699164         
+Elapsed time = 321.97 sec. (100556.72 ticks, tree = 30.41 MB)
+  36971  6866  -577568.6276    41                -596915.9829  9935766         
+  37323  6985  -177608.0817    90                -596725.8350 10079257         
+                                                      Cuts: 7                  
+  37615  7016  -588860.4362    27                -596612.5491 10100980         
+  37922  7061  -534484.6860    85                -595139.6728 10191597         
+                                                      Cuts: 6                  
+  38236  7178  -397438.5775    61                -593876.5898 10509741         
+                                                     Cuts: 22                  
+* 38367  7170      integral     0   -43492.8276  -593789.1339 10457595     --- 
+Found incumbent of value -43492.827616 after 343.23 sec. (105650.07 ticks)
+  38757  7256  -591615.4213    90   -43492.8276  -592353.7064 10607182     --- 
+                                                     Cuts: 22                  
+  39142  6375   -93814.9695   160   -43492.8276  -589902.2639 10826160     --- 
+                                                 Impl Bds: 10                  
+  39679  6541  -464559.2217    84   -43492.8276  -585798.2714 11054638     --- 
+  40172  6767  -412472.0310    63   -43492.8276  -585319.2887 11198299     --- 
+Elapsed time = 359.35 sec. (109479.17 ticks, tree = 30.00 MB)
+  40590  6893        cutoff         -43492.8276  -582892.8651 11374497     --- 
+  40972  7024        cutoff         -43492.8276  -581962.2172 11540803     --- 
+                                                 Impl Bds: 12                  
+  41341  7011  -233530.0911   127   -43492.8276  -579188.7652 11537935     --- 
+  41792  7203  -237400.3812   172   -43492.8276  -579188.7652 11697400     --- 
+                                                  Impl Bds: 4                  
+  42370  7353  -428672.1916    62   -43492.8276  -572902.5405 11819953     --- 
+                                                     Cuts: 25                  
+  43026  7524  -500577.6723    39   -43492.8276  -565689.5747 11996417     --- 
+                                                      Cuts: 8                  
+  43547  7776  -535781.8971   103   -43492.8276  -565554.5164 12137131     --- 
+                                                     Cuts: 13                  
+  43974  7960  -250358.9906   139   -43492.8276  -559000.9418 12265582     --- 
+                                                      Cuts: 6                  
+  44363  8413  -169664.3774    80   -43492.8276  -556535.5783 12614697     --- 
+  46840  9086   -46199.7233   150   -43492.8276  -549591.2153 13007150     --- 
+Elapsed time = 411.64 sec. (121885.60 ticks, tree = 40.67 MB)
+  48892 11041  -406243.4288    87   -43492.8276  -549213.0790 13878945     --- 
+  52202 12319        cutoff         -43492.8276  -546752.6313 14247914     --- 
+* 53901+13995                      -104858.4252  -544136.0676           418.92%
+Found incumbent of value -104858.425183 after 456.02 sec. (132412.09 ticks)
+* 53917+13995                      -216416.8844  -544136.0676           151.43%
+Found incumbent of value -216416.884366 after 456.20 sec. (132451.55 ticks)
+  54449 12122  -528797.4329   110  -216416.8844  -544136.0676 15140234  151.43%
+* 54955+12254                      -236336.3690  -543913.2339           130.14%
+Found incumbent of value -236336.368963 after 462.69 sec. (134048.44 ticks)
+* 55007+12211                      -278044.0506  -543913.2339            95.62%
+Found incumbent of value -278044.050598 after 462.88 sec. (134104.60 ticks)
+* 57379+11754                      -326979.6321  -541904.2505            65.73%
+Found incumbent of value -326979.632149 after 474.78 sec. (137006.89 ticks)
+  57490 12333        cutoff        -326979.6321  -541904.2505 15656097   65.73%
+* 58741+11904                      -390823.4935  -540694.0609            38.35%
+                                                  Impl Bds: 1                  
+Found incumbent of value -390823.493492 after 484.93 sec. (139430.08 ticks)
+  59535 11177  -511010.7882   104  -390823.4935  -540693.8129 16362405   38.35%
+                                                  Impl Bds: 4                  
+  62450 11829  -534481.8272   116  -390823.4935  -538639.6836 16790863   37.82%
+                                                  Impl Bds: 3                  
+  64443 12842  -445047.5282    84  -390823.4935  -537511.9462 17542202   37.53%
+                                                      Cuts: 7                  
+  67574 14022    infeasible        -390823.4935  -536989.7521 18176617   37.40%
+                                                     Cuts: 34                  
+  70314 14780        cutoff        -390823.4935  -534400.1398 18610852   36.74%
+                                                     Cuts: 33                  
+  72778 15532  -475918.7366    98  -390823.4935  -534196.4690 19166459   36.68%
+                                                     Cuts: 13                  
+Elapsed time = 570.78 sec. (160058.91 ticks, tree = 67.70 MB)
+  76444 16942        cutoff        -390823.4935  -532714.4299 19801714   36.31%
+                                                     Cuts: 11                  
+  78780 18063  -483885.8055    72  -390823.4935  -528979.4168 20429614   35.35%
+                                                      Cuts: 4                  
+  81496 18397        cutoff        -390823.4935  -527887.2979 20914954   35.07%
+                                                    Covers: 1                  
+  85063 19714  -425214.4143   171  -390823.4935  -527092.6553 21662659   34.87%
+                                                      Cuts: 6                  
+  87189 20684        cutoff        -390823.4935  -527092.6553 22297938   34.87%
+                                                  Flowcuts: 3                  
+  90124 20789  -493651.4870    39  -390823.4935  -527092.6553 22643552   34.87%
+  93662 22098        cutoff        -390823.4935  -523028.8217 23556442   33.83%
+  95864 22414  -514208.6300    85  -390823.4935  -519817.5001 24017412   33.01%
+  98527 22625  -477125.9635    91  -390823.4935  -518782.9887 24382147   32.74%
+ 101928 22870  -487143.1977    37  -390823.4935  -515712.4515 24743980   31.96%
+Elapsed time = 730.42 sec. (198220.20 ticks, tree = 99.53 MB)
+ 104458 24029  -432472.0944    27  -390823.4935  -514480.0830 25743720   31.64%
+                                                     Cuts: 19                  
+ 107125 24384  -480000.3382    72  -390823.4935  -513027.2940 26229043   31.27%
+                                                  Impl Bds: 1                  
+ 110873 24799        cutoff        -390823.4935  -510671.3642 26528470   30.67%
+                                                      Cuts: 7                  
+ 113912 25643  -444798.4422    28  -390823.4935  -510292.1222 27263871   30.57%
+                                                      Cuts: 7                  
+ 116200 26371        cutoff        -390823.4935  -509034.6230 28085648   30.25%
+                                                      Cuts: 8                  
+ 119168 26682  -488386.0710    86  -390823.4935  -508188.5797 28385939   30.03%
+                                                   MIRcuts: 3                  
+ 123258 27401  -493680.0083    74  -390823.4935  -506679.3199 29153318   29.64%
+                                                      Cuts: 7                  
+ 126101 27866        cutoff        -390823.4935  -504458.7833 29866894   29.08%
+                                                     Cuts: 13                  
+ 128632 27967  -393098.9324    65  -390823.4935  -503179.5163 30404377   28.75%
+                                                  Flowcuts: 3                  
+ 131885 27766        cutoff        -390823.4935  -501578.9930 30974430   28.34%
+                                                   MIRcuts: 1                  
+Elapsed time = 889.74 sec. (236380.18 ticks, tree = 119.49 MB)
+ 136138 27887        cutoff        -390823.4935  -499794.6106 31194840   27.88%
+                                                      Cuts: 8                  
+ 139206 28620  -474958.4179    97  -390823.4935  -498227.6748 31986335   27.48%
+ 141532 29119  -467418.9082   111  -390823.4935  -496657.4285 32842341   27.08%
+                                                   MIRcuts: 3                  
+ 143844 29224    infeasible        -390823.4935  -495679.5353 33250765   26.83%
+                                                      Cuts: 8                  
+ 147546 29133        cutoff        -390823.4935  -495278.2145 33893822   26.73%
+                                                    Covers: 2                  
+ 151867 29433        cutoff        -390823.4935  -492228.1497 34286658   25.95%
+ 155130 29786  -469520.6715    50  -390823.4935  -490735.2293 35285418   25.56%
+ 157674 29880  -431602.8380    46  -390823.4935  -489193.1845 35617459   25.17%
+ 160888 29937    infeasible        -390823.4935  -487518.1383 36161443   24.74%
+ 165386 30245        cutoff        -390823.4935  -485867.8404 36722094   24.32%
+Elapsed time = 1048.46 sec. (274536.32 ticks, tree = 127.98 MB)
+ 170017 30955  -407937.2347    47  -390823.4935  -485592.6577 37286389   24.25%
+                                                   MIRcuts: 2                  
+ 173055 31591  -459704.2314    73  -390823.4935  -481979.4133 38268184   23.32%
+                                                      Cuts: 2                  
+ 175326 31586  -402743.2459    49  -390823.4935  -481784.1356 38369697   23.27%
+                                                      Cuts: 4                  
+ 178778 31484  -423628.5073    43  -390823.4935  -481784.1356 38723248   23.27%
+                                                    Covers: 1                  
+ 183421 31648  -460927.4935    90  -390823.4935  -480718.4729 39297218   23.00%
+                                                      Cuts: 3                  
+ 187935 32173  -464756.1531    72  -390823.4935  -476709.1567 39669425   21.98%
+                                                      Cuts: 7                  
+ 191601 32993        cutoff        -390823.4935  -474848.2137 40580393   21.50%
+ 194443 33488        cutoff        -390823.4935  -472935.3571 41535338   21.01%
+                                                      Cuts: 9                  
+ 197640 33425  -401239.9776    93  -390823.4935  -472526.5045 41741596   20.91%
+                                                  Flowcuts: 2                  
+ 202204 33072    infeasible        -390823.4935  -472233.6445 42388605   20.83%
+                                                    Covers: 1                  
+Elapsed time = 1207.62 sec. (312701.94 ticks, tree = 138.94 MB)
+ 206730 32994  -405828.9061   100  -390823.4935  -470047.8463 43285536   20.27%
+                                                      Cuts: 7                  
+ 209742 33036        cutoff        -390823.4935  -468099.6587 43528970   19.77%
+                                                    Covers: 3                  
+ 212653 32283        cutoff        -390823.4935  -464829.4656 44168306   18.94%
+                                                      Cuts: 2                  
+ 216746 31970        cutoff        -390823.4935  -464519.1943 44395896   18.86%
+ 221802 30955  -443915.4632    40  -390823.4935  -458907.5547 45304169   17.42%
+                                                      Cuts: 3                  
+ 225168 30191  -408453.8665    87  -390823.4935  -457032.3673 46135294   16.94%
+ 228270 29815  -408151.2522   102  -390823.4935  -454211.6247 46513193   16.22%
+                                                    Covers: 1                  
+ 233410 29114    infeasible        -390823.4935  -451515.6550 47275294   15.53%
+                                                      Cuts: 5                  
+ 237830 29219  -439579.2111    56  -390823.4935  -449091.8196 47265980   14.91%
+                                                     Cuts: 13                  
+ 241157 27789        cutoff        -390823.4935  -446343.4328 48346895   14.21%
+Elapsed time = 1366.66 sec. (350860.59 ticks, tree = 113.57 MB)
+ 244953 27295  -397699.5780    41  -390823.4935  -443999.1896 48694998   13.61%
+                                                  Impl Bds: 5                  
+ 249941 26599  -415718.7786    79  -390823.4935  -442136.9845 49334992   13.13%
+ 253523 26028        cutoff        -390823.4935  -439966.7767 49756640   12.57%
+ 256899 24792  -412715.0941    65  -390823.4935  -436880.6404 50350880   11.78%
+                                                 Impl Bds: 11                  
+ 261498 22596        cutoff        -390823.4935  -434964.0892 51041579   11.29%
+                                                 Impl Bds: 11                  
+ 265866 22384  -411023.2986    30  -390823.4935  -430004.9742 51198230   10.03%
+                                                     Cuts: 12                  
+ 268912 20788        cutoff        -390823.4935  -426311.8439 52084133    9.08%
+ 273130 19977  -393832.0158    52  -390823.4935  -424584.6849 52598052    8.64%
+                                                      Cuts: 8                  
+ 277903 18500    infeasible        -390823.4935  -421517.4365 53346815    7.85%
+                                                     Cuts: 26                  
+ 281939 17886  -397454.3645    63  -390823.4935  -418311.3493 53555830    7.03%
+Elapsed time = 1527.65 sec. (389013.42 ticks, tree = 67.19 MB)
+ 285908 14954    infeasible        -390823.4935  -415891.0305 54370057    6.41%
+ 290013 13669    infeasible        -390823.4935  -412832.0131 54746311    5.63%
+ 294485 11095        cutoff        -390823.4935  -409233.3745 55348534    4.71%
+ 299673  7826        cutoff        -390823.4935  -404972.4598 55809038    3.62%
+ 305206  6123  -397070.2715    57  -390823.4935  -400673.7953 56090754    2.52%
+
+GUB cover cuts applied:  4
+Clique cuts applied:  25
+Cover cuts applied:  162
+Implied bound cuts applied:  182
+Flow cuts applied:  614
+Mixed integer rounding cuts applied:  507
+Lift and project cuts applied:  3
+Gomory fractional cuts applied:  87
+
+Root node processing (before b&c):
+  Real time             =    5.14 sec. (4968.67 ticks)
+Parallel b&c, 31 threads:
+  Real time             = 1624.06 sec. (405518.28 ticks)
+  Sync time (average)   =  426.23 sec.
+  Wait time (average)   =    0.38 sec.
+                          ------------
+Total (root+branch&cut) = 1629.21 sec. (410486.95 ticks)
+
+--- MIP status (102): integer optimal, tolerance.
+--- Cplex Time: 1629.21sec (det. 410486.98 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_TimeLimit                               1000000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Parallel mode: deterministic, using up to 31 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 12778 rows and 8386 columns.
+Aggregator did 416 substitutions.
+Reduced LP has 39 rows, 48 columns, and 154 nonzeros.
+Presolve time = 0.01 sec. (7.69 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Scaled dual infeas =             6.289139
+Iteration:     3   Dual objective     =      -1188574.929514
+
+Dual simplex solved model.
+
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.02sec (det. 14.38 ticks)
+
+
+Solution satisfies tolerances
+MIP Solution:      -390823.493492    (56557744 iterations, 309764 nodes)
+Final Solve:       -390823.493491    (36 iterations)
+
+Best possible:     -390861.445889
+Absolute gap:           37.952397
+Relative gap:            0.000097
+
+--- Reading solution for model model_policy
+--- Executing after solve: elapsed 0:27:09.641
+--- policy.gms(273) 8 Mb--- policy.gms(403) 8 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/C/C_080_120/policy.gdx
+*** Status: Normal completion
+--- Job policy.gms Stop 09/29/24 21:06:10 elapsed 0:27:09.663

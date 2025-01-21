@@ -1,0 +1,5 @@
+case,PolicySummarySet,SetAux1,value
+policy,carbon emissions,limit,0.95
+policy,carbon emissions,actual,0.9497545094356014
+policy,heating cost - net,limit,1.1
+policy,heating cost - net,actual,1.099999999999999

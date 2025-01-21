@@ -1,0 +1,114 @@
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:43 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  * ======================================================================
+   2  * DESCRIPTION:
+   3  * ======================================================================
+   4  * Written by Juan Jerez, jujmo@dtu.dk, 2024.
+   5   
+   6  * ----- NOTES / TODO -----
+   7  * -
+   8   
+   9  * ======================================================================
+  10  *  SETUP:
+  11  * ======================================================================
+  12  * ----- Options -----
+
+
+COMPILATION TIME     =        0.065 SECONDS      3 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:43 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE model_baseline Using LP From line 134
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS           5     SINGLE EQUATIONS        2,483
+BLOCKS OF VARIABLES           3     SINGLE VARIABLES        1,978
+NON ZERO ELEMENTS         6,796
+
+
+GENERATION TIME      =        0.017 SECONDS      5 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:43 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE model_baseline Using LP From line 134
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   model_baseline      OBJECTIVE  obj
+     TYPE    LP                  DIRECTION  MINIMIZE
+     SOLVER  CPLEX               FROM LINE  134
+
+**** SOLVER STATUS     1 Normal Completion
+**** MODEL STATUS      1 Optimal
+**** OBJECTIVE VALUE          4007592.4421
+
+ RESOURCE USAGE, LIMIT          0.059 10000000000.000
+ ITERATION COUNT, LIMIT       194    2147483647
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.15 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 1.01 Mb (peak 1.02 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.07 Mb (peak 0.31 Mb)
+--- Starting Cplex
+
+
+--- LP status (1): optimal.
+--- Cplex Time: 0.01sec (det. 3.54 ticks)
+
+
+Optimal solution found
+Objective:      4007592.442075
+
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:43 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----    164 >> Timeseries used:
+
+----    165 spacing_120
+
+----    167 >> Installed capacity (MW)
+
+----    168 VARIABLE y_h.L  Heat output capacity - HR generators (MW)
+
+                      ( ALL       0.000 )
+
+
+----    170 >> Total carbon emissions (ton-CO2)
+
+----    171 PARAMETER B_co2                =    43927.065  Total carbon emissions (ton-CO2)
+
+----    173 >> Total heat supply costs (EUR)
+
+----    174 PARAMETER B_cost               =  4007592.442  Total heat supply cost (EUR)
+
+
+EXECUTION TIME       =        0.109 SECONDS      5 MB  37.1.0 r07954d5 LEX-LEG
+
+
+USER: Large MUD - 20 User License                    G221124|0002AP-GEN
+      Technical University of Denmark, Management Engineering    DC8611
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /zhome/f0/5/124363/J3-HPC/scripts/gams/baseline.gms
+Output     /zhome/f0/5/124363/J3-HPC/results/A/A_095_100/baseline.lst

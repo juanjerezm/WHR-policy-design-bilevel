@@ -1,0 +1,15 @@
+,'fuel price','fuel tax','co2 content','carbon quota price','volumetric tariff'
+* units,EUR/MWh-fuel,EUR/MWh-fuel,ton/MWh-fuel,EUR/ton,EUR/MWh-fuel
+'biofuel',168.1,0,0.00000,85.3,0
+'biogas',67.731,2.062,0.00000,85.3,0
+'coal',18.890,30.893,0.33876,85.3,0
+'electricity',timeVar,92.473,timeVar,0,4.318
+'gasoil',62.226,37.378,0.26676,85.3,0
+'industrial heat',0,0,0.00000,85.3,0
+'municipal waste',-19.122,0,0.15300,85.3,0
+'natural gas',53.626,35.889,0.20340,85.3,0
+'solar',0,0,0.00000,85.3,0
+'straw',33.806,0,0.00000,85.3,0
+'wood chips',39.712,0,0.00000,85.3,0
+'wood pellets',46.621,0,0.00000,85.3,0
+'wood waste',12.069,0,0.00000,85.3,0

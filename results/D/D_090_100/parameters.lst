@@ -1,0 +1,38 @@
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:08:35 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  * ======================================================================
+   2  * DESCRIPTION:
+   3  * ======================================================================
+   4  * Written by Juan Jerez, jujmo@dtu.dk, 2024.
+   5   
+   6  * ----- NOTES / TODO -----
+   7   
+   8   
+   9  * ======================================================================
+  10  *  SETUP:
+  11  * ======================================================================
+  12  * ----- Options -----
+  14  // eolCom activates end-of-line comments with '//'
+
+
+COMPILATION TIME     =        0.015 SECONDS      3 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 17:08:35 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+EXECUTION TIME       =        0.017 SECONDS      5 MB  37.1.0 r07954d5 LEX-LEG
+
+
+USER: Large MUD - 20 User License                    G221124|0002AP-GEN
+      Technical University of Denmark, Management Engineering    DC8611
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+Output     /zhome/f0/5/124363/J3-HPC/results/D/D_090_100/parameters.lst

@@ -1,0 +1,13 @@
+project,scenario,timeseries,tax_carbon,subsidy_opex,subsidy_capex,subsidy_carbon
+D,D_095_100,spacing_120,yes,no,yes,no
+D,D_095_110,spacing_120,yes,no,yes,no
+D,D_095_120,spacing_120,yes,no,yes,no
+D,D_090_100,spacing_120,yes,no,yes,no
+D,D_090_110,spacing_120,yes,no,yes,no
+D,D_090_120,spacing_120,yes,no,yes,no
+D,D_085_100,spacing_120,yes,no,yes,no
+D,D_085_110,spacing_120,yes,no,yes,no
+D,D_085_120,spacing_120,yes,no,yes,no
+D,D_080_100,spacing_120,yes,no,yes,no
+D,D_080_110,spacing_120,yes,no,yes,no
+D,D_080_120,spacing_120,yes,no,yes,no

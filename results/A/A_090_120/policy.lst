@@ -1,0 +1,223 @@
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:45 Page 1
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+C o m p i l a t i o n
+
+
+   1  * ======================================================================
+   2  * DESCRIPTION:
+   3  * ======================================================================
+   4  * Written by Juan Jerez, jujmo@dtu.dk, 2024.
+   5   
+   6  * ----- NOTES / TODO -----
+   7   
+   8   
+   9  * ======================================================================
+  10  *  SETUP:
+  11  * ======================================================================
+  12  * ----- Options -----
+
+
+COMPILATION TIME     =        0.370 SECONDS      3 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:45 Page 2
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Model Statistics    SOLVE model_policy Using MIP From line 256
+
+
+MODEL STATISTICS
+
+BLOCKS OF EQUATIONS          21     SINGLE EQUATIONS       13,234
+BLOCKS OF VARIABLES          16     SINGLE VARIABLES        8,850
+NON ZERO ELEMENTS        40,698     DISCRETE VARIABLES      4,386
+
+
+GENERATION TIME      =        0.036 SECONDS      8 MB  37.1.0 r07954d5 LEX-LEG
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:45 Page 3
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+Solution Report     SOLVE model_policy Using MIP From line 256
+
+
+               S O L V E      S U M M A R Y
+
+     MODEL   model_policy        OBJECTIVE  obj
+     TYPE    MIP                 DIRECTION  MINIMIZE
+     SOLVER  CPLEX               FROM LINE  256
+
+**** SOLVER STATUS     1 Normal Completion
+**** MODEL STATUS      8 Integer Solution
+**** OBJECTIVE VALUE          3476175.7763
+
+ RESOURCE USAGE, LIMIT       4262.137   1000000.000
+ ITERATION COUNT, LIMIT 133051062    2147483647
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.84 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 4.51 Mb (peak 4.58 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.32 Mb (peak 1.77 Mb)
+--- Starting Cplex
+
+
+--- MIP status (102): integer optimal, tolerance.
+--- Cplex Time: 4262.09sec (det. 973609.61 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.02sec (det. 13.61 ticks)
+
+
+Solution satisfies tolerances
+MIP Solution:      3476175.776337    (133051062 iterations, 3778896 nodes)
+Final Solve:       3476175.776337    (2 iterations)
+
+Best possible:     3475834.235688
+Absolute gap:          341.540649
+Relative gap:            0.000098
+
+
+
+**** REPORT SUMMARY :        0     NONOPT
+                             0 INFEASIBLE
+                             0  UNBOUNDED
+                           270  PROJECTED
+GAMS 37.1.0  r07954d5 Released Nov 11, 2021 LEX-LEG x86 64bit/Linux - 09/30/24 14:49:45 Page 4
+G e n e r a l   A l g e b r a i c   M o d e l i n g   S y s t e m
+E x e c u t i o n
+
+
+----    373 >> Project, scenario and timeseries:
+
+----    374 A, A_090_120, spacing_120
+
+----    376 >> Subsidies and taxes:
+
+----    377 VARIABLE k_p.L                 =       39.080  Subsidy per production unit (EUR/MWh)
+            VARIABLE k_c.L                 =        0.000  Subsidy per capacity unit (EUR/MW)
+            VARIABLE v.L                   =        0.000  Carbon-based subsidy factor (EUR/MWh-ton)
+            VARIABLE u_p.L                 =        0.000  Tax per production unit - DH generators (EUR/ton)
+            PARAMETER v_adj_CO2            =        0.000  Carbon-adjusted carbon-subsidy (EUR/ton)
+            PARAMETER v_adj_MWh            =        0.000  Energy-adjusted carbon-subsidy (EUR/MWh)
+
+----    379 >> HR Summary:
+
+----    380 PARAMETER SummaryHR  Summary parameter holding total HR results
+
+                policy
+
+Capacity      1792.090
+Production   88949.516
+
+
+----    382 >> Detailed HR Summary:
+
+----    383 PARAMETER SummaryOperations  Summary parameter holding operational results
+
+                          policy
+
+Capacity  .HR_M-near     555.400
+Capacity  .HR_M-far      155.099
+Capacity  .HR_L-near     542.653
+Capacity  .HR_L-far      538.937
+Production.HR_M-near   23043.784
+Production.HR_M-far     6359.059
+Production.HR_L-near   31237.346
+Production.HR_L-far    28309.328
+
+
+----    385 >> Policy Ratio:
+
+----    386 PARAMETER SummaryRatio  Summary parameter holding policy ratios
+
+                         limit      actual
+
+carbon emissions         0.900       0.900
+heating cost - net       1.200       0.401
+
+
+----    388 >> Policy Summary:
+
+----    389 PARAMETER SummaryPolicy  Summary parameter holding policy results
+
+                        baseline      policy
+
+carbon emissions       43927.065   39534.358
+subsidy cost                     4513528.713
+net policy cost                  4513528.713
+heating cost - gross 4007592.442 6120529.295
+heating cost - net   4007592.442 1607000.582
+
+
+----    391 >> DH Expense Summary:
+
+----    392 PARAMETER SummaryExpenses  Summary parameter holding heat supply expenses
+
+              baseline      policy
+
+OPEX - DH  4007592.442 1054150.035
+OPEX - HR              4029026.324
+CAPEX - HR             1037352.937
+
+
+----    394 >> Heat Production Summary:
+
+----    395 PARAMETER SummaryProduction  Summary parameter holding production results
+
+                 baseline      policy
+
+CHP_coal            8.953       7.302
+CHP_muniwaste      19.931      18.771
+CHP_natgas          2.104       2.040
+CHP_straw           4.409       3.422
+CHP_w-chip         13.417      11.337
+CHP_w-pellet       11.695       8.540
+CHP_w-waste         2.334       2.010
+FF_solar            2.779       2.406
+FF_industry         5.786       5.438
+HOB_muniwaste       1.694       1.381
+HOB_natgas          0.021
+HOB_straw          18.260      12.077
+HOB_w-chip          5.329       2.560
+HOB_w-pellet        0.683       0.151
+HOB_w-waste         1.345       0.964
+HP_ambient          0.691       0.060
+HP_industry         0.571       0.183
+HR_M-near                       5.534
+HR_M-far                        1.527
+HR_L-near                       7.501
+HR_L-far                        6.798
+
+
+----    397 >> Complementarity checks, maximum:
+
+----    398 PARAMETER cmpl_max  
+
+eq_max_firing      3.52802E-11,    eq_max_source      1.145254E-8,    eq_heat_capacity   1.50250E-13,    eq_stationarity_xh 4.93494E-11,    eq_stationarity_yh 1.26283E-10
+
+
+----    400 >> Complementarity checks, sum:
+
+----    401 PARAMETER cmpl_sum  
+
+eq_max_firing      3.16808E-10,    eq_max_source      1.147727E-8,    eq_heat_capacity   1.50250E-13,    eq_stationarity_xh 7.65856E-10,    eq_stationarity_yh 1.26283E-10
+
+
+
+EXECUTION TIME       =     4262.260 SECONDS      8 MB  37.1.0 r07954d5 LEX-LEG
+
+
+USER: Large MUD - 20 User License                    G221124|0002AP-GEN
+      Technical University of Denmark, Management Engineering    DC8611
+      License for teaching and research at degree granting institutions
+
+
+**** FILE SUMMARY
+
+Input      /zhome/f0/5/124363/J3-HPC/scripts/gams/policy.gms
+Output     /zhome/f0/5/124363/J3-HPC/results/A/A_090_120/policy.lst

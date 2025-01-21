@@ -1,0 +1,678 @@
+--- Job policy Start 09/30/24 14:49:45 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/policy.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/policy.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225d/
+    SysDir /appl/gams/37.1.0/
+    --project A
+    --scenario A_095_120
+    --timeseries spacing_120
+    --tax_carbon no
+    --subsidy_capex no
+    --subsidy_opex yes
+    --subsidy_carbon no
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- policy.gms(44) 2 Mb
+--- call mkdir -p ./results/A/A_095_120/
+--- policy.gms(51) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=A --scenario=A_095_120 --timeseries=spacing_120 o=results/A/A_095_120//parameters.lst
+--- Job parameters.gms Start 09/30/24 14:49:45 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225h/
+    SysDir /appl/gams/37.1.0/
+    --project A
+    --scenario A_095_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/A/A_095_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.093
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/30/24 14:49:45 elapsed 0:00:00.133
+--- policy.gms(52) 2 Mb--- policy.gms(55) 2 Mb
+--- call gams scripts/gams/baseline.gms   --project=A --scenario=A_095_120 --timeseries=spacing_120 o=results/A/A_095_120//baseline.lst
+--- Job baseline.gms Start 09/30/24 14:49:45 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/baseline.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/baseline.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225j/
+    SysDir /appl/gams/37.1.0/
+    --project A
+    --scenario A_095_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- baseline.gms(36) 2 Mb
+--- call mkdir -p ./results/A/A_095_120/
+--- baseline.gms(41) 2 Mb
+--- call gams scripts/gams/parameters.gms --project=A --scenario=A_095_120 --timeseries=spacing_120 o=results/A/A_095_120//parameters.lst
+--- Job parameters.gms Start 09/30/24 14:49:45 37.1.0 r07954d5 LEX-LEG x86 64bit/Linux
+--- Applying:
+    /appl/gams/37.1.0/gmsprmun.txt
+--- GAMS Parameters defined
+    Input /zhome/f0/5/124363/J3-HPC/scripts/gams/parameters.gms
+    Output /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.lst
+    ScrDir /zhome/f0/5/124363/J3-HPC/225o/
+    SysDir /appl/gams/37.1.0/
+    --project A
+    --scenario A_095_120
+    --timeseries spacing_120
+Licensee: Large MUD - 20 User License                    G221124|0002AP-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          /appl/gams/37.1.0/gamslice.txt
+          License Admin: Thomas Stidsen, thst@man.dtu.dk                   
+Processor information: 2 socket(s), 32 core(s), and 32 thread(s) available
+GAMS 37.1.0   Copyright (C) 1987-2021 GAMS Development. All rights reserved
+--- Starting compilation
+--- parameters.gms(37) 2 Mb
+--- call mkdir -p ./results/A/A_095_120/
+--- parameters.gms(49) 2 Mb
+--- . ts-timesteps.csv(73) 3 Mb
+--- parameters.gms(58) 3 Mb
+--- . name-generator.csv(27) 3 Mb
+--- parameters.gms(66) 3 Mb
+--- . name-fuel.csv(13) 3 Mb
+--- parameters.gms(74) 3 Mb
+--- . map-generator-fuel.csv(27) 3 Mb
+--- parameters.gms(89) 3 Mb
+--- . attribute-generator.csv(16) 3 Mb
+--- parameters.gms(96) 3 Mb
+--- . attribute-fuel.csv(5) 3 Mb
+--- parameters.gms(103) 3 Mb
+--- . attribute-other.csv(2) 3 Mb
+--- parameters.gms(111) 3 Mb
+--- . data-generator.csv(29) 3 Mb
+--- parameters.gms(118) 3 Mb
+--- . data-fuel.csv(15) 3 Mb
+--- parameters.gms(125) 3 Mb
+--- . data-other.csv(2) 3 Mb
+--- parameters.gms(203) 3 Mb
+--- . ts-demand-heat.csv(73) 3 Mb
+--- parameters.gms(211) 3 Mb
+--- . ts-electricity-price.csv(73) 3 Mb
+--- parameters.gms(219) 3 Mb
+--- . ts-electricity-carbon.csv(73) 3 Mb
+--- parameters.gms(228) 3 Mb
+--- . ts-generator-availability.csv(74) 3 Mb
+--- parameters.gms(235) 3 Mb
+--- . ts-generator-efficiency.csv(74) 3 Mb
+--- parameters.gms(286) 3 Mb
+--- Starting execution: elapsed 0:00:00.021
+--- parameters.gms(859) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+*** Status: Normal completion
+--- Job parameters.gms Stop 09/30/24 14:49:45 elapsed 0:00:00.039
+--- baseline.gms(77) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+--- baseline.gms(180) 3 Mb
+--- Starting execution: elapsed 0:00:00.075
+--- baseline.gms(132) 4 Mb
+--- Generating LP model model_baseline
+--- baseline.gms(134) 5 Mb
+---   2,483 rows  1,978 columns  6,796 non-zeroes
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.090
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.15 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 1.01 Mb (peak 1.02 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.07 Mb (peak 0.31 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Tried aggregator 1 time.
+LP Presolve eliminated 2035 rows and 282 columns.
+Reduced LP has 447 rows, 1696 columns, and 2438 nonzeros.
+Presolve time = 0.01 sec. (2.05 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -2787736.838177
+Iteration:   117   Dual objective     =       3871891.781294
+
+--- LP status (1): optimal.
+--- Cplex Time: 0.01sec (det. 3.54 ticks)
+
+
+Optimal solution found
+Objective:      4007592.442075
+
+--- Reading solution for model model_baseline
+--- Executing after solve: elapsed 0:00:00.153
+--- baseline.gms(176) 5 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/baseline.gdx
+*** Status: Normal completion
+--- Job baseline.gms Stop 09/30/24 14:49:45 elapsed 0:00:00.159
+--- policy.gms(113) 2 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/parameters.gdx
+--- policy.gms(123) 3 Mb
+--- GDXin=/zhome/f0/5/124363/J3-HPC/results/A/A_095_120/baseline.gdx
+--- GDX File ($gdxIn) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/baseline.gdx
+--- policy.gms(406) 3 Mb
+--- Starting execution: elapsed 0:00:00.404
+--- policy.gms(255) 4 Mb
+--- Generating MIP model model_policy
+--- policy.gms(217) 5 Mb--- policy.gms(256) 8 Mb
+---   13,234 rows  8,850 columns  40,698 non-zeroes
+---   4,386 discrete-columns
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:00.441
+
+IBM ILOG CPLEX   37.1.0 r07954d5 Released Nov 11, 2021 LEG x86 64bit/Linux    
+
+--- GAMS/Cplex Link licensed for continuous and discrete problems.
+
+Reading parameter(s) from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+>>  Threads -1
+Finished reading from "/zhome/f0/5/124363/J3-HPC/cplex.opt"
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 0.84 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 4.51 Mb (peak 4.58 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 20.1.0.1 link memory 0.32 Mb (peak 1.77 Mb)
+--- Starting Cplex
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 0
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_TimeLimit                               1000000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Generic callback                                 0x50
+Tried aggregator 1 time.
+MIP Presolve eliminated 3132 rows and 920 columns.
+MIP Presolve modified 6012 coefficients.
+Reduced MIP has 10101 rows, 7930 columns, and 29355 nonzeros.
+Reduced MIP has 3928 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (16.19 ticks)
+Probing fixed 1917 vars, tightened 4754 bounds.
+Probing time = 0.19 sec. (113.73 ticks)
+Tried aggregator 2 times.
+MIP Presolve eliminated 4498 rows and 2893 columns.
+MIP Presolve modified 2387 coefficients.
+Aggregator did 347 substitutions.
+Reduced MIP has 5256 rows, 4690 columns, and 17274 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (16.46 ticks)
+Probing fixed 0 vars, tightened 1058 bounds.
+Probing time = 0.05 sec. (28.12 ticks)
+Tried aggregator 1 time.
+Detecting symmetries...
+MIP Presolve modified 943 coefficients.
+Reduced MIP has 5256 rows, 4690 columns, and 17274 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (10.47 ticks)
+Probing fixed 0 vars, tightened 290 bounds.
+Probing time = 0.04 sec. (23.74 ticks)
+Clique table members: 22036.
+MIP emphasis: balance optimality and feasibility.
+MIP search method: dynamic search.
+Parallel mode: deterministic, using up to 31 threads.
+Parallel mode: deterministic, using up to 4 threads for parallel tasks at root LP.
+Parallel mode: deterministic, using up to 27 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 25 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+Aggregator did 2005 substitutions.
+Reduced LP has 3251 rows, 2685 columns, and 12345 nonzeros.
+Presolve time = 0.01 sec. (3.94 ticks)
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -7385677.503673
+Iteration:   135   Dual objective     =      -2411808.465695
+Iteration:   241   Dual objective     =       -795830.833791
+Iteration:   378   Dual objective     =       -790175.897700
+Iteration:   492   Dual objective     =       -354661.572042
+Iteration:   649   Dual objective     =         53900.733392
+Iteration:   783   Dual objective     =        127636.419221
+Initializing dual steep norms . . .
+
+Dual simplex solved model.
+
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        132284.159891
+Root relaxation solution time = 0.08 sec. (56.81 ticks)
+
+        Nodes                                         Cuts/
+   Node  Left     Objective  IInf  Best Integer    Best Bound    ItCnt     Gap
+
+      0     0   132284.1599    53                 132284.1599      814         
+      0     0   164608.5350    71                   Cuts: 259      946         
+      0     0   189274.3277    76                   Cuts: 422     1127         
+      0     0   197505.1829    91                   Cuts: 464     1275         
+      0     0   203785.8424   104                   Cuts: 431     1420         
+      0     0   213791.8586   146                   Cuts: 347     1593         
+Detecting symmetries...
+      0     0   215118.3920   145                   Cuts: 224     1715         
+      0     0   216136.2934   156                   Cuts: 140     1809         
+      0     0   217750.3540   163                   Cuts: 145     1913         
+      0     0   218408.3462   137                   Cuts: 162     1979         
+      0     0   219355.2737   154                   Cuts: 164     2051         
+      0     0   219472.3419   169                   Cuts: 105     2082         
+      0     0   219743.3156   167                    Cuts: 70     2121         
+      0     0   219849.6418   170                    Cuts: 62     2159         
+      0     0   228383.8272   168                    Cuts: 94     2256         
+      0     0   229154.4716   152                   Cuts: 242     2331         
+      0     0   229696.5469   172                   Cuts: 139     2382         
+      0     0   229779.8729   176                    Cuts: 60     2414         
+      0     0   229939.0237   177                    Cuts: 79     2444         
+      0     0   230059.5026   175                   Cuts: 151     2486         
+      0     0   230262.3844   177                    Cuts: 37     2518         
+      0     0   230286.6814   184                    Cuts: 16     2550         
+      0     0   230297.3883   183                    Cuts: 14     2569         
+Detecting symmetries...
+      0     2   230297.3883   183                 231148.1659     2569         
+Elapsed time = 7.41 sec. (2772.54 ticks, tree = 0.02 MB)
+     82    42   313099.0970   129                 231148.1659     7616         
+                                                    Cuts: 110                  
+    539   276    infeasible                       253397.7059    32777         
+                                                 Impl Bds: 55                  
+   1353   505  1023322.3534    94                 258617.4968    86553         
+                                                     Cuts: 61                  
+   2348  1051   798550.4894    56                 258617.4968   151853         
+                                                     Cuts: 66                  
+   2788  1246    infeasible                       258617.4968   187102         
+                                                  Impl Bds: 1                  
+   3917  1748    infeasible                       258617.4968   248603         
+                                                     Cuts: 19                  
+   5092  2255   868327.8529   103                 258617.4968   307280         
+                                                 Impl Bds: 77                  
+   5605  3026   512578.8306    84                 258617.4968   371644         
+                                                      Cuts: 4                  
+   6324  3084   375384.8447   105                 307618.5399   420618         
+                                                     Cuts: 11                  
+
+Performing restart 1
+
+Repeating presolve.
+Tried aggregator 2 times.
+MIP Presolve modified 438 coefficients.
+Aggregator did 51 substitutions.
+Reduced MIP has 5205 rows, 4639 columns, and 16722 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (9.76 ticks)
+Tried aggregator 1 time.
+MIP Presolve eliminated 0 rows and 465 columns.
+Reduced MIP has 5205 rows, 4174 columns, and 16722 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.88 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 5205 rows, 4174 columns, and 16722 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (9.96 ticks)
+Represolve time = 0.19 sec. (94.01 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 24 rows and 0 columns.
+Aggregator did 1697 substitutions.
+Reduced LP has 4483 rows, 2477 columns, and 19021 nonzeros.
+Presolve time = 0.01 sec. (4.76 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -4414219.978666
+Iteration:   149   Dual objective     =      -1519924.949199
+Iteration:   297   Dual objective     =      -1406727.865637
+Iteration:   516   Dual objective     =       -362951.891118
+Iteration:   732   Dual objective     =        -64901.813688
+Iteration:   876   Dual objective     =         62368.712735
+Iteration:   994   Dual objective     =        125184.074917
+Iteration:  1099   Dual objective     =        159915.322229
+Iteration:  1208   Dual objective     =        207134.759804
+Iteration:  1311   Dual objective     =        219067.971100
+Iteration:  1407   Dual objective     =        227848.116730
+Iteration:  1502   Dual objective     =        230359.460174
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        230715.920195
+   8115     0   231992.3166   225                   Cuts: 766   549625         
+   8115     0   233595.3012   234                   Cuts: 633   549805         
+   8115     0   234674.9548   234                   Cuts: 247   549935         
+   8115     0   236050.0179   213                   Cuts: 203   550050         
+   8115     0   236888.4061   238                   Cuts: 130   550152         
+   8115     0   237734.6119   240                   Cuts: 224   550297         
+   8115     2   237734.6119   239                 308612.5747   550297         
+Elapsed time = 32.29 sec. (10608.33 ticks, tree = 0.02 MB)
+   8185    44  1058003.8334   161                 308612.5747   559369         
+                                                    Cuts: 197                  
+   9613   414   943261.3004    61                 308612.5747   630033         
+                                                    Cuts: 153                  
+  11565  1547   501173.6203   113                 308612.5747   745925         
+                                                    Cuts: 112                  
+  13480  2697   664290.0818    76                 308612.5747   898525         
+                                                     Cuts: 65                  
+  14661  3725   857661.5712   110                 308612.5747  1063815         
+                                                      Cuts: 9                  
+  15726  4614    infeasible                       310754.9637  1243218         
+                                                     Cuts: 13                  
+  17525  5638    infeasible                       310754.9637  1401928         
+                                                     Cuts: 44                  
+  19510  6057   999990.7118   123                 310754.9637  1534508         
+                                                     Cuts: 19                  
+  20335  7141    infeasible                       310754.9637  1735555         
+                                                     Cuts: 22                  
+  22743  7624  1007352.7236   104                 310754.9637  1843956         
+                                                     Cuts: 14                  
+Elapsed time = 75.81 sec. (20155.60 ticks, tree = 26.70 MB)
+
+Performing restart 2
+
+Repeating presolve.
+Tried aggregator 1 time.
+Reduced MIP has 5205 rows, 4174 columns, and 17195 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (6.92 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 5205 rows, 4174 columns, and 17195 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (10.29 ticks)
+Represolve time = 0.12 sec. (57.49 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 14 rows and 0 columns.
+Aggregator did 1605 substitutions.
+Reduced LP has 4695 rows, 2569 columns, and 22716 nonzeros.
+Presolve time = 0.01 sec. (5.13 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -4415163.490280
+Iteration:   135   Dual objective     =      -1896298.159232
+Iteration:   261   Dual objective     =      -1868632.656977
+Iteration:   387   Dual objective     =      -1560977.035032
+Iteration:   619   Dual objective     =       -467359.041635
+Iteration:   817   Dual objective     =        -68969.858021
+Iteration:   953   Dual objective     =         37334.729389
+Iteration:  1092   Dual objective     =        131371.348623
+Iteration:  1212   Dual objective     =        181044.992120
+Iteration:  1316   Dual objective     =        201760.728187
+Iteration:  1419   Dual objective     =        216001.284261
+Iteration:  1522   Dual objective     =        219920.650280
+Iteration:  1622   Dual objective     =        222626.802036
+Iteration:  1721   Dual objective     =        223837.190859
+Iteration:  1820   Dual objective     =        232258.535027
+Iteration:  1922   Dual objective     =        237429.612912
+Iteration:  2024   Dual objective     =        238482.730515
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        238893.308197
+  23099     0   240873.7652   287                   Cuts: 915  2018710         
+  23099     0   241154.8816   285                   Cuts: 195  2018808         
+  23099     0   241266.8276   282                   Cuts: 157  2018901         
+  23099     0   241423.4613   304                   Cuts: 139  2018983         
+  23099     0   241548.2933   284                   Cuts: 167  2019065         
+  23099     0   241591.0938   302                   Cuts: 121  2019149         
+  23099     0   241742.6088   301                    Cuts: 92  2019213         
+  23099     0   241827.1742   303                   Cuts: 116  2019267         
+  23099     0   241857.2631   308                   Cuts: 113  2019336         
+  23099     0   242086.6481   305                   Cuts: 227  2019468         
+
+Repeating presolve.
+Tried aggregator 1 time.
+Reduced MIP has 5205 rows, 4174 columns, and 17444 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.01 sec. (7.01 ticks)
+Tried aggregator 1 time.
+Reduced MIP has 5205 rows, 4174 columns, and 17444 nonzeros.
+Reduced MIP has 2009 binaries, 0 generals, 0 SOSs, and 0 indicators.
+Presolve time = 0.02 sec. (10.26 ticks)
+Represolve time = 0.14 sec. (68.01 ticks)
+Tried aggregator 1 time.
+LP Presolve eliminated 5 rows and 0 columns.
+Aggregator did 1664 substitutions.
+Reduced LP has 4041 rows, 2510 columns, and 18214 nonzeros.
+Presolve time = 0.01 sec. (4.51 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =      -4415163.490280
+Iteration:   155   Dual objective     =      -1455763.445708
+Iteration:   291   Dual objective     =      -1219792.510957
+Iteration:   502   Dual objective     =       -461583.229223
+Iteration:   667   Dual objective     =        -37341.603213
+Iteration:   820   Dual objective     =         69590.464963
+Iteration:   942   Dual objective     =        153977.118691
+Iteration:  1047   Dual objective     =        192146.582163
+Iteration:  1142   Dual objective     =        218195.241451
+Iteration:  1236   Dual objective     =        229216.631711
+Iteration:  1329   Dual objective     =        234911.727685
+Iteration:  1417   Dual objective     =        238847.409570
+Iteration:  1508   Dual objective     =        241751.353966
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        242091.035053
+  23099     0   242195.9470   320                   Cuts: 840  2021219         
+  23099     0   242593.3307   298                   Cuts: 270  2021328         
+  23099     0   242744.3514   307                   Cuts: 265  2021434         
+  23099     0   242820.8004   300                   Cuts: 251  2021507         
+  23099     0   242997.3968   303                   Cuts: 227  2021598         
+  23099     0   243126.4876   309                   Cuts: 254  2021676         
+  23099     0   243383.2751   317                   Cuts: 294  2021798         
+  23099     0   243411.2226   316                   Cuts: 155  2021868         
+  23099     2   243411.2226   307                 366824.5925  2021868         
+  23119    11  1070862.4612   156                 366824.5925  2025316         
+                                                     Cuts: 45                  
+  23998   523   762031.1826    33                 366824.5925  2116619         
+                                                     Cuts: 98                  
+  25169  1100  1088140.1555    82                 366824.5925  2303306         
+                                                    Cuts: 247                  
+* 25370+ 1081                       704930.6822   366824.5925            47.96%
+                                                     Cuts: 64                  
+Found incumbent of value 704930.682223 after 115.39 sec. (41474.94 ticks)
+  26400   480   442659.0447    61   704930.6822   366824.5925  2414315   47.96%
+                                                     Cuts: 59                  
+  27128   935   498341.4388    30   704930.6822   366824.5925  2557112   47.96%
+                                                     Cuts: 48                  
+  27811  1356   685937.8092    95   704930.6822   366824.5925  2690854   47.96%
+                                                     Cuts: 40                  
+  28381  1544   622285.4147   138   704930.6822   366824.5925  2761448   47.96%
+                                                     Cuts: 22                  
+  29152  1907   572167.6248    74   704930.6822   366824.5925  2891977   47.96%
+                                                     Cuts: 21                  
+  29810  2238        cutoff         704930.6822   366824.5925  3044591   47.96%
+                                                     Cuts: 23                  
+Elapsed time = 140.24 sec. (47018.05 ticks, tree = 3.56 MB)
+  30646  2516   647621.8718   129   704930.6822   366824.5925  3158038   47.96%
+                                                     Cuts: 38                  
+  31198  2837   638306.1511   132   704930.6822   366824.5925  3305155   47.96%
+                                                     Cuts: 16                  
+  32123  3227   670803.9191    77   704930.6822   366824.5925  3490946   47.96%
+                                                     Cuts: 27                  
+  32659  3498        cutoff         704930.6822   366824.5925  3580705   47.96%
+                                                     Cuts: 21                  
+* 33130  3730      integral     0   643834.8392   366824.5925  3660267   43.03%
+                                                  Impl Bds: 4                  
+Found incumbent of value 643834.839183 after 159.38 sec. (51392.46 ticks)
+  33566  3088   614915.8429    84   643834.8392   366824.5925  3696797   43.03%
+  34885  3436   510559.0566   115   643834.8392   366824.5925  3846428   43.03%
+                                                     Cuts: 22                  
+  35649  3823   435532.4072   128   643834.8392   389596.6467  3961292   39.49%
+                                                      Cuts: 8                  
+  36835  4237   454980.5166    56   643834.8392   394370.4126  4083860   38.75%
+                                                      Cuts: 7                  
+  38539  4870   643748.8809    86   643834.8392   404947.9920  4280725   37.10%
+                                                      Cuts: 5                  
+  39608  5581   459029.9542   122   643834.8392   412295.0773  4458492   35.96%
+                                                      Cuts: 8                  
+Elapsed time = 182.50 sec. (56562.32 ticks, tree = 12.79 MB)
+  40806  5681        cutoff         643834.8392   418028.1012  4511087   35.07%
+  42847  6673   600920.1100    25   643834.8392   424956.2340  4736938   34.00%
+                                                      Cuts: 8                  
+  44178  7103   591138.4269    38   643834.8392   428205.9888  4891399   33.49%
+                                                      Cuts: 4                  
+  45533  7425        cutoff         643834.8392   436429.4407  4971629   32.21%
+                                                     Cuts: 13                  
+  47494  8226   458090.9060    51   643834.8392   443177.8270  5167656   31.17%
+                                                     Cuts: 26                  
+* 48747  8476      integral     0   595935.4701   448829.9282  5222718   24.68%
+                                                  Impl Bds: 3                  
+Found incumbent of value 595935.470091 after 206.52 sec. (61895.08 ticks)
+  49277  6198   540315.1633    36   595935.4701   449274.6991  5328340   24.61%
+                                                  Impl Bds: 1                  
+* 49621  6379      integral     0   547214.5689   449274.6991  5377281   17.90%
+Found incumbent of value 547214.568947 after 210.30 sec. (62723.15 ticks)
+* 49627  3896      integral     0   542074.4243   449274.6991  5402293   17.12%
+Found incumbent of value 542074.424328 after 210.35 sec. (62731.22 ticks)
+  50344  3615   493505.5919   147   542074.4243   452836.5537  5438240   16.46%
+                                                     Cuts: 12                  
+  52895  3846   477894.9366    13   542074.4243   461970.4556  5619888   14.78%
+                                                     Cuts: 28                  
+  54130  3897   483148.2034     4   542074.4243   469899.5943  5684900   13.31%
+                                                     Cuts: 10                  
+  57874  4082   489187.1095     4   542074.4243   478216.8439  5807860   11.78%
+                                                    Covers: 1                  
+Elapsed time = 225.90 sec. (66104.38 ticks, tree = 7.30 MB)
+  60181  3700   529651.7066   146   542074.4243   485488.3690  5926086   10.44%
+                                                     Cuts: 17                  
+  61644  2476        cutoff         542074.4243   496130.8338  6045640    8.48%
+                                                  Impl Bds: 1                  
+  65100   901    infeasible         542074.4243   518782.4120  6177858    4.30%
+                                                     Cuts: 32                  
+
+GUB cover cuts applied:  9
+Clique cuts applied:  53
+Cover cuts applied:  105
+Implied bound cuts applied:  352
+Flow cuts applied:  389
+Mixed integer rounding cuts applied:  421
+Lift and project cuts applied:  160
+Gomory fractional cuts applied:  8
+
+Root node processing (before b&c):
+  Real time             =    3.14 sec. (2748.20 ticks)
+Parallel b&c, 31 threads:
+  Real time             =  246.69 sec. (66657.77 ticks)
+  Sync time (average)   =   88.22 sec.
+  Wait time (average)   =    0.16 sec.
+                          ------------
+Total (root+branch&cut) =  249.83 sec. (69405.98 ticks)
+
+--- MIP status (102): integer optimal, tolerance.
+--- Cplex Time: 249.84sec (det. 69406.00 ticks)
+
+--- Fixing integer variables and solving final LP...
+
+Version identifier: 20.1.0.1 | 2021-04-07 | 3a818710c
+CPXPARAM_Advance                                 2
+CPXPARAM_Threads                                 31
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_TimeLimit                               1000000
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+Parallel mode: deterministic, using up to 31 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting Barrier on 29 threads...
+ * Starting primal Simplex on 1 thread...
+Tried aggregator 1 time.
+LP Presolve eliminated 12986 rows and 8601 columns.
+Aggregator did 244 substitutions.
+Reduced LP has 3 rows, 5 columns, and 6 nonzeros.
+Presolve time = 0.01 sec. (7.21 ticks)
+Initializing dual steep norms . . .
+
+Iteration log . . .
+Iteration:     1   Dual objective     =        542074.424328
+
+Dual simplex solved model.
+
+
+--- Fixed MIP status (1): optimal.
+--- Cplex Time: 0.02sec (det. 13.54 ticks)
+
+
+Solution satisfies tolerances
+MIP Solution:       542074.424328    (6202798 iterations, 66319 nodes)
+Final Solve:        542074.424328    (2 iterations)
+
+Best possible:      542020.896879
+Absolute gap:           53.527449
+Relative gap:            0.000099
+
+--- Reading solution for model model_policy
+--- Executing after solve: elapsed 0:04:10.418
+--- policy.gms(273) 8 Mb--- policy.gms(403) 8 Mb
+--- GDX File (execute_unload) /zhome/f0/5/124363/J3-HPC/results/A/A_095_120/policy.gdx
+*** Status: Normal completion
+--- Job policy.gms Stop 09/30/24 14:53:55 elapsed 0:04:10.438

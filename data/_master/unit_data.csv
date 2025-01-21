@@ -1,0 +1,1489 @@
+vrkanl_ny,technology_type,varmelev_TJ,fuel,fuel_share,fuel_capacity_allocation,heat_capacity_allocation,elec_capacity_allocation,source,technology_category
+1-14,industrial heat,1531.996,fuel free,1.0,56.0,56.0,0.0,industry,FF
+1-2,gas turbine,248.967,refinery gas,1.0,97.23,52.0,26.0,,CHP
+10-6,boiler,5.367,natural gas,1.0,12.6,11.6,0.0,,HOB
+10-7,boiler,6.633,natural gas,0.9847473946567864,12.407817172675509,11.423069778018721,0.0,,HOB
+10-8,boiler,10.706,natural gas,1.0,12.6,11.6,0.0,,HOB
+10-9,boiler,8.715,natural gas,0.9949511967956209,12.536385079624823,11.541433882829203,0.0,,HOB
+1003-1,combustion engine,16.5065292,natural gas,1.0,7.6,4.2,3.06,,CHP
+1003-3,boiler,18.86994,electricity,1.0,2.95,2.95,0.0,,HOB
+1003-4,solar,18.18864,fuel free,1.0,7.2,7.2,0.0,solar,FF
+1003-5,heat pump - air,5.06592,electricity,1.0,0.269,1.6,0.0,ambient,HP
+1003-7,boiler,22.234752,natural gas,1.0,4.25,7.3,0.0,,HOB
+1015-2,boiler,3.06,natural gas,1.0,4.5,4.5,0.0,,HOB
+102-3,boiler,12.1356,natural gas,1.0,7.3,8.9,0.0,,HOB
+103-3,boiler,109.7856,natural gas,1.0,11.6,11.6,0.0,,HOB
+1042-1,combined cycle,460.782,natural gas,1.0,115.02,60.0,54.25,,CHP
+1042-2,combined cycle,341.1432,natural gas,1.0,115.02,60.0,54.3,,CHP
+1042-5,boiler,178.451316,electricity,1.0,30.0,30.0,0.0,,HOB
+1042-6,steam boiler,18.2124,natural gas,1.0,27.712,25.0,0.0,,HOB
+1042-7,boiler,174.17016,electricity,1.0,50.0,50.0,0.0,,HOB
+1043-3,boiler,10.41408,wood chips,0.6193119149714232,0.6193119149714232,0.6193119149714232,0.0,,HOB
+1043-3,boiler,10.41408,wood pellets,0.38068808502857676,0.38068808502857676,0.38068808502857676,0.0,,HOB
+1043-4,heat pump - air,5.4612,electricity,1.0,0.1466,0.44,0.0,ambient,HP
+1044-1,boiler,7.4772,wood pellets,1.0,0.65,0.65,0.0,,HOB
+1046-2,boiler,22.922,wood waste,1.0,1.0,1.0,0.0,,HOB
+1047-3,boiler,21.9924,straw,1.0,1.0,1.0,0.0,,HOB
+1049-1,combustion engine,2.30328,natural gas,1.0,5.0,2.25,2.02,,CHP
+1049-3,boiler,21.537,wood pellets,1.0,1.0,0.9,0.0,,HOB
+1053-3,boiler,12.0744,wood pellets,1.0,0.7,0.7,0.0,,HOB
+1053-4,solar,14.6592,fuel free,1.0,6.2,6.2,0.0,solar,FF
+1053-5,boiler,2.3076,natural gas,1.0,2.0,2.0,0.0,,HOB
+1053-6,boiler,9.532800000000002,wood pellets,1.0,1.3,1.3,0.0,,HOB
+1054-1,boiler,7.328,wood chips,1.0,0.49,0.48,0.0,,HOB
+1054-2,boiler,7.329,wood chips,1.0,0.49,0.48,0.0,,HOB
+1057-2,boiler,24.894,natural gas,1.0,5.53,5.5,0.0,,HOB
+1057-5,boiler,16.9056,electricity,1.0,10.0,10.0,0.0,,HOB
+1057-8,solar,42.3828,fuel free,1.0,24.0,24.0,0.0,solar,FF
+1058-1,combustion engine,10.20312,natural gas,1.0,2.1,1.2,0.9,,CHP
+1058-2,boiler,6.47136,natural gas,1.0,1.6,1.5,0.0,,HOB
+1059-1,combustion engine,4.302359999999999,natural gas,1.0,7.2,3.7,2.8,,CHP
+1059-2,combustion engine,3.04488,natural gas,1.0,7.2,3.7,2.8,,CHP
+1063-1,combined cycle,600.0416,municipal waste,0.8523000191530178,117.61740264311645,51.138001149181065,49.43340111087503,,CHP
+1063-1,combined cycle,600.0416,straw,0.0481045036352334,6.63842150166221,2.886270218114004,2.7900612108435374,,CHP
+1063-1,combined cycle,600.0416,wood waste,0.09959526051955758,13.744145951698947,5.975715631173455,5.77652511013434,,CHP
+1064-1,combustion engine,10.00116,natural gas,1.0,7.41,3.7,3.04,,CHP
+1064-2,boiler,8.765640000000001,natural gas,1.0,10.0,10.0,0.0,,HOB
+1065-1,combustion engine,19.782,natural gas,1.0,8.67,4.6,3.64,,CHP
+1065-2,boiler,16.2612,electricity,1.0,4.5,4.5,0.0,,HOB
+1065-3,boiler,2.2284,natural gas,1.0,7.5,7.5,0.0,,HOB
+1067-2,boiler,32.205,electricity,1.0,10.0,10.0,0.0,,HOB
+1067-3,boiler,93.249,wood chips,1.0,6.3,6.3,0.0,,HOB
+1068-7,boiler,21.16512,natural gas,1.0,8.5,8.5,0.0,,HOB
+1068-8,boiler,2.15676,gas oil,0.8584243727501706,8.584243727501706,7.983346666576587,0.0,,HOB
+1068-8,boiler,2.15676,natural gas,0.14157562724982947,1.4157562724982946,1.3166533334234143,0.0,,HOB
+1068-9,boiler,42.28164,electricity,1.0,10.0,10.0,0.0,,HOB
+1069-1,combined cycle,174.0312,natural gas,1.0,128.2,56.0,57.0,,CHP
+1069-10,heat pump - air,90.7308,electricity,1.0,2.8,12.0,0.0,ambient,HP
+1069-6,boiler,114.8796,natural gas,1.0,15.0,15.8,0.0,,HOB
+1069-7,boiler,114.8796,natural gas,1.0,15.0,15.8,0.0,,HOB
+1069-9,boiler,60.5268,electricity,1.0,50.0,50.0,0.0,,HOB
+1070-1,boiler,2.5812,natural gas,1.0,16.5,17.3,0.0,,HOB
+1070-11,boiler,5.1732,electricity,1.0,20.0,19.85,0.0,,HOB
+1070-3,combustion engine,2.5308,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-4,combustion engine,2.9376,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-5,combustion engine,3.5136,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-6,combustion engine,3.996,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-7,combustion engine,4.2336,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-8,combustion engine,3.5172,natural gas,1.0,7.79,4.2,3.2,,CHP
+1070-9,combustion engine,2.7792,natural gas,1.0,7.79,4.2,3.2,,CHP
+1073-2,boiler,2.32164,natural gas,1.0,1.7,1.7,0.0,,HOB
+1073-3,solar,6.337800000000001,fuel free,1.0,2.6,2.6,0.0,solar,FF
+1073-4,boiler,16.75008,wood chips,1.0,1.2,1.2,0.0,,HOB
+1074-3,boiler,9.234575999999999,wood waste,1.0,0.994,0.889,0.0,,HOB
+1074-4,heat pump - other,7.896240000000001,electricity,1.0,0.2,0.66,0.0,industry,HP
+1075-3,boiler,14.604192,wood waste,1.0,0.994,0.889,0.0,,HOB
+1075-4,heat pump - air,5.377248000000001,electricity,1.0,0.14,0.52,0.0,ambient,HP
+1076-3,boiler,9.3141,wood waste,1.0,0.86,0.8,0.0,,HOB
+1077-1,combustion engine,3.8772,natural gas,1.0,3.3,1.75,1.41,,CHP
+1077-2,boiler,3.7296,natural gas,1.0,2.5,2.5,0.0,,HOB
+1077-3,heat pump - air,14.4108,electricity,1.0,0.37,1.16,0.0,ambient,HP
+1078-5,boiler,2.394,natural gas,1.0,4.07,4.22,0.0,,HOB
+1078-6,solar,8.856,fuel free,1.0,4.0,4.0,0.0,solar,FF
+1080-3,boiler,2.0466,electricity,1.0,2.95,2.95,0.0,,HOB
+1081-2,boiler,3.4992,natural gas,1.0,2.78,2.5,0.0,,HOB
+1091-11,combustion engine,19.2672,biofuels,1.0,7.049,4.002,3.047,,CHP
+1091-12,combustion engine,19.2672,biofuels,1.0,7.049,4.002,3.047,,CHP
+11-4,boiler,60.706512,wood chips,1.0,4.985,6.0,0.0,,HOB
+110-3,combustion engine,8.4852,biofuels,1.0,2.24,1.1,0.81,,CHP
+110-4,combustion engine,23.9292,biofuels,1.0,3.56,1.75,1.47,,CHP
+110-5,combustion engine,49.94280000000001,biofuels,1.0,7.166,3.763,3.047,,CHP
+110-6,combustion engine,81.162,biofuels,1.0,6.951,3.61,2.999,,CHP
+1101-6,combustion engine,25.4376,biofuels,1.0,7.049,4.002,3.047,,CHP
+1101-7,combustion engine,25.4376,biofuels,1.0,7.049,4.002,3.047,,CHP
+111-5,boiler,26.3448,wood chips,1.0,5.0,6.0,0.0,,HOB
+111-6,boiler,57.9348,wood chips,1.0,5.0,6.0,0.0,,HOB
+113-1,industrial heat,3.7413,fuel free,1.0,1.9,1.9,0.0,industry,FF
+114-3,boiler,18.7524,fuel oil,0.7253935752190185,5.0052156690112275,5.0052156690112275,0.0,,HOB
+114-3,boiler,18.7524,natural gas,0.2746064247809817,1.8947843309887737,1.8947843309887737,0.0,,HOB
+114-5,heat pump - industrial heat,36.72324,electricity,1.0,0.6,2.5,0.0,industry,HP
+114-6,boiler,7.888752,natural gas,1.0,5.0,5.0,0.0,,HOB
+1159-8,combustion engine,5.6631924,biofuels,1.0,0.878,0.441,0.357,,CHP
+116-1,industrial heat,47.75436,fuel free,1.0,14.0,14.0,0.0,industry,FF
+1171-1,boiler,10.836,straw,0.9967124528108208,0.9867453282827126,0.9867453282827126,0.0,,HOB
+1173-3,boiler,11.5056,natural gas,1.0,3.7,3.7,0.0,,HOB
+1173-5,heat pump - air,38.8008,electricity,1.0,1.0,2.5,0.0,ambient,HP
+1174-3,boiler,19.1484,straw,1.0,0.93,0.93,0.0,,HOB
+1176-3,boiler,2.5326,gas oil,1.0,3.5,3.15,0.0,,HOB
+1176-4,boiler,2.05344,biofuels,1.0,1.8,1.6,0.0,,HOB
+1176-5,combustion engine,16.24356,biofuels,1.0,2.02,0.99,0.84,,CHP
+1176-6,boiler,15.888132,wood chips,1.0,1.2,1.1,0.0,,HOB
+1177-2,boiler,11.7,wood waste,1.0,1.0,1.0,0.0,,HOB
+1178-1,combustion engine,24.5628,biofuels,0.8549442518915815,3.6335130705392213,2.0518662045397957,1.5816468659994258,,CHP
+1178-1,combustion engine,24.5628,natural gas,0.14505574810841854,0.6164869294607788,0.34813379546020445,0.2683531340005743,,CHP
+1178-2,boiler,2.7324,electricity,1.0,2.0,2.0,0.0,,HOB
+1179-2,boiler,11.87604,wood waste,1.0,1.0,1.0,0.0,,HOB
+118-4,boiler,60.16464000000001,wood chips,1.0,8.0,10.0,0.0,,HOB
+118-5,boiler,125.11332,wood chips,1.0,10.0,12.0,0.0,,HOB
+118-6,boiler,32.0724,electricity,1.0,12.0,12.0,0.0,,HOB
+1182-2,boiler,2.4408,biofuels,1.0,0.45,0.5,0.0,,HOB
+1182-4,combustion engine,3.4758,biofuels,1.0,0.51,0.26,0.21,,CHP
+119-1,steam turbine,410.406048,municipal waste,0.9961366219085822,24.206119912378547,17.93045919435448,4.48261479858862,,CHP
+119-2,steam turbine,431.2728,municipal waste,0.9961363611270131,24.206113575386418,17.930454500286235,4.482613625071559,,CHP
+119-5,steam turbine,1123.949952,municipal waste,0.9961364531120392,53.791368468050116,39.34738989792555,11.256341920166044,,CHP
+1195-3,boiler,6.422400000000001,biofuels,1.0,0.48,0.48,0.0,,HOB
+120-2,boiler,4.869359999999999,natural gas,1.0,5.8,5.6,0.0,,HOB
+120-4,combustion engine,9.306,natural gas,1.0,4.2,2.2,1.82,,CHP
+120-5,solar,12.10716,fuel free,1.0,6.3,6.3,0.0,solar,FF
+120-6,combustion engine,17.88948,natural gas,1.0,4.545,2.3,2.0,,CHP
+120-7,heat pump - air,15.42168,electricity,1.0,1.2,3.6,0.0,ambient,HP
+121-7,boiler,3.30659,gas oil,1.0,54.0,50.0,0.0,,HOB
+121-8,boiler,5.60873,gas oil,1.0,54.0,50.0,0.0,,HOB
+121-9,boiler,6.600470000000001,gas oil,1.0,54.0,50.0,0.0,,HOB
+1213-2,boiler,22.36464,natural gas,1.0,5.0,4.27,0.0,,HOB
+1216-3,combustion engine,13.3992,biofuels,1.0,1.572,0.709,0.635,,CHP
+122-5,boiler,14.76,natural gas,0.9934879510893777,16.243528000311326,16.88929516851942,0.0,,HOB
+122-6,boiler,14.74416,natural gas,1.0,16.35,16.35,0.0,,HOB
+1223-4,boiler,2.8152,natural gas,1.0,2.0,1.8,0.0,,HOB
+123-3,boiler,2.8008,natural gas,1.0,9.75,9.75,0.0,,HOB
+123-4,boiler,30.29904,natural gas,1.0,9.75,9.75,0.0,,HOB
+1235-1,boiler,66.654,wood chips,1.0,5.0,5.6,0.0,,HOB
+1235-2,boiler,37.6308,wood chips,1.0,5.0,5.6,0.0,,HOB
+1235-5,boiler,51.2244,electricity,1.0,10.0,10.0,0.0,,HOB
+124-1,combustion engine,3.969,natural gas,1.0,13.75,5.87,5.4,,CHP
+124-3,combustion engine,3.969,natural gas,1.0,13.75,5.87,5.4,,CHP
+124-5,boiler,3.69216,natural gas,1.0,6.3,6.2,0.0,,HOB
+124-6,boiler,17.065296,natural gas,1.0,6.3,6.3,0.0,,HOB
+124-7,boiler,25.671636,natural gas,1.0,8.0,8.3,0.0,,HOB
+124-8,boiler,67.73832,electricity,1.0,10.0,9.9,0.0,,HOB
+1245-3,solar,6.429600000000001,fuel free,1.0,2.0,2.0,0.0,solar,FF
+125-5,boiler,150.0012,wood chips,1.0,8.7,8.7,0.0,,HOB
+125-6,boiler,154.3716,wood chips,1.0,8.7,8.7,0.0,,HOB
+125-7,boiler,83.545,wood pellets,1.0,10.0,10.0,0.0,,HOB
+1263-4,boiler,2.7036,biofuels,1.0,0.5,0.5,0.0,,HOB
+1263-6,boiler,9.604800000000001,wood chips,1.0,1.1,1.1,0.0,,HOB
+1263-7,heat pump - air,11.4228,electricity,1.0,0.3,0.85,0.0,ambient,HP
+1263-8,heat pump - air,3.1392,electricity,1.0,0.25,0.6,0.0,ambient,HP
+1268-3,boiler,11.5452,natural gas,1.0,3.4,3.2,0.0,,HOB
+1268-6,solar,4.269600000000001,fuel free,1.0,1.7,1.7,0.0,solar,FF
+1268-7,heat pump - water,18.666,electricity,1.0,0.5094,2.048,0.0,ambient,HP
+127-2,boiler,50.5656,wood chips,1.0,5.5,6.8,0.0,,HOB
+127-3,boiler,18.5328,wood chips,1.0,4.0,5.0,0.0,,HOB
+127-4,solar,20.2212,fuel free,1.0,6.8,6.8,0.0,solar,FF
+1286-3,solar,21.9312,fuel free,1.0,11.0,11.0,0.0,solar,FF
+1286-4,solar,6.9264,fuel free,1.0,3.5,3.5,0.0,solar,FF
+129-4,combustion engine,5.7096,natural gas,1.0,9.85,4.73,3.75,,CHP
+129-5,combustion engine,2.4984,natural gas,1.0,9.85,4.73,3.75,,CHP
+13-1,boiler,36.3096,straw,1.0,3.5,3.15,0.0,,HOB
+13-2,solar,9.349200000000002,fuel free,1.0,4.0,4.0,0.0,solar,FF
+1302-2,combustion engine,25.5924,biofuels,1.0,2.2,1.2,0.901,,CHP
+1302-4,combustion engine,4.0212,biofuels,1.0,2.2,0.95,0.901,,CHP
+131-4,boiler,16.844,wood chips,1.0,3.228,3.5,0.0,,HOB
+1318-2,boiler,42.7356,natural gas,1.0,5.26,5.0,0.0,,HOB
+1318-3,combustion engine,2.7252,natural gas,1.0,2.91,1.5,1.0,,CHP
+1318-4,combustion engine,3.1104,natural gas,1.0,2.91,1.5,1.0,,CHP
+1318-5,solar,14.7312,fuel free,1.0,5.6,5.6,0.0,solar,FF
+1318-6,boiler,8.6796,wood pellets,1.0,1.67,1.5,0.0,,HOB
+1319-1,combustion engine,5.3424,natural gas,1.0,2.9,1.45,1.04,,CHP
+1319-2,boiler,2.7,natural gas,1.0,3.05,3.05,0.0,,HOB
+1319-3,heat pump - air,12.4632,electricity,1.0,0.2,0.95,0.0,ambient,HP
+1321-2,boiler,10.46592,natural gas,1.0,4.0,4.0,0.0,,HOB
+1322-3,solar,4.9968,fuel free,1.0,2.3,2.3,0.0,solar,FF
+1328-2,boiler,5.5235232,natural gas,1.0,1.1,1.0,0.0,,HOB
+1345-3,heat pump - air,6.037199999999999,electricity,1.0,0.12,0.4,0.0,ambient,HP
+1346-5,boiler,20.87789,wood chips,1.0,4.0,4.0,0.0,,HOB
+1346-6,boiler,58.42059,wood chips,1.0,5.5,5.5,0.0,,HOB
+1348-2,boiler,3.6467928,natural gas,1.0,1.1,1.0,0.0,,HOB
+1351-1,boiler,69.783,gas oil,0.04247789593607981,0.9345137105937559,0.8495579187215963,0.0,,HOB
+1351-1,boiler,69.783,natural gas,0.9575221040639201,21.065486289406245,19.150442081278403,0.0,,HOB
+1351-2,boiler,209.76,electricity,1.0,80.0,80.0,0.0,,HOB
+1352-1,boiler,2.523,natural gas,1.0,11.0,10.0,0.0,,HOB
+1353-1,boiler,6.79212,natural gas,1.0,6.0,6.0,0.0,,HOB
+1365-1,boiler,32.328,wood chips,1.0,4.0,4.0,0.0,,HOB
+1365-2,solar,13.6584,fuel free,1.0,5.1,5.1,0.0,solar,FF
+1366-3,combustion engine,19.0044,biofuels,1.0,2.12,1.09,0.89,,CHP
+1367-2,combustion engine,4.0068,natural gas,1.0,4.8,2.5,2.0,,CHP
+1367-3,boiler,18.9972,natural gas,1.0,2.8,2.5,0.0,,HOB
+1368-3,boiler,16.704,biofuels,1.0,2.6,2.4,0.0,,HOB
+1368-4,combustion engine,31.5,biofuels,1.0,3.538,2.0,1.5,,CHP
+1368-5,combustion engine,9.6336,biofuels,1.0,2.93,1.4,1.203,,CHP
+1369-2,boiler,4.428,wood chips,1.0,0.5,0.5,0.0,,HOB
+1371-3,boiler,3.78,biofuels,1.0,0.5,0.5,0.0,,HOB
+1372-2,boiler,2.30724,natural gas,1.0,1.16,1.16,0.0,,HOB
+1372-3,heat pump - air,3.5676,electricity,1.0,0.1,0.3,0.0,ambient,HP
+1373-3,boiler,3.654,natural gas,1.0,4.2,4.0,0.0,,HOB
+1373-4,boiler,22.5,straw,1.0,0.998,0.95,0.0,,HOB
+1373-5,solar,11.4912,fuel free,1.0,2.45,2.45,0.0,solar,FF
+1376-2,boiler,2.502,natural gas,1.0,1.0,1.0,0.0,,HOB
+1376-4,gasification plus boiler,23.0832,straw,1.0,1.66,1.5,0.0,,HOB
+1383-1,combustion engine,3.2292,natural gas,1.0,4.84,2.64,1.84,,CHP
+1383-3,solar,4.4568,fuel free,1.0,2.14,2.14,0.0,solar,FF
+1383-4,boiler,14.7636,wood waste,1.0,0.99,0.93,0.0,,HOB
+140-1,boiler,26.694,straw,1.0,3.5,3.5,0.0,,HOB
+140-2,solar,7.62696,fuel free,1.0,1.0,1.0,0.0,solar,FF
+1400-1,solar,12.93624,fuel free,1.0,5.9,5.9,0.0,solar,FF
+1400-2,solar,14.169924,fuel free,1.0,5.9,5.9,0.0,solar,FF
+1409-4,steam turbine,292.29372,municipal waste,0.9691869655524725,19.38373931104945,13.374780124624122,4.361341344986126,,CHP
+141-1,combustion engine,9.36,biofuels,1.0,1.8,0.98,0.74,,CHP
+141-5,combustion engine,18.72,biofuels,1.0,2.38,1.33,0.98,,CHP
+141-6,boiler,10.1448,wood chips,1.0,1.5,1.5,0.0,,HOB
+1410-4,boiler,86.1048,wood chips,1.0,5.0,5.5,0.0,,HOB
+1411-1,boiler,15.9552,wood chips,1.0,0.95,0.95,0.0,,HOB
+142-2,boiler,3.5892,natural gas,1.0,4.0,3.5,0.0,,HOB
+142-3,boiler,43.7436,wood chips,1.0,3.4,3.4,0.0,,HOB
+1423-1,boiler,8.3772,natural gas,1.0,15.1,15.1,0.0,,HOB
+143-4,boiler,47.02672800000001,electricity,1.0,7.0,7.0,0.0,,HOB
+1432-1,combustion engine,14.4324,natural gas,1.0,6.37,3.61,2.76,,CHP
+1432-3,boiler,22.1616,natural gas,1.0,4.0,4.0,0.0,,HOB
+1432-4,boiler,6.3072,wood pellets,1.0,1.0,1.0,0.0,,HOB
+144-1,boiler,17.9928,straw,1.0,2.0,2.0,0.0,,HOB
+144-3,solar,6.199199999999999,fuel free,1.0,2.5,2.5,0.0,solar,FF
+1441-4,boiler,9.41868,natural gas,1.0,5.9,5.3,0.0,,HOB
+1441-5,heat pump - air,42.4701,electricity,1.0,0.7,2.5,0.0,ambient,HP
+1441-6,boiler,9.789119999999999,wood chips,1.0,1.06,0.99,0.0,,HOB
+1442-3,boiler,3.849948,natural gas,1.0,4.7,4.2,0.0,,HOB
+1442-4,heat pump - air,42.939972,electricity,1.0,0.7,2.5,0.0,ambient,HP
+1442-5,boiler,4.757544,wood chips,1.0,1.06,0.99,0.0,,HOB
+1443-1,boiler,21.7584,natural gas,1.0,14.0,14.0,0.0,,HOB
+1446-1,boiler,3.235,natural gas,1.0,3.15,3.15,0.0,,HOB
+1446-2,boiler,3.235,natural gas,1.0,6.3,6.3,0.0,,HOB
+1449-1,combustion engine,16.40664,natural gas,1.0,11.3,5.5,4.7,,CHP
+1449-2,combustion engine,10.09908,natural gas,1.0,11.3,5.5,4.7,,CHP
+1449-3,combustion engine,15.90696,natural gas,1.0,11.3,5.5,4.7,,CHP
+1449-5,boiler,39.051252,electricity,1.0,12.0,12.0,0.0,,HOB
+1449-6,heat pump - air,163.94076,electricity,1.0,4.0,12.0,0.0,ambient,HP
+145-1,boiler,5.267,wood pellets,1.0,13.0,13.0,0.0,,HOB
+147-2,combustion engine,3.4272,natural gas,1.0,2.4,1.2,0.9,,CHP
+147-3,heat pump - air,16.8912,electricity,1.0,0.4,1.2,0.0,ambient,HP
+1486-2,boiler,10.026,wood chips,1.0,0.7,0.7,0.0,,HOB
+1488-2,boiler,12.5604,natural gas,1.0,2.9,2.6,0.0,,HOB
+1490-3,boiler,48.051,electricity,1.0,18.0,18.0,0.0,,HOB
+1492-1,industrial heat,4.028,fuel free,1.0,5.0,5.0,0.0,industry,FF
+1494-1,steam turbine,457.668,straw,0.8241282474819737,32.14100165179697,20.191142063308355,9.477474846042696,,CHP
+1494-1,steam turbine,457.668,wood waste,0.17538811059806284,6.84013631332445,4.297008709652539,2.0169632718777226,,CHP
+1497-1,boiler,15.93,wood chips,1.0,1.2,1.2,0.0,,HOB
+15-3,solar,4.2336,fuel free,1.0,2.1,2.1,0.0,solar,FF
+15-5,heat pump - air,14.7024,electricity,1.0,0.5,1.6,0.0,ambient,HP
+154-4,boiler,6.9786,natural gas,1.0,6.0,6.0,0.0,,HOB
+154-5,boiler,11.3598,natural gas,1.0,6.0,6.0,0.0,,HOB
+1541-1,combustion engine,3.437496,biofuels,1.0,1.1,0.6,0.36,,CHP
+1541-2,boiler,5.027471999999999,biofuels,1.0,0.978,0.9,0.0,,HOB
+1541-3,boiler,4.973508,biofuels,1.0,0.978,0.9,0.0,,HOB
+1554-1,boiler,11.7216,straw,1.0,0.888889,0.8,0.0,,HOB
+1557-1,boiler,8.334,wood pellets,1.0,0.87,0.8,0.0,,HOB
+1557-2,solar,4.957199999999999,fuel free,1.0,2.9,2.9,0.0,solar,FF
+156-2,boiler,3.0288,natural gas,0.9998898530841279,5.799361147887942,5.499394191962703,0.0,,HOB
+156-4,boiler,3.0288,natural gas,0.9998898530841279,5.799361147887942,5.499394191962703,0.0,,HOB
+156-5,boiler,3.0288,natural gas,0.9998898530841279,3.6995924564112737,3.509613384325289,0.0,,HOB
+1577-3,boiler,9.504,wood chips,1.0,1.1,1.1,0.0,,HOB
+1577-4,heat pump - air,5.889600000000001,electricity,1.0,0.3,0.85,0.0,ambient,HP
+1580-1,industrial heat,71.69040000000001,fuel free,1.0,15.0,4.5,0.0,industry,FF
+159-1,boiler,35.2296,wood chips,1.0,4.65,4.65,0.0,,HOB
+159-2,solar,13.05576,fuel free,1.0,5.2,5.2,0.0,solar,FF
+159-3,boiler,18.9252,electricity,1.0,8.0,8.0,0.0,,HOB
+1598-1,boiler,7.3044,straw,1.0,1.35,0.85,0.0,,HOB
+16-1,combustion engine,4.49424,natural gas,1.0,7.9,4.2,3.7,,CHP
+160-1,boiler,15.3684,gas oil,0.07936256524840826,2.0237454138344106,1.4761437136203939,0.0,,HOB
+160-1,boiler,15.3684,natural gas,0.9206374347515918,23.47625458616559,17.12385628637961,0.0,,HOB
+1603-1,boiler,33.417,wood chips,0.9949307955903575,6.06907785310118,5.571612455306002,0.0,,HOB
+1608-2,combustion engine,18.624492,biofuels,1.0,3.361,1.728,1.415,,CHP
+161-1,boiler,88.48224,straw,1.0,12.0,10.0,0.0,,HOB
+161-8,boiler,174.49704,straw,1.0,13.0,12.0,0.0,,HOB
+162-3,boiler,79.04916,wood chips,1.0,5.0,6.0,0.0,,HOB
+1633-1,boiler,5.042,gas oil,0.052444357958524625,0.3461327625262625,0.30942171195529533,0.0,,HOB
+1633-1,boiler,5.042,natural gas,0.9475556420414755,6.253867237473738,5.590578288044705,0.0,,HOB
+1638-1,boiler,61.05622,natural gas,1.0,28.0,26.2,0.0,,HOB
+1638-2,boiler,72.32339999999999,natural gas,1.0,28.0,26.2,0.0,,HOB
+1638-3,boiler,63.80407,natural gas,1.0,28.0,26.2,0.0,,HOB
+1638-4,boiler,54.76411,natural gas,1.0,28.0,25.0,0.0,,HOB
+1638-5,boiler,92.51916,natural gas,1.0,28.0,25.0,0.0,,HOB
+164-1,boiler,38.93436,natural gas,1.0,12.2,11.6,0.0,,HOB
+1642-1,boiler,2.35584,gas oil,1.0,2.0,2.0,0.0,,HOB
+1645-1,boiler,11.5956,wood chips,1.0,0.9,0.9,0.0,,HOB
+1645-2,solar,3.2436,fuel free,1.0,1.2,1.2,0.0,solar,FF
+1646-1,boiler,12.204,wood chips,1.0,0.9,0.9,0.0,,HOB
+1648-1,boiler,4.14972,natural gas,1.0,5.0,5.0,0.0,,HOB
+1649-1,steam turbine,693.43713,municipal waste,0.9356789685582669,26.199011119631475,26.199011119631475,5.146234327070468,,CHP
+1649-1,steam turbine,693.43713,wood waste,0.050095217005538505,1.4026660761550782,1.4026660761550782,0.2755236935304618,,CHP
+1649-2,steam turbine,712.65679,municipal waste,0.9356790004707176,26.199012013180095,26.199012013180095,5.146234502588947,,CHP
+1649-2,steam turbine,712.65679,wood waste,0.05009517874076153,1.402665004741323,1.402665004741323,0.27552348307418845,,CHP
+1649-3,steam turbine,1396.7677,municipal waste,0.9356789885754003,56.14073931452402,52.39802336022242,12.163826851480204,,CHP
+1649-3,steam turbine,1396.7677,wood waste,0.05009519996619308,3.0057119979715847,2.8053311981068125,0.65123759956051,,CHP
+1649-4,heat pump - industrial heat,96.07137,electricity,1.0,1.3,5.5,0.0,industry,HP
+165-1,boiler,63.48815999999999,natural gas,1.0,14.2,13.5,0.0,,HOB
+1658-1,steam turbine,2114.4528,municipal waste,0.9930887101854065,79.74502342788814,71.50238713334926,18.37214113843002,,CHP
+167-3,boiler,52.22736,straw,1.0,4.98,4.98,0.0,,HOB
+1678-1,boiler,27.67248,natural gas,1.0,7.68,7.68,0.0,,HOB
+1679-3,boiler,22.9392,municipal waste,0.9882405823965892,4.051786387826016,3.261193921908744,0.0,,HOB
+1680-2,boiler,329.2884,straw,1.0,18.0,17.0,0.0,,HOB
+169-1,boiler,13.81536,natural gas,1.0,5.85,5.85,0.0,,HOB
+17-1,boiler,70.29684000000002,natural gas,1.0,12.0,12.0,0.0,,HOB
+17-2,boiler,17.73432,natural gas,1.0,12.0,12.0,0.0,,HOB
+17-4,boiler,14.05044,natural gas,1.0,11.0,11.0,0.0,,HOB
+170-1,boiler,9.21,natural gas,1.0,4.68,4.68,0.0,,HOB
+170-4,combustion engine,5.5,natural gas,1.0,7.42,3.95,3.02,,CHP
+170-7,boiler,10.39572,electricity,1.0,10.0,8.0,0.0,,HOB
+1717-8,industrial heat,28.7748,fuel free,1.0,48.0,40.0,0.0,industry,FF
+172-1,boiler,111.078,straw,1.0,9.0,8.0,0.0,,HOB
+172-2,boiler,126.6408,straw,1.0,9.0,8.0,0.0,,HOB
+172-5,boiler,4.6908,natural gas,1.0,5.8,5.8,0.0,,HOB
+1726-12,industrial heat,35.9136,fuel free,1.0,4.0,4.0,0.0,industry,FF
+1731-1,boiler,11.1348,natural gas,1.0,10.487,10.487,0.0,,HOB
+1731-2,boiler,16.5636,natural gas,1.0,10.171,10.171,0.0,,HOB
+1731-3,boiler,12.366,natural gas,1.0,10.319,10.319,0.0,,HOB
+1736-71,industrial heat,120.16692,fuel free,1.0,12.6,12.6,0.0,industry,FF
+174-3,boiler,112.53,wood chips,1.0,5.83,6.24,0.0,,HOB
+174-4,boiler,102.784,wood chips,1.0,5.83,6.24,0.0,,HOB
+1766-14,industrial heat,40.12452,fuel free,1.0,2.3,2.3,0.0,industry,FF
+1767-19,industrial heat,43.57080000000001,fuel free,1.0,2.0,2.0,0.0,industry,FF
+1769-25,industrial heat,28.3428,fuel free,1.0,5.0,5.0,0.0,industry,FF
+1772-3,industrial heat,94.0104,fuel free,1.0,4.5,4.5,0.0,industry,FF
+1772-5,industrial heat,88.6392,fuel free,1.0,17.0,3.0,0.0,industry,FF
+178-1,boiler,25.704,straw,1.0,7.5,7.5,0.0,,HOB
+178-2,boiler,89.4708,straw,1.0,7.5,7.5,0.0,,HOB
+179-3,boiler,51.534,wood chips,1.0,5.2,6.0,0.0,,HOB
+179-5,boiler,43.6896,straw,1.0,4.0,4.0,0.0,,HOB
+18-1,boiler,5.112,natural gas,1.0,2.44,2.32,0.0,,HOB
+18-2,combustion engine,10.4508,natural gas,1.0,3.33,1.72,1.42,,CHP
+18-3,solar,3.7836,fuel free,1.0,2.1,2.1,0.0,solar,FF
+182-10,heat pump - other,2.6784,electricity,1.0,0.33,1.0,0.0,industry,HP
+182-11,heat pump - air,2.1276,electricity,1.0,0.13,0.4,0.0,ambient,HP
+182-12,boiler,2.25,natural gas,1.0,5.9,5.52,0.0,,HOB
+182-5,boiler,389.502,municipal waste,0.9951814798081705,13.932540717314387,15.425312937026643,0.0,,HOB
+182-8,boiler,177.2568,wood chips,1.0,10.87,10.0,0.0,,HOB
+1825-1,boiler,5.085,natural gas,1.0,5.8,5.1,0.0,,HOB
+1827-6,boiler,40.76280000000001,natural gas,1.0,10.5,10.0,0.0,,HOB
+1828-1,boiler,5.188,gas oil,1.0,6.0,6.0,0.0,,HOB
+1830-1,boiler,4.18,natural gas,0.9977605198440919,9.97760519844092,5.787011015095732,0.0,,HOB
+1830-2,boiler,10.54,natural gas,0.9992178062507319,12.989831481259515,11.59092655250849,0.0,,HOB
+1830-3,boiler,9.575,natural gas,0.9993623790106618,12.991710927138604,11.592603596523677,0.0,,HOB
+1831-1,boiler,2.48,gas oil,1.0,18.6,18.6,0.0,,HOB
+1832-3,boiler,21.1,natural gas,1.0,32.5,32.5,0.0,,HOB
+1833-3,boiler,4.057,natural gas,1.0,14.0,14.0,0.0,,HOB
+1835-1,boiler,21.15,straw,0.997333173027035,3.7898660575027328,3.5903994228973257,0.0,,HOB
+1836-2,heat pump - water,7.205400000000001,electricity,1.0,0.09,0.32,0.0,ambient,HP
+184-3,combustion engine,12.6648,natural gas,1.0,4.5,2.55,2.0,,CHP
+1855-2,boiler,3.9435,gas oil,1.0,16.0,13.77,0.0,,HOB
+1857-8,boiler,14.33412,natural gas,0.9833335902751046,25.409339972708704,22.872339309798935,0.0,,HOB
+1857-9,boiler,17.4384,gas oil,0.052060353107861786,1.3452395243071484,1.2109238132888651,0.0,,HOB
+1857-9,boiler,17.4384,natural gas,0.9479396468921382,24.49476047569285,22.049076186711137,0.0,,HOB
+1871-1,combustion engine,10.9314,natural gas,1.0,7.15,3.64,3.05,,CHP
+1871-2,combustion engine,7.15392,natural gas,1.0,4.47,2.25,1.82,,CHP
+1871-3,boiler,8.8704,wood pellets,1.0,4.0,4.0,0.0,,HOB
+188-10,boiler,30.88692,electricity,1.0,9.0,9.0,0.0,,HOB
+188-2,boiler,53.85888,natural gas,1.0,10.0,10.0,0.0,,HOB
+188-5,combustion engine,4.34952,natural gas,1.0,4.96,2.6,1.9,,CHP
+1883-1,boiler,2.376,wood chips,1.0,0.18,0.16,0.0,,HOB
+1885-1,boiler,59.12280000000001,wood chips,1.0,8.0,10.0,0.0,,HOB
+1885-2,boiler,138.276,wood chips,1.0,8.0,11.8,0.0,,HOB
+1885-5,boiler,11.1816,electricity,1.0,6.0,6.0,0.0,,HOB
+189-3,solar,7.4484,fuel free,1.0,4.2,4.2,0.0,solar,FF
+189-4,boiler,17.5824,wood pellets,1.0,1.6,1.6,0.0,,HOB
+189-6,boiler,8.596800000000002,electricity,1.0,2.4,2.4,0.0,,HOB
+1898-2,combustion engine,21.3190704,biofuels,1.0,3.653,1.611,1.56,,CHP
+190-1,boiler,7.574,natural gas,1.0,11.6,13.5,0.0,,HOB
+190-2,boiler,59.346,wood chips,1.0,5.0,6.5,0.0,,HOB
+190-3,boiler,6.956,natural gas,0.9973960818545308,9.275783561247136,10.472658859472572,0.0,,HOB
+190-4,boiler,16.298,natural gas,1.0,10.0,11.0,0.0,,HOB
+191-1,boiler,2.825,natural gas,1.0,10.0,10.0,0.0,,HOB
+191-5,boiler,2.878,natural gas,1.0,9.3,10.5,0.0,,HOB
+1913-1,boiler,139.0,wood chips,1.0,16.0,19.0,0.0,,HOB
+1918-1,boiler,33.5898,wood pellets,1.0,2.2,2.0,0.0,,HOB
+1918-2,boiler,99.54180000000001,wood chips,1.0,5.0,5.0,0.0,,HOB
+192-3,boiler,53.44632000000001,natural gas,1.0,29.0,29.0,0.0,,HOB
+192-4,boiler,75.87576,natural gas,1.0,25.0,25.0,0.0,,HOB
+1920-2,boiler,6.49008,wood chips,1.0,1.0,1.0,0.0,,HOB
+1920-4,heat pump - air,10.8108,electricity,1.0,0.2,0.66,0.0,ambient,HP
+1929-2,combustion engine,18.4428,biofuels,1.0,3.546,1.876,1.484,,CHP
+1929-3,combustion engine,18.4428,biofuels,1.0,3.546,1.876,1.484,,CHP
+193-3,boiler,2.6676,natural gas,1.0,9.3,9.3,0.0,,HOB
+193-4,boiler,3.35304,natural gas,1.0,9.3,9.3,0.0,,HOB
+193-5,boiler,41.64264,natural gas,1.0,18.6,18.6,0.0,,HOB
+193-6,boiler,55.52892000000001,natural gas,1.0,21.8,21.8,0.0,,HOB
+1932-1,boiler,43.2,wood chips,0.13460653897812366,0.6057294254015565,0.6057294254015565,0.0,,HOB
+1932-1,boiler,43.2,wood waste,0.8653934610218763,3.894270574598443,3.894270574598443,0.0,,HOB
+1933-1,boiler,130.0536,wood chips,1.0,8.0,8.0,0.0,,HOB
+1933-3,boiler,17.2692,wood chips,0.9375386093760726,2.0344587823460776,1.8750772187521452,0.0,,HOB
+1933-3,boiler,17.2692,wood pellets,0.062461390623927526,0.13554121765392274,0.12492278124785505,0.0,,HOB
+1933-4,boiler,5.3172,natural gas,1.0,5.0,5.5,0.0,,HOB
+1935-1,boiler,88.3476,wood chips,1.0,5.0,5.0,0.0,,HOB
+1937-1,boiler,59.72583599999999,natural gas,0.15287039591136808,1.589852117478228,1.4522687611579967,0.0,,HOB
+1937-1,boiler,59.72583599999999,wood pellets,0.8471296040886319,8.810147882521772,8.047731238842003,0.0,,HOB
+1942-2,combustion engine,3.9312,natural gas,1.0,9.83,4.22,3.73,,CHP
+1942-3,boiler,12.4452,natural gas,1.0,9.44,8.5,0.0,,HOB
+1942-4,boiler,5.680800000000001,electricity,1.0,4.0,4.0,0.0,,HOB
+195-1,boiler,9.483480000000002,wood pellets,1.0,0.95,0.95,0.0,,HOB
+1959-1,combustion engine,12.971016,natural gas,1.0,13.5,6.7,5.5,,CHP
+1959-2,combustion engine,18.563184,natural gas,1.0,13.6,6.7,5.5,,CHP
+1959-3,combustion engine,11.821068,natural gas,1.0,13.6,6.7,5.5,,CHP
+1959-4,boiler,17.23104,natural gas,1.0,15.0,15.0,0.0,,HOB
+1959-5,boiler,21.577284,natural gas,1.0,15.0,15.0,0.0,,HOB
+1959-6,boiler,58.8978,electricity,1.0,25.0,25.0,0.0,,HOB
+1959-7,heat pump - air,182.2896,electricity,1.0,5.4,16.0,0.0,ambient,HP
+196-1,boiler,9.397080000000003,wood pellets,1.0,0.95,0.95,0.0,,HOB
+1964-1,boiler,45.936,straw,1.0,2.0,2.0,0.0,,HOB
+197-1,boiler,11.68236,wood pellets,1.0,0.95,0.95,0.0,,HOB
+1972-1,boiler,25.8696,wood chips,1.0,2.78,2.5,0.0,,HOB
+1972-2,heat pump - air,21.9528,electricity,1.0,0.482,1.458,0.0,ambient,HP
+1976-1,boiler,40.8114,wood chips,1.0,2.0,2.0,0.0,,HOB
+198-1,boiler,8.09352,wood chips,1.0,0.95,0.95,0.0,,HOB
+199-1,boiler,15.45552,wood pellets,1.0,2.0,2.0,0.0,,HOB
+199-2,solar,3.98916,fuel free,1.0,2.0,2.0,0.0,solar,FF
+1994-1,boiler,46.76148,wood chips,1.0,4.0,4.0,0.0,,HOB
+1997-1,boiler,6.800400000000001,natural gas,1.0,5.0,5.0,0.0,,HOB
+1998-2,boiler,80.56152,wood chips,1.0,8.5,8.5,0.0,,HOB
+1998-3,solar,3.6936,fuel free,1.0,1.4,1.4,0.0,solar,FF
+1998-4,solar,9.50076,fuel free,1.0,3.7,3.7,0.0,solar,FF
+1998-6,boiler,48.3624,wood chips,1.0,5.5,5.5,0.0,,HOB
+1999-1,boiler,79.0308,wood chips,0.5244989984542353,3.4092434899525297,3.4092434899525297,0.0,,HOB
+1999-1,boiler,79.0308,wood waste,0.4755010015457647,3.0907565100474703,3.0907565100474703,0.0,,HOB
+2-1,boiler,6.677856,wood pellets,1.0,20.8,18.9,0.0,,HOB
+2-4,steam turbine,226.77552,wood chips,0.9985385512304997,17.174863081164595,14.878224413334447,4.693131190783349,,CHP
+200-2,boiler,22.1346,wood pellets,1.0,0.95,1.15,0.0,,HOB
+2000-1,boiler,13.0464,wood pellets,1.0,1.0,0.9,0.0,,HOB
+2003-2,heat pump - air,2.48148,electricity,1.0,0.0528,0.16,0.0,ambient,HP
+2008-1,boiler,58.11156,natural gas,1.0,8.5,8.5,0.0,,HOB
+2008-2,boiler,64.71504,natural gas,1.0,10.0,10.0,0.0,,HOB
+2015-1,boiler,91.8396,wood chips,1.0,4.5,3.8,0.0,,HOB
+2027-1,boiler,17.4312,gas oil,1.0,6.6,6.0,0.0,,HOB
+2027-2,boiler,270.1008,wood chips,1.0,11.3,13.0,0.0,,HOB
+203-3,boiler,65.851,natural gas,1.0,17.5,12.0,0.0,,HOB
+204-2,boiler,3.252,natural gas,1.0,13.5,10.5,0.0,,HOB
+2040-1,boiler,59.7924,wood chips,1.0,9.0,10.6,0.0,,HOB
+2043-1,solar,8.085600000000001,fuel free,1.0,4.6,4.6,0.0,solar,FF
+2043-2,solar,13.968,fuel free,1.0,6.0,6.0,0.0,solar,FF
+2043-3,heat pump - other,14.4792,electricity,1.0,0.387,1.2,0.0,solar,HP
+2048-1,solar,16.25076,fuel free,1.0,7.0,7.0,0.0,solar,FF
+2048-2,heat pump - water,58.59396,electricity,1.0,1.1,4.0,0.0,ambient,HP
+205-3,boiler,68.14008,natural gas,0.9980005285851953,8.48300449297416,9.281404915842316,0.0,,HOB
+2057-1,solar,6.0047,fuel free,1.0,4.0,4.0,0.0,solar,FF
+2057-3,solar,2.9983,fuel free,1.0,2.1,2.1,0.0,solar,FF
+2059-1,solar,4.928400000000001,fuel free,1.0,2.1,2.1,0.0,solar,FF
+206-3,boiler,102.176,natural gas,0.9986407216902708,10.385863505578817,7.290077268338977,0.0,,HOB
+2063-1,boiler,50.29956000000001,straw,1.0,5.0,5.0,0.0,,HOB
+2063-2,boiler,100.2582,wood chips,1.0,12.0,15.0,0.0,,HOB
+2066-4,boiler,92.729,wood chips,1.0,5.56,5.0,0.0,,HOB
+207-1,combustion engine,17.7516,natural gas,1.0,7.57,3.7,2.8,,CHP
+207-4,combustion engine,26.64,natural gas,1.0,7.57,3.7,2.8,,CHP
+207-5,boiler,34.2396,electricity,1.0,6.0,6.0,0.0,,HOB
+2071-1,boiler,32.3604,wood chips,1.0,0.86,2.2,0.0,,HOB
+2073-1,boiler,111.8808,wood chips,1.0,4.0,4.0,0.0,,HOB
+2074-1,boiler,76.3236,wood chips,1.0,6.0,8.0,0.0,,HOB
+2075-1,boiler,10.112,natural gas,0.9950434435638567,16.617225507516405,14.92565165345785,0.0,,HOB
+2075-2,boiler,2.06,gas oil,0.37108647416966073,6.197144118633334,5.566297112544911,0.0,,HOB
+2075-2,boiler,2.06,natural gas,0.6289135258303392,10.502855881366665,9.433702887455087,0.0,,HOB
+208-3,steam turbine,62.046,wood chips,1.0,4.0,3.4,0.6,,CHP
+208-4,boiler,5.382,wood chips,1.0,0.95,0.8,0.0,,HOB
+210-1,boiler,51.85332,wood pellets,1.0,20.0,18.0,0.0,,HOB
+210-4,boiler,467.694,wood chips,1.0,32.0,25.0,0.0,,HOB
+2108-1,boiler,28.0908,natural gas,1.0,7.7,7.0,0.0,,HOB
+2108-2,solar,22.3452,fuel free,1.0,11.0,11.0,0.0,solar,FF
+2108-3,solar,53.604,fuel free,1.0,36.0,36.0,0.0,solar,FF
+2131-3,steam turbine,406.312,straw,0.8268594707739144,30.26305663032527,18.604338092413073,8.252057518323666,,CHP
+2131-3,steam turbine,406.312,wood chips,0.17314052922608558,6.336943369674732,3.8956619075869257,1.7279424816763342,,CHP
+2131-4,boiler,36.09,wood chips,1.0,6.72,6.0,0.0,,HOB
+2132-1,boiler,53.73,wood chips,1.0,2.81,2.78,0.0,,HOB
+2132-2,heat pump - other,46.01880000000001,electricity,1.0,1.6,5.0,0.0,industry,HP
+2132-3,boiler,61.8588,electricity,1.0,15.0,14.7,0.0,,HOB
+2136-2,boiler,61.4448,straw,1.0,2.0,2.0,0.0,,HOB
+2137-2,boiler,29.52,electricity,1.0,8.0,8.0,0.0,,HOB
+2138-1,boiler,20.24064,biofuels,0.9912884823567004,54.52086652961852,51.24961453784142,0.0,,HOB
+2138-2,boiler,35.5788,biofuels,0.9912898816082376,52.63749271339742,49.465365092251055,0.0,,HOB
+2138-3,boiler,267.8724,natural gas,1.0,54.78,58.07,0.0,,HOB
+2138-6,boiler,255.5964,electricity,1.0,40.0,40.0,0.0,,HOB
+2140-1,boiler,68.42160000000001,wood chips,1.0,5.14,6.0,0.0,,HOB
+2141-1,boiler,362.105,straw,1.0,22.0,22.0,0.0,,HOB
+2142-1,boiler,108.0522,wood chips,1.0,5.5,5.5,0.0,,HOB
+2144-1,steam turbine,59.21964000000001,wood chips,1.0,4.5,4.0,0.75,,CHP
+2144-2,heat pump - other,16.0776,electricity,1.0,0.5,1.5,0.0,solar,HP
+2144-3,solar,22.60944,fuel free,1.0,10.6,10.6,0.0,solar,FF
+2146-1,boiler,111.24072,straw,1.0,8.0,8.0,0.0,,HOB
+215-1,boiler,5.263199999999999,gas oil,1.0,19.4,16.4,0.0,,HOB
+2151-1,boiler,20.376,straw,1.0,0.95,0.86,0.0,,HOB
+2157-1,boiler,403.899,wood chips,1.0,20.0,20.0,0.0,,HOB
+2159-2,boiler,189.9504,wood chips,1.0,7.4,8.14,0.0,,HOB
+216-4,boiler,2.51424,natural gas,1.0,7.3,7.3,0.0,,HOB
+216-5,boiler,5.598,natural gas,1.0,7.3,7.3,0.0,,HOB
+2162-1,steam turbine,136.317,wood chips,0.9999878387265999,55.99931896868959,48.999404097603396,7.499908790449499,,CHP
+2163-1,boiler,34.81615,natural gas,0.9825517079284286,27.020171968031786,24.563792698210715,0.0,,HOB
+2163-2,boiler,22.41973,gas oil,0.04708686946705121,1.294888910343908,1.1771717366762802,0.0,,HOB
+2163-2,boiler,22.41973,natural gas,0.9529131305329488,26.205111089656093,23.82282826332372,0.0,,HOB
+2163-3,boiler,14.06536,natural gas,0.9766784727926245,26.858658001797174,24.416961819815615,0.0,,HOB
+218-4,boiler,28.5318,natural gas,1.0,10.0,10.0,0.0,,HOB
+2185-1,boiler,5.687,natural gas,1.0,16.7,15.0,0.0,,HOB
+2186-1,boiler,62.73,straw,1.0,4.0,4.5,0.0,,HOB
+2187-1,heat pump - industrial heat,14.12532,electricity,1.0,0.26,1.2,0.0,industry,HP
+2187-2,heat pump - industrial heat,14.12532,electricity,1.0,0.26,1.2,0.0,industry,HP
+2187-3,heat pump - industrial heat,14.12532,electricity,1.0,0.26,1.2,0.0,industry,HP
+2190-1,boiler,54.162,straw,1.0,5.0,5.0,0.0,,HOB
+2191-1,combustion engine,15.2496,biofuels,1.0,7.1,3.4,3.1,,CHP
+2192-1,boiler,45.79391,natural gas,1.0,16.0,15.0,0.0,,HOB
+2192-2,boiler,14.29809,natural gas,1.0,16.0,15.0,0.0,,HOB
+2193-1,boiler,248.6628,wood chips,1.0,10.5,11.5,0.0,,HOB
+2193-2,boiler,223.8372,wood chips,1.0,10.5,11.5,0.0,,HOB
+2195-2,boiler,221.02236,straw,1.0,13.3,12.0,0.0,,HOB
+2195-3,boiler,69.8292,electricity,1.0,15.0,15.0,0.0,,HOB
+2196-1,boiler,34.992,wood chips,1.0,4.0,4.0,0.0,,HOB
+2196-2,solar,28.1448,fuel free,1.0,12.0,12.0,0.0,solar,FF
+2198-1,combustion engine,20.247,biofuels,1.0,1.4,0.8,0.635,,CHP
+2199-1,solar,61.2,fuel free,1.0,27.0,27.0,0.0,solar,FF
+2199-2,heat pump - other,68.68440000000001,electricity,1.0,1.1,5.0,0.0,solar,HP
+220-1,boiler,6.00588,natural gas,1.0,10.0,10.0,0.0,,HOB
+220-2,boiler,28.07712,natural gas,1.0,12.0,12.0,0.0,,HOB
+2200-1,boiler,15.95124,natural gas,1.0,4.5,4.7,0.0,,HOB
+2202-1,boiler,23.2992,natural gas,1.0,4.0,4.0,0.0,,HOB
+2202-2,boiler,21.3624,natural gas,1.0,4.0,4.0,0.0,,HOB
+2204-1,boiler,89.1288,wood chips,1.0,12.5,14.0,0.0,,HOB
+2204-3,boiler,174.978,straw,1.0,12.5,12.5,0.0,,HOB
+2205-1,combustion engine,37.524348,biofuels,1.0,3.6,1.74,1.48,,CHP
+2205-2,combustion engine,39.324852,biofuels,1.0,3.6,1.74,1.48,,CHP
+2208-1,combustion engine,5.073840000000001,biofuels,1.0,0.5,0.3,0.19,,CHP
+221-1,boiler,6.64488,natural gas,1.0,5.0,5.0,0.0,,HOB
+2211-3,solar,22.69296,fuel free,1.0,10.6,10.6,0.0,solar,FF
+2222-1,boiler,85.43988,wood chips,1.0,9.625,9.625,0.0,,HOB
+2222-2,boiler,5.187240000000001,wood pellets,1.0,4.0,4.0,0.0,,HOB
+2222-4,solar,22.79448,fuel free,1.0,8.3,8.3,0.0,solar,FF
+2223-1,boiler,9.725040000000002,natural gas,1.0,14.1,14.1,0.0,,HOB
+2223-2,boiler,29.322,natural gas,1.0,14.1,14.1,0.0,,HOB
+2224-1,solar,20.3328,fuel free,1.0,8.4,8.4,0.0,solar,FF
+2225-1,solar,33.6564,fuel free,1.0,14.1,14.1,0.0,solar,FF
+2225-2,solar,8.766,fuel free,1.0,3.5,3.5,0.0,solar,FF
+2225-3,boiler,68.076,electricity,1.0,10.0,10.0,0.0,,HOB
+2229-1,solar,18.8532,fuel free,1.0,8.0,8.0,0.0,solar,FF
+223-2,boiler,55.63764,wood chips,1.0,4.0,4.0,0.0,,HOB
+2230-1,boiler,36.2052,wood chips,0.9818791391119789,4.909395695559894,4.909395695559894,0.0,,HOB
+2231-1,boiler,49.2984,wood pellets,1.0,2.1,2.0,0.0,,HOB
+2231-2,boiler,5.961600000000001,natural gas,1.0,10.0,10.0,0.0,,HOB
+2231-3,solar,27.3456,fuel free,1.0,10.0,10.0,0.0,solar,FF
+2231-4,heat pump - other,10.7172,electricity,1.0,0.3,1.3,0.0,industry,HP
+2231-5,heat pump - air,20.5992,electricity,1.0,0.75,3.1,0.0,ambient,HP
+2232-1,boiler,255.7764,wood chips,1.0,15.0,15.0,0.0,,HOB
+2232-2,boiler,319.3236000000001,wood chips,1.0,15.0,15.0,0.0,,HOB
+2233-1,boiler,137.5776,straw,1.0,12.0,12.0,0.0,,HOB
+2233-2,boiler,148.7736,straw,1.0,12.0,12.0,0.0,,HOB
+2233-3,boiler,152.0856,straw,1.0,12.0,12.0,0.0,,HOB
+2234-2,boiler,2.41092,biofuels,1.0,0.473,0.44,0.0,,HOB
+2237-1,boiler,50.0796,wood waste,1.0,2.235,2.0,0.0,,HOB
+224-1,boiler,15.5196,natural gas,1.0,12.1,12.1,0.0,,HOB
+224-2,combustion engine,7.1712,natural gas,1.0,7.15,3.58,3.0,,CHP
+224-3,boiler,44.5356,electricity,1.0,6.0,6.0,0.0,,HOB
+2240-1,boiler,119.932,wood chips,1.0,9.0,9.0,0.0,,HOB
+225-3,boiler,21.6,straw,1.0,1.6,1.6,0.0,,HOB
+2251-1,solar,15.5952,fuel free,1.0,6.7,6.7,0.0,solar,FF
+2254-1,boiler,4.878972,natural gas,1.0,0.93,0.93,0.0,,HOB
+2255-1,boiler,2.6928,natural gas,1.0,0.575,0.575,0.0,,HOB
+2255-2,boiler,2.6928,natural gas,1.0,0.575,0.575,0.0,,HOB
+2257-3,boiler,113.8608,wood chips,1.0,6.5,6.5,0.0,,HOB
+2257-4,solar,5.922,fuel free,1.0,2.5,2.5,0.0,solar,FF
+2258-1,solar,10.6668,fuel free,1.0,5.0,5.0,0.0,solar,FF
+2258-2,heat pump - air,38.4768,electricity,1.0,1.0,3.5,0.0,ambient,HP
+2259-1,combustion engine,6.165356399999999,biofuels,1.0,0.9,0.5,0.357,,CHP
+2260-1,boiler,147.294,straw,1.0,12.0,12.0,0.0,,HOB
+2260-2,boiler,2.3508,wood pellets,1.0,1.0,0.95,0.0,,HOB
+2260-3,solar,48.0492,fuel free,1.0,13.0,13.0,0.0,solar,FF
+2261-1,industrial heat,86.34096,fuel free,1.0,7.5,7.5,0.0,industry,FF
+2262-1,industrial heat,34.02,fuel free,1.0,2.0,2.0,0.0,industry,FF
+2263-1,industrial heat,16.9632,fuel free,1.0,1.0,1.0,0.0,industry,FF
+2263-2,industrial heat,9.9648,fuel free,1.0,1.0,1.0,0.0,industry,FF
+2264-1,industrial heat,17.8236,fuel free,1.0,2.0,2.0,0.0,industry,FF
+2265-1,industrial heat,23.4576,fuel free,1.0,1.0,1.0,0.0,industry,FF
+2266-1,industrial heat,17.568,fuel free,1.0,1.4,1.2,0.0,industry,FF
+2270-1,industrial heat,5.2452,fuel free,1.0,0.775,0.775,0.0,industry,FF
+2272-1,boiler,51.107,natural gas,1.0,14.4,12.0,0.0,,HOB
+2272-2,boiler,79.308,wood chips,1.0,3.75,3.75,0.0,,HOB
+2272-3,boiler,102.4812,electricity,1.0,15.0,15.0,0.0,,HOB
+2273-1,solar,33.03,fuel free,1.0,14.0,14.0,0.0,solar,FF
+228-1,boiler,10.098,natural gas,1.0,9.3,8.37,0.0,,HOB
+2283-1,industrial heat,6.735600000000001,fuel free,1.0,2.0,2.0,0.0,industry,FF
+2284-1,solar,19.4616,fuel free,1.0,8.0,8.0,0.0,solar,FF
+2288-1,solar,20.0412,fuel free,1.0,7.0,7.0,0.0,solar,FF
+2288-2,heat pump - air,19.5192,electricity,1.0,0.557,2.247,0.0,ambient,HP
+2288-3,boiler,24.7968,straw,0.9336661194679888,1.8673322389359777,1.8673322389359777,0.0,,HOB
+2288-3,boiler,24.7968,wood waste,0.06633388053201113,0.13266776106402225,0.13266776106402225,0.0,,HOB
+2289-1,solar,24.3792,fuel free,1.0,9.0,9.0,0.0,solar,FF
+229-1,boiler,20.9736,wood chips,1.0,2.0,2.0,0.0,,HOB
+229-3,boiler,41.9472,wood chips,1.0,4.25,4.25,0.0,,HOB
+2290-1,boiler,119.680056,wood chips,1.0,5.8,5.8,0.0,,HOB
+2290-2,boiler,38.17274400000001,electricity,1.0,12.0,12.0,0.0,,HOB
+2291-1,solar,240.7644,fuel free,1.0,110.0,110.0,0.0,solar,FF
+2292-1,solar,9.234,fuel free,1.0,3.5,3.5,0.0,solar,FF
+2293-1,solar,26.622,fuel free,1.0,14.0,14.0,0.0,solar,FF
+2294-1,boiler,8.276399999999999,wood waste,1.0,1.0,1.0,0.0,,HOB
+2294-2,solar,3.0384,fuel free,1.0,1.0,1.0,0.0,solar,FF
+2295-1,solar,23.3784,fuel free,1.0,10.0,10.0,0.0,solar,FF
+2296-1,boiler,1439.7553692,electricity,1.0,80.0,80.0,0.0,,HOB
+2297-1,industrial heat,31.91976,fuel free,1.0,1.2,1.2,0.0,industry,FF
+2298-1,industrial heat,3.822408,fuel free,1.0,0.8,0.8,0.0,industry,FF
+2300-1,boiler,47.1708,straw,1.0,2.0,1.8,0.0,,HOB
+2300-2,solar,34.704,fuel free,1.0,16.0,16.0,0.0,solar,FF
+2301-1,solar,25.0596,fuel free,1.0,12.0,12.0,0.0,solar,FF
+2302-1,solar,13.6008,fuel free,1.0,6.5,6.5,0.0,solar,FF
+2302-2,boiler,3.564,natural gas,1.0,1.0,1.0,0.0,,HOB
+2302-3,heat pump - air,35.52120000000001,electricity,1.0,1.0,3.2,0.0,ambient,HP
+2303-1,solar,4.5792,fuel free,1.0,2.1,2.1,0.0,solar,FF
+2307-1,gasification plus engine,563.1984,wood chips,1.0,28.6,25.46,5.12,,CHP
+2310-1,steam turbine,2070.7884,straw,0.9996312636881792,109.95943900569972,76.9716073039898,36.986356756462634,,CHP
+2316-1,industrial heat,56.0484,fuel free,1.0,4.0,4.0,0.0,industry,FF
+2317-2,solar,38.7756,fuel free,1.0,20.0,20.0,0.0,solar,FF
+2318-1,boiler,32.0724,straw,1.0,8.051,7.0,0.0,,HOB
+232-6,boiler,61.81934,wood chips,1.0,7.78,7.0,0.0,,HOB
+2323-1,heat pump - other,2.12364,electricity,1.0,0.322,0.966,0.0,industry,HP
+2324-1,solar,3.8664,fuel free,1.0,1.9,1.9,0.0,solar,FF
+2325-1,boiler,29.14344,wood pellets,1.0,2.0,1.8,0.0,,HOB
+2328-1,boiler,28.314,straw,1.0,5.0,5.0,0.0,,HOB
+2328-2,combustion engine,8.150400000000001,biofuels,1.0,0.95,0.53,0.375,,CHP
+2331-1,industrial heat,3.25512,fuel free,1.0,0.4,0.4,0.0,industry,FF
+2332-1,solar,13.6764,fuel free,1.0,6.0,6.0,0.0,solar,FF
+2332-2,heat pump - other,30.0168,electricity,1.0,1.0,4.2,0.0,solar,HP
+2335-1,solar,9.946800000000001,fuel free,1.0,4.0,4.0,0.0,solar,FF
+2335-2,heat pump - air,28.0296,electricity,1.0,0.3,1.0,0.0,ambient,HP
+2336-1,solar,8.6004,fuel free,1.0,4.0,4.0,0.0,solar,FF
+2336-2,heat pump - air,11.6964,electricity,1.0,0.3,1.0,0.0,ambient,HP
+2337-1,heat pump - air,19.32264,electricity,1.0,0.5,2.0,0.0,ambient,HP
+2337-2,heat pump - air,15.585768,electricity,1.0,0.5,2.0,0.0,ambient,HP
+2339-1,combustion engine,64.2816,biofuels,1.0,7.2,4.5,3.1,,CHP
+2339-2,boiler,132.948,wood chips,1.0,8.0,10.4,0.0,,HOB
+2339-3,combustion engine,19.4832,biofuels,1.0,7.0,3.9,3.0,,CHP
+2339-4,boiler,69.138,electricity,1.0,15.0,15.0,0.0,,HOB
+2343-1,gasification plus engine,104.5044,wood chips,0.9772458444873312,5.8634750669239875,4.886229222436656,0.9948362696881032,,CHP
+235-3,solar,20.16,fuel free,1.0,8.0,8.0,0.0,solar,FF
+235-4,boiler,68.75640000000001,straw,1.0,7.0,7.0,0.0,,HOB
+2354-1,organic rankine cycle,408.528,wood chips,1.0,22.0,23.0,4.0,,CHP
+2354-2,solar,25.0848,fuel free,1.0,17.0,17.0,0.0,solar,FF
+2357-1,boiler,84.3516,wood chips,1.0,8.0,9.5,0.0,,HOB
+2358-1,boiler,48.9276,straw,1.0,4.5,4.5,0.0,,HOB
+2359-1,boiler,195.3936,straw,1.0,11.5,11.5,0.0,,HOB
+2359-2,solar,23.3928,fuel free,1.0,8.0,8.0,0.0,solar,FF
+236-2,boiler,3.881016,natural gas,1.0,3.8,3.66,0.0,,HOB
+236-4,combustion engine,2.69424,natural gas,1.0,4.09,2.3,1.63,,CHP
+2360-1,solar,21.49488,fuel free,1.0,7.9,7.9,0.0,solar,FF
+2360-2,heat pump - air,71.30088,electricity,1.0,1.8,5.0,0.0,ambient,HP
+2361-1,boiler,7.0812,biofuels,1.0,0.8,0.8,0.0,,HOB
+2363-1,boiler,486.7776,wood chips,1.0,30.0,30.0,0.0,,HOB
+2364-1,boiler,460.062,wood chips,1.0,30.0,38.2,0.0,,HOB
+2364-2,heat pump - air,60.7896,electricity,1.0,1.1,4.5,0.0,ambient,HP
+2365-1,solar,57.546,fuel free,1.0,14.5,14.5,0.0,solar,FF
+2367-1,industrial heat,2.2608,fuel free,1.0,0.2,0.2,0.0,industry,FF
+2368-1,industrial heat,4.0824,fuel free,1.0,0.775,0.775,0.0,industry,FF
+2369-1,heat pump - water,61.0992,electricity,1.0,10.0,10.0,0.0,ambient,HP
+2371-2,boiler,12.52476,wood waste,1.0,0.95,0.85,0.0,,HOB
+2374-1,heat pump - air,22.62312,electricity,1.0,0.35,1.5,0.0,ambient,HP
+2376-1,solar,40.554,fuel free,1.0,18.5,18.5,0.0,solar,FF
+2379-1,boiler,63.67464,wood chips,1.0,4.71,5.556,0.0,,HOB
+2379-3,solar,16.69968,fuel free,1.0,8.4,8.4,0.0,solar,FF
+238-4,boiler,33.2388,wood chips,1.0,5.4,6.0,0.0,,HOB
+238-6,boiler,82.2132,straw,1.0,8.3,7.5,0.0,,HOB
+238-8,solar,34.092,fuel free,1.0,15.725,15.725,0.0,solar,FF
+2380-1,solar,51.9192,fuel free,1.0,22.0,22.0,0.0,solar,FF
+2384-1,boiler,172.1934,wood chips,1.0,10.0,13.8,0.0,,HOB
+2385-1,solar,11.2536,fuel free,1.0,6.0,6.0,0.0,solar,FF
+2385-2,solar,9.8604,fuel free,1.0,6.0,6.0,0.0,solar,FF
+2385-3,heat pump - other,58.6368,electricity,1.0,1.3,4.0,0.0,industry,HP
+2392-1,heat pump - other,46.6344,electricity,1.0,1.4,4.0,0.0,industry,HP
+2393-1,boiler,188.8848,straw,1.0,12.0,10.0,0.0,,HOB
+2394-1,heat pump - air,27.7524,electricity,1.0,0.6,2.5,0.0,ambient,HP
+2395-1,heat pump - air,33.93468,electricity,1.0,0.7,2.0,0.0,ambient,HP
+2396-1,heat pump - other,40.1148,electricity,1.0,1.77,5.12,0.0,industry,HP
+2397-1,heat pump - water,3.605508,electricity,1.0,0.44,1.0,0.0,ambient,HP
+2398-1,heat pump - industrial heat,35.0424,electricity,1.0,0.9,3.9,0.0,industry,HP
+2399-1,heat pump - water,69.6708,electricity,1.0,1.5,5.8,0.0,ambient,HP
+24-1,boiler,17.1324,wood pellets,1.0,12.0,12.0,0.0,,HOB
+24-2,boiler,2.754,wood pellets,1.0,8.0,7.0,0.0,,HOB
+240-1,boiler,45.28080000000001,straw,0.9287093144743951,2.4146442176334273,2.3217732861859877,0.0,,HOB
+240-1,boiler,45.28080000000001,wood pellets,0.0690850009037282,0.17962100234969333,0.1727125022593205,0.0,,HOB
+2400-1,heat pump - industrial heat,32.79852,electricity,1.0,0.4,1.2,0.0,industry,HP
+2401-1,heat pump - other,14.8356,electricity,1.0,0.245,1.0,0.0,industry,HP
+2402-1,heat pump - industrial heat,25.7616,electricity,1.0,0.345,1.4,0.0,industry,HP
+2404-1,heat pump - air,45.756,electricity,1.0,1.0,2.7,0.0,ambient,HP
+2405-1,heat pump - air,13.68,electricity,1.0,0.755,3.2,0.0,ambient,HP
+2406-1,boiler,2.51118,natural gas,1.0,0.32,0.29,0.0,,HOB
+2406-2,boiler,2.51118,natural gas,1.0,0.32,0.29,0.0,,HOB
+2407-1,heat pump - water,7.6428,electricity,1.0,2.5,8.0,0.0,ambient,HP
+2410-1,heat pump - industrial heat,107.6796,electricity,1.0,2.435,10.786,0.0,industry,HP
+2411-1,boiler,71.91,electricity,1.0,15.0,15.0,0.0,,HOB
+2413-1,solar,7.8408,fuel free,1.0,3.4,3.4,0.0,solar,FF
+2413-2,boiler,15.6312,wood pellets,1.0,0.99,0.9,0.0,,HOB
+2414-1,heat pump - other,127.5912,electricity,1.0,2.6,10.0,0.0,industry,HP
+2415-1,heat pump - industrial heat,57.5136,electricity,1.0,2.0,8.5,0.0,industry,HP
+2416-1,solar,20.19564,fuel free,1.0,8.0,8.0,0.0,solar,FF
+2420-1,boiler,95.6016,wood chips,1.0,5.0,5.0,0.0,,HOB
+2420-2,heat pump - other,6.080400000000001,electricity,1.0,0.04,0.15,0.0,industry,HP
+2421-1,organic rankine cycle,169.7112,wood chips,0.5225739638857899,6.270887566629479,5.748313602743689,0.4964452656915004,,CHP
+2421-1,organic rankine cycle,169.7112,wood waste,0.4774260361142102,5.729112433370522,5.251686397256313,0.4535547343084997,,CHP
+2423-1,solar,16.02864,fuel free,1.0,5.5,5.5,0.0,solar,FF
+2424-1,heat pump - air,85.36946400000001,electricity,1.0,2.3,7.2,0.0,ambient,HP
+2425-1,heat pump - water,3.4416,electricity,1.0,0.35,1.2,0.0,ambient,HP
+2429-1,boiler,3.9528,natural gas,1.0,1.0,0.9,0.0,,HOB
+2430-1,heat pump - industrial heat,325.305,electricity,1.0,5.41,23.85,0.0,industry,HP
+2430-2,heat pump - industrial heat,237.398,electricity,1.0,4.177,20.697,0.0,industry,HP
+2431-1,heat pump - water,203.954,electricity,1.0,6.0,20.2,0.0,ambient,HP
+2433-1,industrial heat,13.605,fuel free,1.0,2.0,2.0,0.0,industry,FF
+2434-1,industrial heat,38.034,fuel free,1.0,3.0,3.0,0.0,industry,FF
+2437-1,boiler,4.61196,wood chips,1.0,0.531,0.494,0.0,,HOB
+2437-2,boiler,4.61196,wood chips,1.0,0.531,0.494,0.0,,HOB
+2438-1,heat pump - air,15.09948,electricity,1.0,0.568,1.539,0.0,ambient,HP
+2438-2,boiler,3.689712000000001,electricity,1.0,2.0,2.0,0.0,,HOB
+244-2,steam turbine,4677.9084,municipal waste,0.7485701355344669,167.6797103597206,142.2283257515487,46.41134840313695,,CHP
+244-2,steam turbine,4677.9084,wood waste,0.24376117912379233,54.60250412372948,46.314624033520545,15.113193105675125,,CHP
+2441-1,boiler,78.7932,wood chips,1.0,4.1,5.6,0.0,,HOB
+2441-2,heat pump - air,9.813600000000001,electricity,1.0,1.1,4.0,0.0,ambient,HP
+2443-1,heat pump - air,14.9919984,electricity,1.0,0.5,1.0,0.0,ambient,HP
+2445-1,boiler,6.533,natural gas,1.0,12.9,12.0,0.0,,HOB
+2446-1,boiler,3.065,natural gas,1.0,8.5,7.5,0.0,,HOB
+2447-1,heat pump - other,35.97523200000001,electricity,1.0,1.5,4.5,0.0,industry,HP
+245-7,boiler,3.6072,natural gas,1.0,3.0,2.8,0.0,,HOB
+2453-1,boiler,28.8432,wood chips,0.9487626801059638,8.064482780900692,8.064482780900692,0.0,,HOB
+2453-1,boiler,28.8432,wood waste,0.05123731989403632,0.43551721909930874,0.43551721909930874,0.0,,HOB
+2454-1,heat pump - other,15.4872,electricity,1.0,0.5,1.2,0.0,industry,HP
+2454-2,boiler,10.6524,electricity,1.0,8.0,8.0,0.0,,HOB
+2455-1,heat pump - industrial heat,4.486,electricity,1.0,0.4,1.5,0.0,industry,HP
+2456-1,heat pump - water,39.0096,electricity,1.0,2.0,6.2,0.0,ambient,HP
+246-5,boiler,5.80464,natural gas,1.0,6.6,7.1,0.0,,HOB
+246-6,boiler,87.06528,wood chips,1.0,7.0,7.0,0.0,,HOB
+247-9,boiler,3.1284,natural gas,1.0,11.65,10.0,0.0,,HOB
+249-2,combustion engine,7.0668,natural gas,1.0,9.69,5.2,3.84,,CHP
+249-7,boiler,43.75080000000001,wood chips,1.0,2.6,2.75,0.0,,HOB
+249-8,boiler,10.1358,electricity,1.0,10.0,10.0,0.0,,HOB
+25-6,boiler,46.188,natural gas,1.0,11.0,11.0,0.0,,HOB
+25-7,boiler,20.4948,gas oil,1.0,8.6,7.5,0.0,,HOB
+250-2,combined cycle,878.9004,municipal waste,0.9517306667495686,41.87614933698102,22.651189868639733,12.26780829440194,,CHP
+250-2,combined cycle,878.9004,wood waste,0.04826933325043131,2.1238506630189775,1.1488101313602652,0.6221917055980597,,CHP
+251-10,heat pump - industrial heat,49.904,electricity,1.0,14.4,14.4,0.0,industry,HP
+251-11,industrial heat,55.568,fuel free,1.0,12.0,12.0,0.0,industry,FF
+251-13,boiler,326.35,electricity,1.0,50.0,50.0,0.0,,HOB
+251-14,steam boiler,1474.016434,wood chips,0.9947768151208258,149.21652226812387,184.03371079735277,0.0,,HOB
+251-3,steam turbine,1363.395,coal,0.9808247183824149,852.3366802743186,441.3711232720867,366.8284446750232,,CHP
+251-6,steam turbine,1893.173,straw,1.0,117.5,88.0,31.0,,CHP
+251-9,boiler,247.854,electricity,1.0,50.0,50.0,0.0,,HOB
+252-2,boiler,67.572,wood chips,1.0,6.0,7.5,0.0,,HOB
+252-3,boiler,150.192,straw,1.0,7.8,8.5,0.0,,HOB
+252-4,boiler,19.9728,electricity,1.0,10.0,10.0,0.0,,HOB
+254-1,boiler,38.51568,natural gas,1.0,7.0,6.0,0.0,,HOB
+254-2,boiler,20.9286,natural gas,1.0,7.0,6.0,0.0,,HOB
+254-3,combustion engine,6.456240000000001,natural gas,1.0,7.78,3.7,3.0,,CHP
+254-4,combustion engine,6.48,natural gas,1.0,7.33,3.5,2.8,,CHP
+254-5,combustion engine,19.22724,natural gas,1.0,21.3,9.4,8.5,,CHP
+254-6,boiler,46.08612,electricity,1.0,10.0,10.0,0.0,,HOB
+254-7,solar,7.945991999999999,fuel free,1.0,3.3,3.3,0.0,solar,FF
+254-8,solar,30.5442,fuel free,1.0,10.7,10.7,0.0,solar,FF
+255-2,steam turbine,1156.78,municipal waste,0.9879913542201937,64.31823715973461,44.459610939908714,13.535481552816654,,CHP
+255-3,steam turbine,1563.099,municipal waste,0.9964316419553789,72.73950986274266,51.61515905328863,19.33077385393435,,CHP
+258-2,boiler,47.084976,gas oil,0.9999985861986969,77.99988972349836,69.99990103390878,0.0,,HOB
+259-13,boiler,1050.83381,electricity,1.0,200.0,200.0,0.0,,HOB
+259-3,steam turbine,4315.158,coal,0.5412643287298887,481.72525256960097,277.5603477726869,195.77530770160075,,CHP
+259-3,steam turbine,4315.158,wood pellets,0.40659357264947377,361.86827965803167,208.50118405465014,147.06489522731465,,CHP
+26-3,combustion engine,19.8576,natural gas,1.0,6.8,3.75,2.75,,CHP
+26-4,combustion engine,20.1204,natural gas,1.0,6.8,3.75,2.75,,CHP
+26-6,solar,20.7144,fuel free,1.0,6.5,6.5,0.0,solar,FF
+26-7,boiler,27.0432,electricity,1.0,8.0,7.84,0.0,,HOB
+260-1,boiler,21.5424,natural gas,1.0,10.0,10.0,0.0,,HOB
+261-3,steam turbine,387.0216,municipal waste,0.5524952436127097,19.17158495336103,12.210144883840886,4.088464802734053,,CHP
+261-3,steam turbine,387.0216,wood waste,0.44096095510152405,15.301345142022885,9.745237107743682,3.2631110677512782,,CHP
+261-7,steam turbine,550.404,municipal waste,0.5534546192959204,19.20487528956844,17.157093198173534,4.4276369543673635,,CHP
+261-7,steam turbine,550.404,wood waste,0.4417235817824378,15.327808287850594,13.693431035255573,3.5337886542595025,,CHP
+261-8,boiler,4.0932,natural gas,1.0,5.5,5.5,0.0,,HOB
+261-9,boiler,6.9336,natural gas,1.0,11.0,11.0,0.0,,HOB
+262-10,combustion engine,16.5456,natural gas,1.0,2.61,1.55,1.06,,CHP
+262-12,combustion engine,19.4112,natural gas,1.0,2.865,1.5,1.202,,CHP
+262-13,combustion engine,24.4188,natural gas,1.0,2.87,1.6,1.2,,CHP
+262-14,heat pump - other,2.5704,electricity,1.0,0.4,2.0,0.0,industry,HP
+262-15,boiler,50.4756,electricity,1.0,7.0,7.0,0.0,,HOB
+262-4,boiler,37.62,natural gas,1.0,10.0,11.5,0.0,,HOB
+262-9,combustion engine,17.5752,natural gas,1.0,2.61,1.55,1.06,,CHP
+263-1,steam turbine,317.527,municipal waste,0.8539899572935594,27.3276786333939,16.225809188577628,5.977929701054916,,CHP
+263-1,steam turbine,317.527,wood waste,0.13585544622757523,4.347374279282407,2.581253478323929,0.9509881235930266,,CHP
+263-2,steam turbine,1362.593,municipal waste,0.8841533220193823,58.35411925327924,41.289960138305155,15.826344464146942,,CHP
+263-2,steam turbine,1362.593,wood waste,0.11031394946391544,7.2807206646184195,5.151661439964851,1.9746196954040862,,CHP
+265-3,boiler,6.6528,natural gas,0.9947191932407566,10.941911125648323,8.95247273916681,0.0,,HOB
+265-4,combustion engine,23.5476,natural gas,1.0,6.49,3.5,2.7,,CHP
+265-5,combustion engine,19.7532,natural gas,1.0,6.49,3.5,2.7,,CHP
+265-6,combustion engine,23.7672,natural gas,1.0,7.15,4.0,3.04,,CHP
+265-8,solar,26.496,fuel free,1.0,10.6,10.6,0.0,solar,FF
+265-9,boiler,49.72320000000001,electricity,1.0,10.0,10.0,0.0,,HOB
+267-2,boiler,111.75696,municipal waste,0.9430751009777641,12.259976312710934,8.016138358310995,0.0,,HOB
+267-2,boiler,111.75696,wood waste,0.04854682714065245,0.6311087528284818,0.4126480306955458,0.0,,HOB
+267-3,steam turbine,545.2066799999999,municipal waste,0.9446961262067607,32.59201635413324,24.56209928137578,6.329464045585297,,CHP
+267-3,steam turbine,545.2066799999999,wood waste,0.0486300924362466,1.6777381890505076,1.2643824033424116,0.32582161932285225,,CHP
+268-1,steam turbine,391.263804,municipal waste,0.9640965535099261,18.317834516688595,13.497351749138964,2.7476751775032895,,CHP
+268-1,steam turbine,391.263804,wood waste,0.03099285655844625,0.5888642746104787,0.4338999918182475,0.08832964119157181,,CHP
+268-2,boiler,219.383676,municipal waste,0.9640969613772676,11.569163536527212,9.640969613772675,0.0,,HOB
+268-2,boiler,219.383676,wood waste,0.030992715001883095,0.37191258002259714,0.309927150018831,0.0,,HOB
+269-1,steam turbine,3277.03159,wood pellets,0.994215499684082,620.3904718028672,351.455179138323,256.1099127186195,,CHP
+269-2,combined cycle,5371.42443,straw,0.12110344466811118,141.44882337235387,70.60330824150881,66.36468767812492,,CHP
+269-2,combined cycle,5371.42443,natural gas,0.03272196602055481,38.21925631200802,19.076906189983458,17.93163737926404,,CHP
+269-2,combined cycle,5371.42443,wood pellets,0.8461494144891667,988.3025161233467,493.30510864718417,463.68987914006334,,CHP
+27-2,other,113.9346,fuel free,1.0,10.5,10.5,0.0,industry,FF
+270-2,combined cycle,145.2708,natural gas,1.0,80.0,31.0,38.5,,CHP
+270-3,boiler,120.2364,electricity,1.0,40.0,40.0,0.0,,HOB
+271-1,gas turbine,3.035,natural gas,1.0,130.0,54.0,55.0,,CHP
+271-3,steam turbine,953.77,wood chips,0.9993039171699046,68.35238793442149,60.35795659706224,15.689071499567502,,CHP
+272-1,combined cycle,144.58,natural gas,1.0,174.0,78.0,77.0,,CHP
+273-2,boiler,18.1476,natural gas,1.0,17.0,16.0,0.0,,HOB
+273-4,solar,28.71,fuel free,1.0,12.5,12.5,0.0,solar,FF
+273-5,boiler,14.0544,wood chips,1.0,1.9,1.9,0.0,,HOB
+273-7,heat pump - other,7.1676,electricity,1.0,0.25,1.5,0.0,solar,HP
+273-8,heat pump - air,37.8,electricity,1.0,2.0,6.0,0.0,ambient,HP
+276-1,steam turbine,222.2172,straw,1.0,20.5,13.8,5.0,,CHP
+276-2,solar,10.836,fuel free,1.0,4.5,4.5,0.0,solar,FF
+276-3,boiler,8.082,electricity,1.0,10.0,10.0,0.0,,HOB
+277-10,boiler,113.26657,electricity,1.0,90.0,85.0,0.0,,HOB
+277-11,steam turbine,1577.79768,wood chips,0.9891384718115949,138.47938605362327,123.64230897644936,25.717600267101467,,CHP
+277-13,boiler,6.43364,electricity,1.0,49.0,42.0,0.0,,HOB
+277-6,boiler,6.42873,gas oil,1.0,39.0,37.0,0.0,,HOB
+279-1,steam turbine,585.0396,municipal waste,0.47469660620461945,20.886650673003256,13.338974634349807,5.174193007630352,,CHP
+279-1,steam turbine,585.0396,straw,0.5253033937953806,23.113349326996747,14.761025365650196,5.725806992369649,,CHP
+28-2,boiler,18.36864,wood chips,1.0,4.0,4.0,0.0,,HOB
+28-4,heat pump - air,32.25924,electricity,1.0,1.3,3.3,0.0,ambient,HP
+28-5,boiler,14.3316,electricity,1.0,10.0,10.0,0.0,,HOB
+282-3,steam turbine,66.03817,natural gas,1.0,843.0,453.3,385.0,,CHP
+282-4,boiler,31.47352,natural gas,1.0,29.9,27.0,0.0,,HOB
+282-7,steam turbine,3559.47565,wood chips,0.9997795673314355,299.93387019943066,233.24857305842391,93.27943363202293,,CHP
+283-1,combined cycle,40.02480000000001,natural gas,1.0,60.0,27.0,26.0,,CHP
+283-2,combined cycle,804.5424,municipal waste,0.9972621958485016,39.890487833940064,32.909652463000555,6.980835370939511,,CHP
+284-2,boiler,2.06784,natural gas,1.0,0.75,0.75,0.0,,HOB
+284-3,heat pump - air,15.77232,electricity,1.0,0.811,0.811,0.0,ambient,HP
+285-10,steam turbine,1570.9356,municipal waste,0.9908272737818162,83.93297836205765,68.36708189094531,16.844063654290878,,CHP
+285-11,steam turbine,2281.8276,municipal waste,0.9906547742292253,110.71557756785823,72.31779851873345,21.794405033042956,,CHP
+285-5,boiler,49.5972,gas oil,0.18710101917175112,4.157384645996309,3.8075057401451358,0.0,,HOB
+285-5,boiler,49.5972,natural gas,0.812898980828249,18.06261535400369,16.542494259854866,0.0,,HOB
+285-6,boiler,43.1136,gas oil,0.18705817075928577,4.15643255427133,3.806633774951466,0.0,,HOB
+285-6,boiler,43.1136,natural gas,0.8129418292407142,18.06356744572867,16.543366225048537,0.0,,HOB
+285-7,boiler,61.326,gas oil,0.1526819205974252,3.3925922756747875,3.107077084157603,0.0,,HOB
+285-7,boiler,61.326,natural gas,0.8473180794025748,18.82740772432521,17.242922915842396,0.0,,HOB
+288-1,steam turbine,2268.113,wood chips,0.7146145627935818,213.59829281900159,142.92291255871638,62.95754298211455,,CHP
+288-1,steam turbine,2268.113,wood pellets,0.26596907868635233,79.4981576193507,53.19381573727047,23.43187583226764,,CHP
+289-1,steam turbine,1746.814,municipal waste,0.6680684928670376,87.38335886700852,56.11775340083116,18.037849307410017,,CHP
+289-1,steam turbine,1746.814,biofuels,0.04396686409131982,5.7508658231446335,3.693216583670865,1.1871053304656352,,CHP
+289-1,steam turbine,1746.814,straw,0.1383431259475531,18.09528087393995,11.62082257959446,3.735264400583934,,CHP
+289-1,steam turbine,1746.814,wood chips,0.11670101002614632,15.264492111419939,9.80288484219629,3.1509272707059504,,CHP
+29-1,boiler,7.244676,natural gas,1.0,3.95,3.95,0.0,,HOB
+29-3,combustion engine,7.565688,natural gas,1.0,2.74,1.51,1.05,,CHP
+29-4,combustion engine,8.109828,natural gas,1.0,2.74,1.51,1.05,,CHP
+29-5,solar,7.9344,fuel free,1.0,3.6,3.6,0.0,solar,FF
+29-6,boiler,11.147616,electricity,1.0,2.4,2.4,0.0,,HOB
+290-3,boiler,56.80476,gas oil,0.31554540923292373,2.208817864630466,2.3034814874003433,0.0,,HOB
+290-3,boiler,56.80476,natural gas,0.6844545907670763,4.791182135369533,4.996518512599657,0.0,,HOB
+290-4,boiler,44.49276,gas oil,0.19561789607726152,2.151796856849877,2.2652552365746885,0.0,,HOB
+290-4,boiler,44.49276,natural gas,0.8043821039227385,8.848203143150123,9.314744763425312,0.0,,HOB
+290-6,boiler,18.26946,electricity,1.0,4.0,4.0,0.0,,HOB
+291-1,combined cycle,10.2348,natural gas,1.0,6.84,3.6,3.0,,CHP
+291-6,boiler,92.50919999999999,wood chips,1.0,5.37,4.83,0.0,,HOB
+293-2,boiler,100.0152,natural gas,1.0,11.335,11.57,0.0,,HOB
+293-3,boiler,100.0152,natural gas,1.0,8.14,8.3,0.0,,HOB
+294-1,boiler,109.5192,natural gas,1.0,19.9,19.9,0.0,,HOB
+295-2,boiler,138.3804,natural gas,1.0,7.51,7.51,0.0,,HOB
+295-3,boiler,138.384,natural gas,1.0,12.07,12.07,0.0,,HOB
+296-1,combustion engine,20.051928,natural gas,1.0,8.67,4.9,3.64,,CHP
+296-10,solar,34.50096,fuel free,1.0,18.0,18.0,0.0,solar,FF
+296-12,heat pump - air,20.31156,electricity,1.0,2.1,5.7,0.0,ambient,HP
+296-3,combustion engine,14.39496,natural gas,1.0,8.67,4.7,3.64,,CHP
+296-7,boiler,4.03272,natural gas,1.0,7.3,7.2,0.0,,HOB
+296-9,boiler,44.79948,electricity,1.0,12.0,12.0,0.0,,HOB
+298-1,boiler,110.019,wood pellets,1.0,11.0,11.0,0.0,,HOB
+3-3,boiler,72.2088,wood chips,1.0,6.0,6.0,0.0,,HOB
+30-3,heat pump - air,12.6216,electricity,1.0,0.36,0.956,0.0,ambient,HP
+300-4,solar,8.8344,fuel free,1.0,3.8,3.8,0.0,solar,FF
+300-5,heat pump - air,15.9984,electricity,1.0,0.6,1.867,0.0,ambient,HP
+300-6,combustion engine,5.22,natural gas,1.0,1.87,1.07,0.74,,CHP
+300-7,combustion engine,3.0312,natural gas,1.0,1.87,1.07,0.74,,CHP
+301-1,boiler,36.8856,natural gas,1.0,6.3,6.0,0.0,,HOB
+301-2,boiler,36.88632,natural gas,1.0,7.3,7.0,0.0,,HOB
+301-5,solar,14.30964,fuel free,1.0,7.0,7.0,0.0,solar,FF
+304-3,boiler,30.61836,wood chips,1.0,4.0,4.0,0.0,,HOB
+307-1,boiler,5.166,natural gas,1.0,11.1,12.2,0.0,,HOB
+307-2,combustion engine,21.47328,natural gas,1.0,6.76,4.0,3.1,,CHP
+310-3,boiler,90.71640000000001,wood chips,1.0,11.22,10.0,0.0,,HOB
+310-4,boiler,20.2608,wood chips,1.0,4.0,5.0,0.0,,HOB
+311-2,boiler,3.05964,biofuels,0.3503380822789466,1.0510142468368397,0.8758452056973665,0.0,,HOB
+311-2,boiler,3.05964,natural gas,0.6496619177210534,1.9489857531631603,1.6241547943026335,0.0,,HOB
+311-3,combustion engine,22.29552,biofuels,1.0,3.0,1.19,1.13,,CHP
+312-2,combustion engine,11.0412,natural gas,1.0,4.15,2.06,1.82,,CHP
+314-1,boiler,6.22,natural gas,0.9978358618828895,17.1627768243857,13.171433376854141,0.0,,HOB
+315-2,boiler,3.4709,gas oil,0.03739111960909284,0.3739111960909284,0.3477374123645634,0.0,,HOB
+315-2,boiler,3.4709,natural gas,0.9626088803909072,9.626088803909072,8.952262587635438,0.0,,HOB
+315-3,boiler,2.2191,gas oil,0.037423159993354375,0.6736168798803788,0.6062551918923409,0.0,,HOB
+315-3,boiler,2.2191,natural gas,0.9625768400066456,17.32638312011962,15.593744808107658,0.0,,HOB
+316-1,boiler,15.587,natural gas,0.9852542532413355,18.325729110288844,16.453746029130304,0.0,,HOB
+318-1,steam turbine,582.6096,municipal waste,0.9077452462263977,25.05376879584858,16.32125952715063,5.6824852413772495,,CHP
+318-1,steam turbine,582.6096,wood waste,0.044327180918613526,1.2234301933537335,0.7970027129166712,0.2774881525505207,,CHP
+318-4,boiler,750.9888000000001,municipal waste,0.9077689719127751,31.77191401694713,29.50249158716519,0.0,,HOB
+318-4,boiler,750.9888000000001,wood waste,0.04433576302597711,1.5517517059091988,1.4409122983442562,0.0,,HOB
+324-1,combined cycle,176.1,municipal waste,0.9217259750209096,22.12142340050183,15.669341575355462,4.608629875104548,,CHP
+324-1,combined cycle,176.1,fuel oil,0.0665857224186282,1.5980573380470768,1.1319572811166794,0.332928612093141,,CHP
+324-2,combined cycle,210.0,municipal waste,0.9214262925206241,22.11423102049498,15.664246972850611,4.607131462603121,,CHP
+324-2,combined cycle,210.0,fuel oil,0.07377736588626731,1.7706567812704153,1.2542152200665442,0.36888682943133655,,CHP
+324-3,combined cycle,206.9,municipal waste,0.9333737596471885,27.067839029768468,18.66747519294377,6.53361631753032,,CHP
+324-3,combined cycle,206.9,fuel oil,0.05943298157190108,1.7235564655851312,1.1886596314380216,0.41603087100330755,,CHP
+326-15,boiler,5.346,natural gas,1.0,6.95,7.5,0.0,,HOB
+326-4,boiler,25.2108,wood chips,1.0,2.91,2.5,0.0,,HOB
+329-1,boiler,42.48,straw,1.0,5.0,5.0,0.0,,HOB
+329-5,solar,11.2464,fuel free,1.0,3.0,3.0,0.0,solar,FF
+33-1,boiler,5.324,natural gas,1.0,5.0,5.0,0.0,,HOB
+330-1,steam turbine,3210.59155,wood pellets,0.991417777667871,358.8932355157693,248.84586219463563,63.45073777074374,,CHP
+330-6,steam turbine,7612.67001,wood chips,0.9985135122177458,499.2567561088729,399.4054048870983,149.77702683266187,,CHP
+331-4,gas turbine,135.70306,natural gas,1.0,121.0,92.5,21.0,,CHP
+331-5,boiler,104.2395,natural gas,1.0,106.0,99.6,0.0,,HOB
+331-6,boiler,168.3829,natural gas,1.0,106.0,99.6,0.0,,HOB
+332-3,boiler,86.25967999999999,natural gas,1.0,141.1,128.0,0.0,,HOB
+332-4,boiler,74.01452,natural gas,1.0,140.7,128.0,0.0,,HOB
+334-4,combustion engine,6.3558,natural gas,1.0,3.4,1.8,1.4,,CHP
+337-3,boiler,5.720400000000001,natural gas,1.0,8.55,8.4,0.0,,HOB
+337-4,combustion engine,24.1632,natural gas,1.0,7.4,3.85,2.95,,CHP
+338-2,boiler,95.3028,wood chips,1.0,5.0,5.0,0.0,,HOB
+338-4,boiler,2.6316,natural gas,1.0,12.0,12.0,0.0,,HOB
+339-4,boiler,63.8424,wood chips,1.0,6.5,7.5,0.0,,HOB
+339-5,combustion engine,3.8304,biofuels,1.0,5.0,2.5,2.0,,CHP
+339-9,boiler,57.5532,wood chips,1.0,6.5,7.5,0.0,,HOB
+34-1,boiler,155.0304,municipal waste,0.744193609128635,7.8884522567635305,6.325645677593397,0.0,,HOB
+34-1,boiler,155.0304,wood waste,0.25232258428604876,2.6746193934321165,2.1447419664314142,0.0,,HOB
+34-2,boiler,15.3828,wood pellets,1.0,6.3,6.3,0.0,,HOB
+34-4,steam turbine,283.1724,municipal waste,0.7442524514908442,10.851200742736507,9.22128787397156,2.1508895848085396,,CHP
+34-4,steam turbine,283.1724,wood waste,0.2522906340225057,3.678397444048133,3.1258809555388454,0.7291199323250415,,CHP
+344-4,combustion engine,6.8292,natural gas,1.0,5.79,3.0,2.42,,CHP
+346-7,boiler,130.644,straw,1.0,6.3,6.3,0.0,,HOB
+346-8,boiler,50.8176,wood pellets,1.0,6.3,6.3,0.0,,HOB
+349-2,boiler,70.38,wood chips,1.0,2.6,3.3,0.0,,HOB
+352-1,boiler,69.6816,wood waste,1.0,7.0,6.3,0.0,,HOB
+352-4,boiler,62.046,wood waste,1.0,5.6,5.0,0.0,,HOB
+353-3,heat pump - air,13.1976,electricity,1.0,0.36,1.0,0.0,ambient,HP
+354-3,boiler,2.801376,natural gas,1.0,3.0,1.7,0.0,,HOB
+354-4,solar,8.8236,fuel free,1.0,3.85,3.85,0.0,solar,FF
+356-1,boiler,3.39552,natural gas,1.0,8.4,7.0,0.0,,HOB
+356-2,combustion engine,5.88672,natural gas,1.0,4.6,2.7,1.8,,CHP
+359-2,combustion engine,11.20212,natural gas,1.0,4.99,2.6,2.05,,CHP
+359-3,boiler,15.72228,wood chips,1.0,1.0,1.0,0.0,,HOB
+359-4,heat pump - air,17.939268,electricity,1.0,0.3,1.0,0.0,ambient,HP
+36-1,boiler,7.29612,natural gas,1.0,17.9,16.1,0.0,,HOB
+365-2,boiler,7.1208,biofuels,1.0,3.7,3.7,0.0,,HOB
+365-3,boiler,6.5628,biofuels,1.0,7.3,7.3,0.0,,HOB
+366-1,boiler,16.2666,biofuels,0.5133982317002767,6.674177012103597,6.674177012103597,0.0,,HOB
+366-1,boiler,16.2666,natural gas,0.4866017682997234,6.325822987896404,6.325822987896404,0.0,,HOB
+367-1,boiler,10.46664,biofuels,1.0,18.0,18.0,0.0,,HOB
+368-1,boiler,9.36,biofuels,1.0,19.0,19.0,0.0,,HOB
+370-1,boiler,3.6828,biofuels,0.9997347083652519,5.39856742517236,5.39856742517236,0.0,,HOB
+370-2,boiler,2.83248,biofuels,0.9996552227915844,5.398138203074556,5.398138203074556,0.0,,HOB
+370-5,boiler,2.68848,biofuels,0.9997384427303458,10.297305960122562,10.297305960122562,0.0,,HOB
+372-2,boiler,30.0132,natural gas,1.0,16.0,16.9,0.0,,HOB
+372-8,combustion engine,54.162,natural gas,1.0,7.57,3.71,3.35,,CHP
+372-9,boiler,53.6256,electricity,1.0,6.0,6.0,0.0,,HOB
+375-1,boiler,5.994,natural gas,1.0,6.6,4.6,0.0,,HOB
+375-2,boiler,13.3164,natural gas,1.0,10.9,9.0,0.0,,HOB
+376-1,boiler,3.43944,natural gas,1.0,12.0,11.6,0.0,,HOB
+376-2,boiler,2.46852,natural gas,1.0,12.0,11.6,0.0,,HOB
+376-3,boiler,11.97324,natural gas,1.0,17.5,16.0,0.0,,HOB
+377-1,boiler,9.2718,natural gas,1.0,9.6,8.0,0.0,,HOB
+38-3,combustion engine,4.766400000000001,natural gas,1.0,7.15,3.7,3.05,,CHP
+38-4,boiler,2.5056,electricity,1.0,1.5,1.5,0.0,,HOB
+38-5,boiler,2.5092,electricity,1.0,1.5,1.5,0.0,,HOB
+38-6,heat pump - air,25.2144,electricity,1.0,0.48,1.4,0.0,ambient,HP
+381-2,combustion engine,3.9798,natural gas,1.0,7.37,3.6,2.87,,CHP
+382-1,boiler,49.9644,straw,1.0,6.5,6.5,0.0,,HOB
+383-5,boiler,6.569,electricity,1.0,1.47,1.47,0.0,,HOB
+384-2,boiler,15.190848,wood chips,1.0,1.9,1.9,0.0,,HOB
+384-4,combustion engine,30.2004,biofuels,1.0,3.55,1.8,1.49,,CHP
+384-5,combustion engine,17.5248,biofuels,1.0,2.127,1.2,0.889,,CHP
+386-1,boiler,2.3292,gas oil,1.0,11.11,10.0,0.0,,HOB
+389-1,boiler,8.753,gas oil,0.9999461238888246,20.498895539720905,18.998976353887667,0.0,,HOB
+389-2,boiler,3.967,gas oil,1.0,20.5,19.0,0.0,,HOB
+389-3,boiler,3.54,gas oil,1.0,20.5,19.0,0.0,,HOB
+389-6,boiler,15.688,natural gas,1.0,25.2,23.26,0.0,,HOB
+390-1,boiler,16.851,gas oil,0.9999728413145943,20.199451394554803,18.499497564319995,0.0,,HOB
+392-1,boiler,9.969,natural gas,1.0,25.1,25.1,0.0,,HOB
+392-2,boiler,21.446,natural gas,1.0,25.1,25.1,0.0,,HOB
+392-3,boiler,5.632,natural gas,1.0,25.1,25.1,0.0,,HOB
+395-3,boiler,4.392,natural gas,1.0,17.7,16.5,0.0,,HOB
+398-1,boiler,4.087,natural gas,1.0,10.2,9.5,0.0,,HOB
+40-4,steam turbine,364.9536000000001,wood chips,0.9710296438884949,104.09437782484666,33.98603753609732,35.92809682387431,,CHP
+400-2,boiler,3.701,gas oil,1.0,12.6,11.7,0.0,,HOB
+402-1,boiler,4.545,gas oil,0.9998935150720998,12.998615695937296,11.998722180865197,0.0,,HOB
+402-2,boiler,3.336,gas oil,1.0,13.0,12.0,0.0,,HOB
+406-1,boiler,2.351,natural gas,1.0,25.4,24.0,0.0,,HOB
+406-2,boiler,9.539,natural gas,1.0,17.0,17.0,0.0,,HOB
+406-3,boiler,4.044,gas oil,0.9999124125375575,16.998511013138476,16.998511013138476,0.0,,HOB
+407-4,boiler,2.12,natural gas,1.0,12.5,11.63,0.0,,HOB
+408-2,combustion engine,5.44068,natural gas,1.0,2.7,1.7,1.0,,CHP
+408-4,boiler,5.14908,electricity,1.0,1.09,1.09,0.0,,HOB
+41-2,boiler,17.1936,natural gas,1.0,4.0,4.0,0.0,,HOB
+41-3,combustion engine,27.9252,natural gas,1.0,5.8,3.3,2.5,,CHP
+413-10,heat pump - air,50.685264,electricity,1.0,0.896,2.8,0.0,ambient,HP
+413-4,boiler,9.07488,electricity,1.0,4.0,3.8,0.0,,HOB
+413-8,boiler,7.154640000000001,natural gas,1.0,4.047,3.72,0.0,,HOB
+413-9,boiler,2.31552,wood pellets,1.0,1.0,0.94,0.0,,HOB
+415-1,steam turbine,2013.5952,wood chips,0.8483481617193138,161.18615072666964,123.01048344930051,44.11410440940432,,CHP
+415-1,steam turbine,2013.5952,wood waste,0.14555227140710983,27.654931567350868,21.105079354030924,7.568718113169711,,CHP
+415-2,boiler,21.0276,biofuels,0.5820697104399485,40.74487973079639,40.51205184662041,0.0,,HOB
+415-2,boiler,21.0276,gas oil,0.41793028956005157,29.25512026920361,29.087948153379585,0.0,,HOB
+420-11,boiler,64.4076,electricity,1.0,10.0,10.0,0.0,,HOB
+420-3,boiler,3.1032,natural gas,1.0,10.5,8.3,0.0,,HOB
+420-4,combustion engine,22.3956,natural gas,1.0,6.9,3.38,3.03,,CHP
+420-5,combustion engine,20.736,natural gas,1.0,6.9,3.38,3.03,,CHP
+420-6,combustion engine,20.0988,natural gas,1.0,6.9,3.38,3.03,,CHP
+420-9,boiler,138.7008,wood chips,1.0,5.57,5.7,0.0,,HOB
+423-2,boiler,23.2164,wood pellets,1.0,4.45,4.0,0.0,,HOB
+423-3,boiler,31.3164,wood pellets,1.0,4.95,4.5,0.0,,HOB
+423-7,boiler,31.7952,wood pellets,1.0,4.45,4.0,0.0,,HOB
+425-11,heat pump - air,42.8076,electricity,1.0,0.97,3.4,0.0,ambient,HP
+425-3,combustion engine,56.919276,natural gas,1.0,19.7,10.0,8.73,,CHP
+425-5,boiler,8.04888,natural gas,0.9991389020014576,9.991389020014577,10.990527922016033,0.0,,HOB
+425-6,solar,24.053868,fuel free,1.0,11.0,11.0,0.0,solar,FF
+425-7,boiler,104.12712,electricity,1.0,12.0,12.0,0.0,,HOB
+425-8,solar,24.444684,fuel free,1.0,11.0,11.0,0.0,solar,FF
+426-2,combustion engine,2.538,natural gas,1.0,13.75,6.5,5.5,,CHP
+429-1,boiler,19.7964,natural gas,1.0,10.0,9.0,0.0,,HOB
+430-1,boiler,9.484,natural gas,1.0,28.0,28.0,0.0,,HOB
+434-1,boiler,34.7724,wood chips,1.0,4.9,4.9,0.0,,HOB
+434-3,solar,13.2552,fuel free,1.0,6.0,6.0,0.0,solar,FF
+437-3,boiler,75.87,straw,1.0,8.0,8.0,0.0,,HOB
+439-5,boiler,90.17640000000002,straw,1.0,8.0,8.0,0.0,,HOB
+44-4,combustion engine,6.75,natural gas,1.0,4.8,2.4,2.0,,CHP
+44-5,combustion engine,3.6432,natural gas,1.0,2.44,1.4,0.92,,CHP
+44-6,solar,8.3952,fuel free,1.0,4.0,4.0,0.0,solar,FF
+44-7,heat pump - other,29.6856,electricity,1.0,0.5,2.15,0.0,industry,HP
+440-3,boiler,28.2852,straw,1.0,5.5,5.5,0.0,,HOB
+440-4,boiler,120.1752,straw,1.0,5.5,5.5,0.0,,HOB
+444-1,combustion engine,7.059743999999999,natural gas,1.0,6.4,3.5,2.7,,CHP
+444-2,boiler,2.80116,natural gas,1.0,4.0,4.0,0.0,,HOB
+444-4,heat pump - water,13.7043,electricity,1.0,0.6,1.5,0.0,ambient,HP
+445-3,boiler,9.2304,wood pellets,1.0,6.0,5.5,0.0,,HOB
+445-4,boiler,127.7352,straw,1.0,7.0,6.3,0.0,,HOB
+447-2,boiler,123.3288,straw,1.0,16.0,16.0,0.0,,HOB
+449-1,boiler,12.5334,natural gas,1.0,4.0,4.0,0.0,,HOB
+449-4,heat pump - air,17.64144,electricity,1.0,0.4,1.2,0.0,ambient,HP
+45-1,boiler,11.0916,natural gas,1.0,5.5,5.8,0.0,,HOB
+45-2,boiler,11.0916,gas oil,0.037712585783436246,0.5015773909197021,0.43746599508786044,0.0,,HOB
+45-2,boiler,11.0916,natural gas,0.9622874142165638,12.7984226090803,11.16253400491214,0.0,,HOB
+451-1,boiler,3.24,natural gas,1.0,2.4,2.5,0.0,,HOB
+451-3,solar,4.9212,fuel free,1.0,2.78,2.78,0.0,solar,FF
+451-4,heat pump - air,10.0764,electricity,1.0,0.241,0.84,0.0,ambient,HP
+451-6,boiler,5.1048,electricity,1.0,1.6,1.6,0.0,,HOB
+452-2,boiler,2.6892,natural gas,1.0,9.3,9.3,0.0,,HOB
+452-3,boiler,3.4128,natural gas,1.0,9.3,9.3,0.0,,HOB
+452-4,boiler,5.9004,natural gas,1.0,9.3,9.3,0.0,,HOB
+453-6,boiler,13.37652,natural gas,1.0,15.0,15.46,0.0,,HOB
+453-7,boiler,13.73868,natural gas,1.0,15.0,15.46,0.0,,HOB
+457-5,boiler,14.8968,electricity,1.0,10.0,10.0,0.0,,HOB
+46-1,boiler,8.82,straw,1.0,3.15,3.15,0.0,,HOB
+46-5,boiler,7.17228,straw,1.0,5.0,5.0,0.0,,HOB
+46-6,boiler,138.66804,straw,1.0,12.0,12.0,0.0,,HOB
+460-2,boiler,8.503200000000001,biofuels,0.12724059206984153,1.2724059206984153,1.2724059206984153,0.0,,HOB
+460-2,boiler,8.503200000000001,natural gas,0.8727594079301585,8.727594079301586,8.727594079301586,0.0,,HOB
+460-3,combustion engine,46.7928,biofuels,1.0,3.538,2.0,1.499,,CHP
+460-4,heat pump - other,6.3432,electricity,1.0,0.132,0.5,0.0,industry,HP
+460-5,boiler,2.8872,electricity,1.0,3.0,3.0,0.0,,HOB
+461-4,boiler,39.789,wood pellets,1.0,11.6,11.6,0.0,,HOB
+461-5,boiler,348.1609319999999,wood chips,1.0,9.0,10.0,0.0,,HOB
+461-6,boiler,348.1609319999999,wood chips,1.0,9.0,10.0,0.0,,HOB
+463-10,boiler,135.1116,electricity,1.0,14.0,13.9,0.0,,HOB
+463-7,combustion engine,7.570080000000001,natural gas,1.0,8.25,3.4,3.1,,CHP
+463-8,combustion engine,11.46852,natural gas,1.0,8.25,3.4,3.1,,CHP
+463-9,combustion engine,9.191880000000001,natural gas,1.0,8.25,3.4,3.1,,CHP
+464-1,boiler,171.018,wood pellets,1.0,20.0,17.0,0.0,,HOB
+464-3,gasification plus engine,51.23088,wood pellets,1.0,6.6,3.7,2.0,,CHP
+464-4,gasification plus engine,57.85668,wood pellets,1.0,6.6,3.7,2.0,,CHP
+464-5,gasification plus engine,52.52364,wood pellets,1.0,6.6,3.7,2.0,,CHP
+464-7,boiler,7.819199999999999,electricity,1.0,14.0,13.9,0.0,,HOB
+465-1,boiler,19.9332,natural gas,1.0,10.4,9.3,0.0,,HOB
+470-2,boiler,23.9328,wood chips,1.0,2.0,2.0,0.0,,HOB
+470-3,solar,7.484400000000001,fuel free,1.0,3.1,3.1,0.0,solar,FF
+471-3,combustion engine,3.9312,natural gas,1.0,3.5,2.0,1.4,,CHP
+471-4,boiler,9.0252,natural gas,1.0,5.0,6.0,0.0,,HOB
+471-6,heat pump - air,19.5336,electricity,1.0,0.55,1.6,0.0,ambient,HP
+473-5,boiler,76.28040000000001,wood chips,1.0,5.3,5.82,0.0,,HOB
+473-6,boiler,14.4648,electricity,1.0,4.0,4.0,0.0,,HOB
+473-7,heat pump - air,20.8656,electricity,1.0,0.5,1.7,0.0,ambient,HP
+477-2,boiler,3.25008,natural gas,1.0,5.3,5.3,0.0,,HOB
+477-3,boiler,7.585199999999999,natural gas,1.0,7.3,7.3,0.0,,HOB
+48-1,boiler,9.72,wood pellets,0.9891123274631128,5.934673964778677,5.440117801047121,0.0,,HOB
+480-2,boiler,9.208800000000002,natural gas,1.0,4.5,4.1,0.0,,HOB
+480-5,combustion engine,15.9948,natural gas,1.0,7.26,4.0,3.03,,CHP
+480-6,boiler,12.1968,electricity,1.0,6.0,6.0,0.0,,HOB
+480-7,solar,14.10372,fuel free,1.0,6.0,6.0,0.0,solar,FF
+481-3,boiler,7.430400000000001,natural gas,1.0,2.0,2.0,0.0,,HOB
+481-4,combustion engine,14.3784,biofuels,1.0,1.26,0.671,0.527,,CHP
+482-1,boiler,3.60036,gas oil,0.13482556073873658,0.4934615523037759,0.4934615523037759,0.0,,HOB
+482-1,boiler,3.60036,natural gas,0.8651744392612635,3.1665384476962246,3.1665384476962246,0.0,,HOB
+482-2,combustion engine,2.09268,natural gas,1.0,5.4,2.75,2.1,,CHP
+483-1,boiler,8.83224,natural gas,1.0,4.0,3.7,0.0,,HOB
+484-1,boiler,14.55696,natural gas,1.0,8.1,7.3,0.0,,HOB
+486-3,boiler,65.7432,wood chips,1.0,4.125,4.125,0.0,,HOB
+487-2,boiler,3.456,natural gas,1.0,7.5,7.15,0.0,,HOB
+487-4,heat pump - other,5.1048,electricity,1.0,0.1,0.5,0.0,industry,HP
+487-6,boiler,5.13,electricity,1.0,3.0,3.0,0.0,,HOB
+49-2,boiler,6.774264000000001,natural gas,1.0,5.0,4.15,0.0,,HOB
+49-3,combustion engine,12.698712,natural gas,1.0,7.15,3.62,3.05,,CHP
+490-2,boiler,7.6365,natural gas,1.0,5.8,4.0,0.0,,HOB
+493-1,boiler,8.218,natural gas,1.0,9.2,9.0,0.0,,HOB
+495-1,boiler,27.418,natural gas,1.0,18.0,16.2,0.0,,HOB
+496-2,boiler,3.0096,electricity,1.0,2.4,2.4,0.0,,HOB
+499-1,combustion engine,39.9564,natural gas,1.0,7.4,3.91,3.04,,CHP
+499-10,boiler,27.882,electricity,1.0,10.0,10.0,0.0,,HOB
+499-5,boiler,2.9196,natural gas,1.0,7.34,7.3,0.0,,HOB
+499-6,boiler,20.94552,natural gas,1.0,11.56,11.63,0.0,,HOB
+499-7,combustion engine,16.9128,natural gas,1.0,7.4,3.91,3.04,,CHP
+499-8,combustion engine,32.8716,natural gas,1.0,7.4,3.91,3.04,,CHP
+499-9,heat pump - air,105.5988,electricity,1.0,2.6,7.3,0.0,ambient,HP
+5-2,combustion engine,18.85176,natural gas,1.0,11.34,5.65,5.1,,CHP
+5-5,boiler,22.1652,electricity,1.0,10.0,10.0,0.0,,HOB
+5-6,solar,25.9092,fuel free,1.0,11.1,11.1,0.0,solar,FF
+5-7,heat pump - air,48.19104,electricity,1.0,1.2,4.0,0.0,ambient,HP
+50-1,combustion engine,6.6096,natural gas,1.0,7.34,3.65,2.88,,CHP
+50-10,boiler,62.0856,natural gas,1.0,16.458,17.416,0.0,,HOB
+50-2,combustion engine,3.8808,natural gas,1.0,7.34,3.65,2.88,,CHP
+50-3,combustion engine,9.1332,natural gas,1.0,9.73,4.56,3.85,,CHP
+50-6,combustion engine,6.0156,natural gas,1.0,13.71,6.77,5.95,,CHP
+50-9,boiler,129.2472,electricity,1.0,11.4,11.2,0.0,,HOB
+500-13,industrial heat,61.6968,fuel free,1.0,10.0,10.0,0.0,industry,FF
+503-2,boiler,10.2636,natural gas,1.0,5.0,5.0,0.0,,HOB
+503-4,boiler,16.776,natural gas,1.0,7.5,8.6,0.0,,HOB
+504-1,boiler,11.3976,wood chips,1.0,2.16,2.16,0.0,,HOB
+504-6,boiler,25.6752,wood chips,1.0,3.4,3.4,0.0,,HOB
+504-7,solar,16.8516,fuel free,1.0,7.7,7.7,0.0,solar,FF
+505-1,boiler,2.2896,biofuels,1.0,19.0,17.45,0.0,,HOB
+509-10,solar,36.9198,fuel free,1.0,17.0,17.0,0.0,solar,FF
+509-12,heat pump - air,51.11928,electricity,1.0,1.95,5.0,0.0,ambient,HP
+509-4,combustion engine,102.35484,natural gas,1.0,13.7,8.5,6.0,,CHP
+509-7,boiler,57.66012,electricity,1.0,12.0,12.0,0.0,,HOB
+509-8,solar,19.29672,fuel free,1.0,8.0,8.0,0.0,solar,FF
+509-9,boiler,15.63192,natural gas,1.0,16.5,17.5,0.0,,HOB
+510-2,boiler,37.105,straw,1.0,9.8,9.0,0.0,,HOB
+514-2,boiler,19.5305,natural gas,1.0,2.5,2.5,0.0,,HOB
+514-3,boiler,19.5305,natural gas,1.0,2.5,2.5,0.0,,HOB
+515-1,boiler,16.2398,natural gas,1.0,10.0,10.0,0.0,,HOB
+515-2,boiler,16.2398,natural gas,0.9999793520838847,9.999793520838846,9.999793520838846,0.0,,HOB
+515-3,boiler,16.2398,natural gas,0.9999793520838847,9.999793520838846,9.999793520838846,0.0,,HOB
+515-4,boiler,16.2398,natural gas,0.9999793520838847,9.999793520838846,9.999793520838846,0.0,,HOB
+516-2,boiler,3.75516,natural gas,1.0,2.15,2.1,0.0,,HOB
+516-3,boiler,15.7698,wood pellets,1.0,0.99,0.9,0.0,,HOB
+516-4,solar,6.506279999999999,fuel free,1.0,2.9,2.9,0.0,solar,FF
+518-1,combined cycle,13.1328,natural gas,1.0,14.5,7.5,6.0,,CHP
+52-3,boiler,37.89936,natural gas,1.0,9.0,9.0,0.0,,HOB
+52-4,heat pump - other,2.5326,electricity,1.0,0.095,0.5,0.0,industry,HP
+523-10,boiler,2.988,wood pellets,1.0,4.85,4.16,0.0,,HOB
+523-3,boiler,73.28880000000001,wood chips,1.0,10.0,10.0,0.0,,HOB
+523-4,solar,21.6,fuel free,1.0,13.0,13.0,0.0,solar,FF
+523-5,heat pump - other,21.52116,electricity,1.0,1.0,4.7,0.0,industry,HP
+523-6,boiler,2.9484,electricity,1.0,1.0,1.0,0.0,,HOB
+523-7,heat pump - air,79.56,electricity,1.0,1.9,5.4,0.0,ambient,HP
+523-8,boiler,10.26,electricity,1.0,15.0,15.0,0.0,,HOB
+524-1,boiler,9.108972,natural gas,1.0,4.7,4.5,0.0,,HOB
+525-1,boiler,9.2304,natural gas,1.0,10.0,11.0,0.0,,HOB
+525-2,geothermal,70.4304,fuel free,1.0,8.6,8.3,0.0,geothermal,FF
+525-4,boiler,174.3876,straw,1.0,11.5,9.8,0.0,,HOB
+526-1,boiler,2.1132,natural gas,1.0,16.5,17.5,0.0,,HOB
+53-1,boiler,6.2982,natural gas,1.0,11.0,11.6,0.0,,HOB
+53-6,boiler,124.01316,wood chips,0.4352567083447762,3.4820536667582096,3.4820536667582096,0.0,,HOB
+53-6,boiler,124.01316,wood waste,0.5647432916552239,4.517946333241791,4.517946333241791,0.0,,HOB
+53-9,boiler,15.24492,electricity,1.0,11.5,11.5,0.0,,HOB
+530-1,boiler,34.2684,straw,1.0,3.15,3.15,0.0,,HOB
+531-1,combustion engine,6.70032,biofuels,0.9452752051743613,4.915431066906678,2.6467705744882113,1.9850779308661588,,CHP
+531-1,combustion engine,6.70032,natural gas,0.054724794825638724,0.2845689330933214,0.15322942551178842,0.11492206913384133,,CHP
+531-3,boiler,2.99592,natural gas,1.0,2.7,2.3,0.0,,HOB
+531-4,boiler,10.8162,wood chips,1.0,2.11,1.9,0.0,,HOB
+532-1,combustion engine,7.3512,natural gas,1.0,6.0,3.5,2.0,,CHP
+532-3,solar,6.1848,fuel free,1.0,1.0,1.0,0.0,solar,FF
+532-4,heat pump - air,14.7492,electricity,1.0,1.4,1.2,0.0,ambient,HP
+533-2,combustion engine,3.007368,natural gas,1.0,13.0,6.5,5.5,,CHP
+533-5,solar,35.73,fuel free,1.0,6.5,6.5,0.0,solar,FF
+533-6,boiler,19.494,electricity,1.0,2.945,2.9,0.0,,HOB
+533-7,boiler,14.318424,natural gas,1.0,4.4,4.4,0.0,,HOB
+533-9,boiler,11.658276,wood pellets,1.0,3.4,3.2,0.0,,HOB
+534-3,boiler,36.342,wood chips,1.0,3.5,3.5,0.0,,HOB
+535-2,boiler,11.916,natural gas,1.0,3.0,3.15,0.0,,HOB
+535-4,heat pump - air,28.26,electricity,1.0,0.7,2.0,0.0,ambient,HP
+543-1,boiler,20.511,natural gas,1.0,5.8,5.6,0.0,,HOB
+543-3,combustion engine,31.63572000000001,natural gas,1.0,11.45,5.3,4.99,,CHP
+543-5,solar,10.25892,fuel free,1.0,4.0,4.0,0.0,solar,FF
+543-6,solar,3.41604,fuel free,1.0,2.5,2.5,0.0,solar,FF
+544-3,boiler,37.52244,straw,1.0,4.5,4.0,0.0,,HOB
+547-15,boiler,14.6844,electricity,1.0,8.0,8.0,0.0,,HOB
+547-5,combustion engine,28.3284,natural gas,1.0,11.5,5.3,5.1,,CHP
+547-8,boiler,15.6708,wood pellets,1.0,0.95,0.95,0.0,,HOB
+548-2,boiler,36.1,wood chips,1.0,4.29,4.5,0.0,,HOB
+548-4,boiler,56.51,wood chips,1.0,2.4,2.55,0.0,,HOB
+549-1,boiler,68.5584,wood chips,1.0,7.0,7.0,0.0,,HOB
+549-2,boiler,18.7596,wood chips,1.0,3.0,3.7,0.0,,HOB
+551-3,solar,2.5884,fuel free,1.0,3.5,3.5,0.0,solar,FF
+551-4,boiler,16.53,straw,1.0,3.5,3.5,0.0,,HOB
+552-4,combustion engine,10.58688,natural gas,1.0,7.75,4.0,3.36,,CHP
+552-5,boiler,3.9204,electricity,1.0,8.0,8.0,0.0,,HOB
+556-1,boiler,2.61144,natural gas,1.0,7.796,7.23,0.0,,HOB
+556-2,boiler,2.61144,natural gas,1.0,15.455,13.81,0.0,,HOB
+558-3,boiler,113.8824,wood chips,1.0,6.0,7.0,0.0,,HOB
+558-5,boiler,99.89640000000001,wood chips,1.0,6.0,7.0,0.0,,HOB
+558-6,heat pump - other,7.6896,electricity,1.0,0.2,0.5,0.0,industry,HP
+558-7,heat pump - other,7.6428,electricity,1.0,0.2,0.5,0.0,industry,HP
+559-2,boiler,128.808,straw,1.0,10.0,10.0,0.0,,HOB
+561-4,boiler,52.00704,wood chips,1.0,4.0,4.0,0.0,,HOB
+562-5,boiler,12.21696,wood pellets,1.0,1.0,1.0,0.0,,HOB
+564-1,boiler,37.44,wood chips,1.0,4.5,4.5,0.0,,HOB
+564-4,heat pump - air,12.8376,electricity,1.0,0.5,1.6,0.0,ambient,HP
+565-3,boiler,9.7848,natural gas,1.0,10.5,10.5,0.0,,HOB
+566-1,combustion engine,27.432,natural gas,1.0,7.5,4.3,3.2,,CHP
+566-3,combustion engine,26.046,natural gas,1.0,7.5,4.0,3.0,,CHP
+566-4,boiler,47.5596,electricity,1.0,10.0,10.0,0.0,,HOB
+567-3,combustion engine,13.27032,natural gas,1.0,6.6,3.35,2.7,,CHP
+567-4,combustion engine,13.27032,natural gas,1.0,6.6,3.35,2.7,,CHP
+567-5,combustion engine,94.3848,biofuels,1.0,7.08,4.0,3.04,,CHP
+567-6,heat pump - other,8.86392,electricity,1.0,0.12,0.54,0.0,industry,HP
+567-7,boiler,18.43632,electricity,1.0,15.0,15.0,0.0,,HOB
+568-1,boiler,18.13,wood pellets,1.0,2.5,2.5,0.0,,HOB
+57-3,combustion engine,6.246,natural gas,1.0,2.69,1.5,1.04,,CHP
+57-4,combustion engine,5.774400000000001,natural gas,1.0,2.69,1.5,1.04,,CHP
+57-5,combustion engine,4.5468,natural gas,1.0,2.69,1.5,1.04,,CHP
+57-6,combustion engine,3.5532,natural gas,1.0,2.69,1.5,1.04,,CHP
+57-7,boiler,16.2216,natural gas,1.0,5.0,5.0,0.0,,HOB
+570-6,boiler,14.976,natural gas,1.0,7.7,7.0,0.0,,HOB
+571-10,boiler,32.5584,electricity,1.0,10.0,10.0,0.0,,HOB
+571-6,combustion engine,14.0688,natural gas,1.0,8.8,4.4,3.61,,CHP
+571-7,combustion engine,7.1856,natural gas,1.0,6.6,3.3,2.7,,CHP
+571-8,combustion engine,7.1532,natural gas,1.0,6.6,3.3,2.7,,CHP
+572-1,boiler,2.0988,natural gas,1.0,10.8,11.0,0.0,,HOB
+574-1,boiler,12.29148,natural gas,1.0,6.5,6.3,0.0,,HOB
+574-7,boiler,42.9228,electricity,1.0,14.0,14.0,0.0,,HOB
+586-1,boiler,2.80185,gas oil,1.0,26.5,23.0,0.0,,HOB
+586-2,boiler,2.77162,gas oil,1.0,26.5,23.0,0.0,,HOB
+586-3,boiler,2.54008,gas oil,1.0,26.5,23.0,0.0,,HOB
+587-1,boiler,3.13361,natural gas,1.0,25.0,25.0,0.0,,HOB
+587-4,boiler,3.12784,natural gas,1.0,25.0,25.0,0.0,,HOB
+589-3,boiler,27.4716,wood waste,1.0,3.5,4.0,0.0,,HOB
+589-4,boiler,132.9624,wood waste,1.0,10.0,10.0,0.0,,HOB
+591-1,boiler,9.118728,gas oil,1.0,26.5,25.0,0.0,,HOB
+597-1,boiler,50.62356,gas oil,1.0,31.0,25.0,0.0,,HOB
+598-1,boiler,4.914576,gas oil,1.0,10.3,9.3,0.0,,HOB
+6-10,boiler,186.6564,wood chips,1.0,10.0,10.0,0.0,,HOB
+6-11,solar,46.224,fuel free,1.0,17.0,17.0,0.0,solar,FF
+60-1,combustion engine,2.2788,natural gas,1.0,7.13,3.15,2.8,,CHP
+60-4,boiler,18.342,electricity,1.0,7.0,7.0,0.0,,HOB
+604-1,boiler,26.182476,gas oil,1.0,26.5,25.0,0.0,,HOB
+61-8,solar,11.5956,fuel free,1.0,5.0,5.0,0.0,solar,FF
+62-1,combustion engine,4.78296,natural gas,1.0,7.7,4.0,3.0,,CHP
+62-3,boiler,11.682,electricity,1.0,5.0,5.0,0.0,,HOB
+621-1,boiler,43.0776,straw,1.0,3.45,3.15,0.0,,HOB
+621-7,solar,10.1736,fuel free,1.0,4.0,4.0,0.0,solar,FF
+624-2,boiler,33.6168,electricity,1.0,6.0,6.0,0.0,,HOB
+625-2,solar,8.1324,fuel free,1.0,4.0,4.0,0.0,solar,FF
+625-4,boiler,30.20796,straw,1.0,1.7,1.5,0.0,,HOB
+626-3,boiler,56.952,straw,1.0,6.3,6.3,0.0,,HOB
+627-1,boiler,4.276800000000001,natural gas,1.0,4.8,5.12,0.0,,HOB
+627-2,combustion engine,3.2256,natural gas,1.0,5.7,3.3,2.07,,CHP
+629-3,boiler,36.04320000000001,straw,1.0,3.2,2.9,0.0,,HOB
+63-2,boiler,7.9236,natural gas,1.0,3.5,3.5,0.0,,HOB
+63-5,boiler,5.004,natural gas,1.0,5.4,5.0,0.0,,HOB
+63-7,boiler,5.961600000000001,electricity,1.0,10.0,10.0,0.0,,HOB
+630-1,boiler,9.961200000000002,wood chips,1.0,4.0,4.0,0.0,,HOB
+632-1,boiler,114.0156,straw,1.0,6.5,6.5,0.0,,HOB
+634-2,boiler,18.782,wood chips,1.0,2.0,2.0,0.0,,HOB
+635-2,heat pump - air,196.6968,electricity,1.0,5.0,15.0,0.0,ambient,HP
+635-3,boiler,166.986,natural gas,1.0,15.0,15.0,0.0,,HOB
+636-4,steam turbine,3548.582,coal,0.9972352268380632,816.7356507803738,420.83326572566267,383.93556233265434,,CHP
+636-8,boiler,194.40252,electricity,1.0,35.0,35.0,0.0,,HOB
+637-1,gas turbine,2.5128,natural gas,1.0,29.0,17.7,9.0,,CHP
+637-2,boiler,5.2488,natural gas,1.0,14.0,16.5,0.0,,HOB
+639-4,boiler,45.4176,straw,1.0,3.5,3.5,0.0,,HOB
+640-3,boiler,16.56,straw,0.9823269513991163,0.9725036818851251,0.8840942562592047,0.0,,HOB
+641-1,boiler,181.422,municipal waste,1.0,7.8,7.0,0.0,,HOB
+642-2,boiler,146.0448,wood waste,0.9782559162256427,13.695582827158997,6.51518440206278,0.0,,HOB
+646-1,boiler,29.39601,natural gas,1.0,19.6,18.0,0.0,,HOB
+646-3,boiler,26.70433,natural gas,1.0,19.6,18.0,0.0,,HOB
+646-4,boiler,20.81889,natural gas,1.0,19.6,18.0,0.0,,HOB
+648-4,boiler,72.91080000000001,straw,1.0,5.5,5.5,0.0,,HOB
+649-5,boiler,21.114,straw,1.0,0.95,0.95,0.0,,HOB
+651-1,boiler,16.1028,wood waste,1.0,3.5,3.0,0.0,,HOB
+655-7,combustion engine,6.0552,biofuels,1.0,1.71,0.925,0.635,,CHP
+655-8,combustion engine,7.4952,biofuels,1.0,1.72,0.93,0.635,,CHP
+656-3,combustion engine,21.4452,natural gas,1.0,4.4,2.3,1.8,,CHP
+656-4,heat pump - other,5.8248,electricity,1.0,0.5,1.5,0.0,industry,HP
+657-3,boiler,64.05984000000001,straw,1.0,6.3,6.3,0.0,,HOB
+658-2,combined cycle,68.022,wood chips,0.9999028989408655,3.999611595763462,2.499757247352164,0.9999028989408655,,CHP
+661-4,boiler,6.3216,wood pellets,1.0,1.0,0.93,0.0,,HOB
+661-6,combustion engine,5.69196,biofuels,0.8913024276679348,4.6704247209799785,2.1391258264030433,1.9608653408694567,,CHP
+661-6,combustion engine,5.69196,natural gas,0.10869757233206515,0.5695752790200214,0.26087417359695636,0.23913465913054333,,CHP
+661-7,combustion engine,17.702568,biofuels,1.0,2.843,1.45,1.194,,CHP
+661-8,boiler,39.168,wood chips,1.0,2.0,2.2,0.0,,HOB
+661-9,heat pump - air,2.2572,electricity,1.0,0.7,2.0,0.0,ambient,HP
+663-4,boiler,13.09752,wood pellets,1.0,0.99,1.19,0.0,,HOB
+664-3,boiler,28.1808,wood chips,1.0,1.5,1.5,0.0,,HOB
+667-2,boiler,43.0848,wood chips,1.0,4.9,4.9,0.0,,HOB
+667-3,solar,10.2384,fuel free,1.0,4.3,4.3,0.0,solar,FF
+668-1,boiler,6.699,wood waste,1.0,0.9,0.9,0.0,,HOB
+670-4,boiler,3.54096,natural gas,1.0,8.4,7.32,0.0,,HOB
+677-1,combustion engine,2.5866,natural gas,1.0,2.6,1.6,1.0,,CHP
+678-1,boiler,22.608,wood chips,1.0,2.5,2.5,0.0,,HOB
+679-3,boiler,24.876,wood chips,1.0,2.5,2.5,0.0,,HOB
+680-1,boiler,40.8816,straw,1.0,2.3,2.3,0.0,,HOB
+683-2,boiler,2.97108,natural gas,1.0,4.56,4.1,0.0,,HOB
+683-5,boiler,19.57698,wood pellets,1.0,1.0,0.9,0.0,,HOB
+683-6,heat pump - air,15.25896,electricity,1.0,0.287,1.272,0.0,ambient,HP
+684-1,combustion engine,6.12,natural gas,1.0,3.42,1.65,1.36,,CHP
+684-3,boiler,4.9356,wood pellets,1.0,0.999,0.9,0.0,,HOB
+684-4,heat pump - air,6.7428,electricity,1.0,0.1,0.3,0.0,ambient,HP
+687-2,combustion engine,10.30212,biofuels,1.0,1.33,0.75,0.52,,CHP
+687-3,boiler,2.48004,biofuels,1.0,1.6,1.6,0.0,,HOB
+687-5,combustion engine,37.87092000000001,biofuels,1.0,2.89,1.61,1.2,,CHP
+689-1,boiler,67.0464,straw,1.0,6.3,6.3,0.0,,HOB
+694-3,boiler,2.52864,natural gas,1.0,2.5,2.5,0.0,,HOB
+694-4,boiler,8.19216,natural gas,1.0,7.0,7.0,0.0,,HOB
+699-1,steam turbine,500.9868,municipal waste,0.8496540386269001,13.849360829618472,12.065087348501981,2.8038583274687703,,CHP
+699-1,steam turbine,500.9868,wood waste,0.14746848511576413,2.4037363073869553,2.0940524886438507,0.4866460008820216,,CHP
+7-16,industrial heat,471.694,fuel free,1.0,182.0,70.0,0.0,industry,FF
+7-17,industrial heat,552.296,fuel free,1.0,80.0,32.0,0.0,industry,FF
+70-3,boiler,28.639,wood chips,1.0,2.4,2.4,0.0,,HOB
+702-1,combustion engine,2.89188,natural gas,1.0,3.09,1.77,1.32,,CHP
+702-4,heat pump - air,15.881292,electricity,1.0,0.25,1.1,0.0,ambient,HP
+703-3,solar,4.5912492,fuel free,1.0,2.3,2.3,0.0,solar,FF
+703-4,heat pump - air,11.703006,electricity,1.0,0.34,1.05,0.0,ambient,HP
+704-1,combustion engine,9.48924,natural gas,1.0,5.1,2.5,2.0,,CHP
+704-2,boiler,10.76328,natural gas,1.0,3.15,3.15,0.0,,HOB
+704-3,boiler,21.70718,wood chips,1.0,0.99,0.9,0.0,,HOB
+705-4,boiler,27.2412,wood chips,1.0,1.5,1.5,0.0,,HOB
+706-1,combustion engine,10.46304,natural gas,1.0,7.27,3.3,2.69,,CHP
+706-2,boiler,4.324896,natural gas,1.0,4.3,5.0,0.0,,HOB
+706-3,boiler,24.63876,straw,1.0,1.7,1.5,0.0,,HOB
+706-4,solar,13.91364,fuel free,1.0,4.0,4.0,0.0,solar,FF
+707-3,boiler,8.744399999999999,wood waste,0.8971045704714046,0.6728284278535535,0.6728284278535535,0.0,,HOB
+707-3,boiler,8.744399999999999,wood pellets,0.10289542952859536,0.07717157214644652,0.07717157214644652,0.0,,HOB
+708-2,combustion engine,6.4152,natural gas,1.0,4.98,2.52,1.98,,CHP
+708-5,heat pump - air,23.832,electricity,1.0,0.4,1.2,0.0,ambient,HP
+709-3,boiler,11.2032,wood waste,1.0,0.75,0.75,0.0,,HOB
+710-1,combustion engine,4.0464,natural gas,1.0,1.85,1.0,0.74,,CHP
+710-3,boiler,4.734,straw,1.0,0.99,0.99,0.0,,HOB
+711-2,boiler,3.463272,natural gas,1.0,2.5,2.4,0.0,,HOB
+711-3,boiler,29.1477,wood chips,1.0,0.999,0.999,0.0,,HOB
+712-4,boiler,24.1056,wood chips,1.0,2.0,2.0,0.0,,HOB
+713-3,boiler,16.7076,wood chips,1.0,1.6,1.6,0.0,,HOB
+714-2,combustion engine,3.107520000000001,natural gas,1.0,5.0,2.4,2.02,,CHP
+714-3,boiler,11.93004,wood waste,1.0,1.0,1.0,0.0,,HOB
+714-4,heat pump - air,11.6496,electricity,1.0,0.24,0.88,0.0,ambient,HP
+715-3,boiler,4.438800000000001,straw,1.0,6.3,6.3,0.0,,HOB
+715-4,solar,21.6288,fuel free,1.0,7.5,7.5,0.0,solar,FF
+715-6,boiler,90.0468,straw,1.0,6.0,6.5,0.0,,HOB
+716-1,boiler,12.9024,straw,1.0,1.6,1.6,0.0,,HOB
+716-3,boiler,10.314,wood chips,1.0,2.0,2.0,0.0,,HOB
+716-4,boiler,9.032399999999999,straw,1.0,2.5,2.5,0.0,,HOB
+717-4,boiler,100.7676,wood chips,1.0,6.5,8.3,0.0,,HOB
+718-3,boiler,29.988,straw,1.0,3.15,3.15,0.0,,HOB
+721-4,solar,5.9472,fuel free,1.0,3.0,3.0,0.0,solar,FF
+721-5,heat pump - air,14.45328,electricity,1.0,0.4,1.2,0.0,ambient,HP
+722-4,solar,6.20568,fuel free,1.0,3.0,3.0,0.0,solar,FF
+722-5,heat pump - air,15.85656,electricity,1.0,0.4,1.2,0.0,ambient,HP
+723-3,boiler,10.1952,straw,1.0,1500.0,1525.0,0.0,,HOB
+724-3,boiler,11.8584,wood chips,0.9540501509780753,0.9540501509780753,0.9063476434291715,0.0,,HOB
+724-3,boiler,11.8584,wood pellets,0.045949849021924644,0.045949849021924644,0.04365235657082841,0.0,,HOB
+726-1,combustion engine,2.161584,natural gas,1.0,2.14,1.03,0.92,,CHP
+726-3,gasification plus boiler,12.289284,wood pellets,1.0,1.1,1.0,0.0,,HOB
+727-1,combustion engine,13.0695,natural gas,1.0,3.2,1.6,1.3,,CHP
+727-2,boiler,5.66922,natural gas,1.0,1.7,1.5,0.0,,HOB
+728-2,combustion engine,6.00498,natural gas,1.0,2.1,1.14,0.92,,CHP
+728-3,heat pump - air,8.28954,electricity,1.0,0.366,0.861,0.0,ambient,HP
+73-3,boiler,40.644708084,electricity,1.0,40.0,40.0,0.0,,HOB
+730-3,boiler,46.34,straw,1.0,6.3,6.3,0.0,,HOB
+731-1,boiler,7.1748,straw,1.0,8.8,8.8,0.0,,HOB
+731-4,boiler,128.8044,straw,1.0,11.0,10.0,0.0,,HOB
+731-5,solar,33.66,fuel free,1.0,15.0,15.0,0.0,solar,FF
+732-1,boiler,81.0108,straw,0.6639109161464485,4.182638771722625,4.182638771722625,0.0,,HOB
+732-1,boiler,81.0108,wood waste,0.3360890838535516,2.117361228277375,2.117361228277375,0.0,,HOB
+732-3,solar,24.0264,fuel free,1.0,7.8,7.8,0.0,solar,FF
+732-4,boiler,22.5792,wood waste,1.0,2.0,2.0,0.0,,HOB
+733-3,combustion engine,2.68776,natural gas,1.0,4.32,2.19,1.82,,CHP
+733-4,solar,7.965,fuel free,1.0,3.0,3.0,0.0,solar,FF
+733-5,boiler,16.558524,wood pellets,1.0,1.0,0.92,0.0,,HOB
+736-3,steam turbine,1183.521,wood chips,0.9587678790968908,53.88275480524526,50.81469759213521,14.381518186453361,,CHP
+736-3,steam turbine,1183.521,wood waste,0.04120915579808495,2.3159545558523744,2.184085257298502,0.6181373369712743,,CHP
+74-1,boiler,38.63924,gas oil,1.0,14.9,13.6,0.0,,HOB
+74-2,boiler,39.76776,gas oil,1.0,14.9,13.6,0.0,,HOB
+760-8,heat pump - industrial heat,79.91,electricity,1.0,7.0,7.0,0.0,industry,HP
+786-1,combustion engine,5.9076,natural gas,1.0,7.3,3.5,2.88,,CHP
+786-2,combustion engine,7.757280000000001,natural gas,1.0,7.3,3.5,2.88,,CHP
+786-3,boiler,3.7332,natural gas,1.0,10.9,8.0,0.0,,HOB
+786-4,solar,24.2568,fuel free,1.0,8.5,8.5,0.0,solar,FF
+786-5,boiler,74.9916,natural gas,1.0,8.0,6.0,0.0,,HOB
+786-6,heat pump - air,11.4768,electricity,1.0,0.2,1.0,0.0,ambient,HP
+787-4,boiler,4.032,electricity,1.0,1.0,1.0,0.0,,HOB
+787-5,boiler,23.7816,straw,1.0,1.0,0.98,0.0,,HOB
+788-3,gasification plus boiler,11.4912,straw,0.992609612241514,0.992609612241514,0.992609612241514,0.0,,HOB
+79-2,combustion engine,10.7892,natural gas,1.0,4.9,2.38,2.02,,CHP
+79-3,solar,8.452800000000002,fuel free,1.0,4.0,4.0,0.0,solar,FF
+79-4,boiler,13.6872,electricity,1.0,5.0,5.0,0.0,,HOB
+8-1,boiler,213.990588,municipal waste,0.9032264209186766,10.02581327219731,16.709688786995518,0.0,,HOB
+8-1,boiler,213.990588,wood waste,0.09406700081549955,1.0441437090520451,1.7402395150867418,0.0,,HOB
+8-2,steam turbine,525.575196,municipal waste,0.9050130549484645,18.552767626443522,15.204219323134204,4.163060052762936,,CHP
+8-2,steam turbine,525.575196,wood waste,0.09297755762320237,1.9060399312756484,1.5620229680698,0.4276967650667309,,CHP
+80-1,boiler,3.5208,natural gas,1.0,5.0,5.0,0.0,,HOB
+804-5,combustion engine,8.48232,biofuels,1.0,1.328,0.557,0.53,,CHP
+808-5,combustion engine,11.221,biofuels,1.0,2.41,1.35,1.06,,CHP
+81-1,steam turbine,139.0356,wood chips,0.9537714297857901,38.150857191431605,33.38200004250265,1.821703430890859,,CHP
+81-11,industrial heat,50.3964,fuel free,1.0,3.5,3.5,0.0,industry,FF
+81-13,industrial heat,70.7508,fuel free,1.0,7.5,7.5,0.0,industry,FF
+818-2,boiler,8.1468,biofuels,1.0,0.89,0.76,0.0,,HOB
+823-3,combustion engine,12.203,biofuels,1.0,2.03,1.06,0.84,,CHP
+823-4,combustion engine,14.547,biofuels,1.0,2.215,1.22,0.886,,CHP
+827-3,combustion engine,4.117392,biofuels,1.0,1.35,0.72,0.53,,CHP
+833-3,combustion engine,2.5236,biofuels,0.9923810641451403,0.9288686760398513,0.49619053207257013,0.3969524256580561,,CHP
+834-5,combustion engine,12.528,biofuels,1.0,2.1,1.14,0.85,,CHP
+84-1,combustion engine,3.3696,natural gas,1.0,10.6,6.0,3.4,,CHP
+84-2,boiler,8.7048,natural gas,1.0,8.791,8.0,0.0,,HOB
+85-2,boiler,16.2,natural gas,1.0,5.0,5.0,0.0,,HOB
+86-3,boiler,13.595,gas oil,0.40234833574854745,0.7242270043473854,0.7242270043473854,0.0,,HOB
+86-3,boiler,13.595,natural gas,0.5976516642514526,1.0757729956526145,1.0757729956526145,0.0,,HOB
+87-1,boiler,28.44,wood pellets,1.0,2.5,2.5,0.0,,HOB
+88-1,boiler,68.01372,wood chips,1.0,8.0,10.0,0.0,,HOB
+88-4,boiler,5.37984,wood chips,1.0,5.0,6.0,0.0,,HOB
+88-7,boiler,131.8266,wood chips,1.0,10.0,12.7,0.0,,HOB
+89-3,boiler,2.4912,natural gas,1.0,3.19,2.94,0.0,,HOB
+89-5,combustion engine,24.174,natural gas,1.0,8.0,4.25,3.35,,CHP
+9-6,boiler,4.179600000000001,electricity,1.0,1.45,1.45,0.0,,HOB
+90-3,combustion engine,15.0948,natural gas,1.0,8.66,4.71,3.64,,CHP
+90-4,solar,9.6336,fuel free,1.0,5.4,5.4,0.0,solar,FF
+90-5,heat pump - other,17.9568,electricity,1.0,0.7,2.0,0.0,industry,HP
+90-6,boiler,16.4484,electricity,1.0,7.0,7.0,0.0,,HOB
+91-1,boiler,3.94452,straw,1.0,5.0,5.0,0.0,,HOB
+91-3,boiler,210.08484,straw,1.0,12.0,15.0,0.0,,HOB
+92-1,boiler,4.744800000000001,natural gas,1.0,8.12,7.66,0.0,,HOB
+92-2,combustion engine,6.228,natural gas,1.0,7.37,3.57,3.06,,CHP
+929-7,boiler,5.668559999999999,natural gas,1.0,8.5,9.3,0.0,,HOB
+93-1,boiler,14.7924,natural gas,1.0,6.0,6.0,0.0,,HOB
+934-1,combustion engine,3.51,natural gas,1.0,1.81,1.05,0.74,,CHP
+934-2,combustion engine,3.5532,natural gas,1.0,1.81,1.05,0.74,,CHP
+934-3,boiler,2.0232,natural gas,1.0,3.2,3.2,0.0,,HOB
+937-3,boiler,34.4664,natural gas,1.0,19.8,18.0,0.0,,HOB
+937-4,heat pump - air,138.4992,electricity,1.0,2.5,10.5,0.0,ambient,HP
+945-1,boiler,7.7112,natural gas,1.0,13.0,13.0,0.0,,HOB
+945-11,boiler,31.2696,electricity,1.0,10.0,10.0,0.0,,HOB
+945-12,heat pump - air,58.4568,electricity,1.0,1.718,5.556,0.0,ambient,HP
+945-4,combustion engine,7.6536,natural gas,1.0,8.67,4.09,3.64,,CHP
+945-5,combustion engine,7.6212,natural gas,1.0,8.67,4.09,3.64,,CHP
+945-6,solar,10.8,fuel free,1.0,6.0,6.0,0.0,solar,FF
+945-8,heat pump - other,3.2616,electricity,1.0,0.24,0.72,0.0,industry,HP
+945-9,solar,14.2704,fuel free,1.0,8.0,8.0,0.0,solar,FF
+950-1,boiler,75.6,wood chips,1.0,8.8,8.8,0.0,,HOB
+950-4,boiler,43.56,wood chips,1.0,6.0,6.0,0.0,,HOB
+950-5,heat pump - air,28.044,electricity,1.0,0.9,3.3,0.0,ambient,HP
+950-6,heat pump - air,39.636,electricity,1.0,2.5,7.7,0.0,ambient,HP
+952-1,boiler,15.5844,natural gas,1.0,11.0,11.0,0.0,,HOB
+952-2,boiler,6.5628,natural gas,1.0,7.0,7.0,0.0,,HOB
+970-2,boiler,32.191,biofuels,0.9880825603393777,13.141498052513723,11.856990724072531,0.0,,HOB
+970-4,combustion engine,40.23,biofuels,1.0,7.049,3.686,3.047,,CHP
+975-2,boiler,114.8868,straw,1.0,5.4,5.4,0.0,,HOB
+976-2,boiler,116.1504,straw,1.0,5.4,5.4,0.0,,HOB
+979-1,steam turbine,293.313,municipal waste,0.9524201733044269,13.14339839160109,8.762265594400727,2.2858084159306244,,CHP
+979-1,steam turbine,293.313,wood waste,0.041639320407543964,0.5746226216241067,0.38308174774940446,0.09993436897810551,,CHP
+98-2,boiler,11.459844,natural gas,1.0,12.76,10.85,0.0,,HOB
+987-1,combustion engine,14.30388,natural gas,1.0,7.8,4.3,3.2,,CHP
+987-3,combustion engine,2.5074,natural gas,1.0,7.8,4.3,3.2,,CHP
+987-4,combustion engine,12.84408,natural gas,1.0,7.8,4.3,3.2,,CHP
+987-6,heat pump - air,108.0288,electricity,1.0,1.0,3.6,0.0,ambient,HP
+987-7,boiler,15.6708,electricity,1.0,15.0,15.0,0.0,,HOB
+988-2,boiler,4.041,natural gas,1.0,8.0,8.0,0.0,,HOB
+988-7,boiler,38.052,electricity,1.0,12.0,12.0,0.0,,HOB
+99-5,boiler,2.62062,biofuels,0.9973814165696835,18.830561144835624,16.00797173594342,0.0,,HOB
+990-1,steam turbine,1072.32536,coal,0.989337926873582,862.9994736118256,439.16710573918306,369.3198481019082,,CHP
+990-3,boiler,77.42034,electricity,1.0,30.0,30.0,0.0,,HOB
+991-4,boiler,10.188,natural gas,1.0,10.0,10.4,0.0,,HOB
+991-5,combustion engine,3.5568,natural gas,1.0,9.44,4.22,3.73,,CHP
+991-7,boiler,30.6684,electricity,1.0,10.0,10.0,0.0,,HOB
+991-8,heat pump - air,92.5632,electricity,1.0,1.32,4.652,0.0,ambient,HP
+992-4,boiler,70.972,natural gas,0.9981541545930265,23.756068879314032,24.255145956610544,0.0,,HOB
+992-5,boiler,81.202,natural gas,0.9980559199004264,23.75373089363015,24.252758853580364,0.0,,HOB
+992-6,boiler,90.426,natural gas,0.9974669746091492,23.739713995697752,24.23844748300233,0.0,,HOB
+992-7,boiler,73.271,natural gas,0.9979374460550019,23.750911216109046,24.249879939136548,0.0,,HOB
+994-1,boiler,2.579,gas oil,1.0,23.0,23.0,0.0,,HOB
+994-2,boiler,5.067,gas oil,1.0,23.0,23.0,0.0,,HOB
+995-10,boiler,26.17,gas oil,1.0,19.7,18.2,0.0,,HOB
+995-11,boiler,21.951,gas oil,1.0,19.7,18.2,0.0,,HOB
+995-8,boiler,20.488,gas oil,1.0,19.7,18.2,0.0,,HOB
+995-9,boiler,17.475,gas oil,1.0,19.7,18.2,0.0,,HOB
+996-2,boiler,10.116,wood pellets,1.0,2.1,2.0,0.0,,HOB
+997-1,combustion engine,15.21,natural gas,1.0,8.88,4.2,3.66,,CHP
+997-2,solar,14.076,fuel free,1.0,6.0,6.0,0.0,solar,FF
+997-3,boiler,14.1732,electricity,1.0,10.0,10.0,0.0,,HOB
+997-5,heat pump - air,40.7268,electricity,1.0,1.0,3.7,0.0,ambient,HP

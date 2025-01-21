@@ -1,0 +1,7 @@
+case,J,level
+policy,HR_S-near,1.0
+policy,HR_S-far,1.0
+policy,HR_M-near,0.0
+policy,HR_M-far,0.0
+policy,HR_L-near,0.0
+policy,HR_L-far,0.0
